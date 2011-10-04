@@ -932,7 +932,7 @@ div.warning { margin-bottom: 20px; }
 @media only screen and (max-width: 1024px) {
 
 	/* Style adjustments for viewports 1024px and under go here */
-	#wrapper { width: 100%; }
+	body { width: 100%; }
 	#site-title a, #site-description { float: none; margin-bottom: 0; }
 	#main { width: 100%; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 	#content { float: none; width: 100%; }

@@ -1,174 +1,173 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!DOCTYPE html>
+<!-- Consider specifying the language of your content by adding the `lang` attribute to <html> -->
+<!--[if lt IE 7]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
 
-    <meta charset="utf-8" />
+	<meta charset="utf-8" />
 
-    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<!-- Always force latest IE rendering engine & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 	<!-- Put your title here! -->
-    <title></title>
+	<title></title>
 
-    <meta name="description" content="" />
-    
-     <!-- Mobile viewport optimized: j.mp/bplateviewport -->
- 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <link href="style.css" rel="stylesheet" />
-    <link href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,bold" rel="stylesheet" /> <!-- Load Droid Serif from Google Fonts -->
-    
+	<meta name="description" content="">
+
+	 <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width">
+
+	<link href="style.css" rel="stylesheet">
+
+	<!-- Load Open Sans and Merriweather from Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Merriweather:400,900,700' rel='stylesheet' type='text/css'>
+
 	<!-- All JavaScript at the bottom, except for Modernizr
-       Modernizr enables HTML5 elements & feature detects; It includes Respond, a polyfill for min/max-width CSS3 Media Queries
-       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
-    <script src="js/modernizr-2.0.6.min.js"></script>
+		Modernizr enables HTML5 elements & feature detects; It includes Respond, a polyfill for min/max-width CSS3 Media Queries
+		For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+	<script src="js/modernizr-2.5.3.min.js"></script>
 </head>
 
 <body>
 
-<div id="wrapper">
+	<!-- Prompt IE 6 users to install Chrome Frame:		chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
-    <header id="header" class="clearfix" role="banner">
-    
-        <hgroup>
-            <h1 id="site-title"><a href="index.html">A HTML5 Theme</a></h1>
-            <h2 id="site-description">This is an awesome description of the site!</h2>
-        </hgroup>
-    
-    </header> <!-- #header -->
+	<header id="master-header" class="site-header clearfix" role="banner">
+
+		<hgroup>
+			<h1 id="site-title"><a href="index.html" title="Your Site Name">Jayj HTML5 Theme</a></h1>
+			<h2 id="site-description">This is an awesome description of the site!</h2>
+		</hgroup>
+
+	</header> <!-- #master-header.site-header -->
 
 <div id="main" class="clearfix">
 
-	<!-- Navigation -->
-    <nav id="menu" class="clearfix" role="navigation">
-    	<h3 class="assistive-text">Main menu</h3>
-        <ul> 
-            <li><a href="index.html">Home</a></li>
-            <li>
-                <a href="about.html">About</a>
-                <ul>
-                    <li><a href="#">Subpage</a></li>
-                    <li><a href="#">Subpage 2</a></li>
-                </ul>
-            </li>
-            <li class="current"><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav> <!-- #nav -->
-    
-    <!-- Show a "Please Upgrade" box to both IE7 and IE6 users (Edit to IE 6 if you just want to show it to IE6 users) - jQuery will load the content from js/ie.html into the div -->
-    
-    <!--[if lte IE 7]>
-        <div class="ie warning"></div>
-    <![endif]-->
-    
-    <div id="content" role="main">
-    
-        <article class="post">
-        
-            <h1 class="entry-title">Contact</h1>
-            
-                <form action="sendmail.php" method="post" id="contactform">
-                
-                	<fieldset>
-                    
-                    	<legend>Contact me!</legend>
-                    
-                        <p>
-                            <label for="name">Your Name</label>
-                            <input type="text" name="name" id="name" value="" />
-                        </p>
-                        
-                        <p>
-                            <label for="email">Your Email</label>
-                            <input type="email" name="email" id="email" required value="" />  
-                        </p>
-                        
-                        <p>
-                            <label for="subject">Subject</label>
-                            <input type="text" name="subject" id="subject" value="" />
-                        </p>
-                        
-                        <p>
-                        	<label for="message">Your message</label>
-                        	<textarea name="message" id="message" cols="50" rows="10" autofocus required></textarea>
-                        </p>
-                        
-                        <!-- This is hidden for normal users -->
-                        <div class="hide">
-                            <label>Do not fill out this field</label>
-                            <input name="spam_check" type="text" value="" />
-                        </div>
-                        
-                        <p>
-                        <input type="submit" name="submit" value="Send Email" />
-                        </p>
-                    
-                    </fieldset>
-                    
-                    <p class="hide" id="response"></p>
-                
-                </form>
-        
-        </article> <!-- .post -->
-    
-    </div> <!-- #content -->
-    
-    <aside id="sidebar" role="complementary">
-    
-        <aside class="widget">
-            <h3 class="widget-title">Sidebar heading</h3>
-            
-            <ul>
-                <li><a href="#">Li element</a></li>
-                <li><a href="#">Li element</a></li>
-                <li><a href="#">Li element</a></li>
-                <li><a href="#">Li element</a></li>
-                <li><a href="#">Li element</a></li>
-            </ul>
-        </aside> <!-- .widget -->
-        
-        <aside class="widget">
-            <!-- Non working search -->
-            <form action="#" class="searchform">
-                <input type="search" results="10" placeholder="Search..." />
-                <input type="submit" value="Search" />
-            </form> <!-- .searchform -->
-        </aside> <!-- .widget -->
-        
-        <aside class="widget">
-            <h3 class="widget-title">Widget</h3>
-            
-            <p>
-                Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.
-            </p>
-            <p>
-                One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. 
-            </p>
-        </aside> <!-- .widget -->
-    
-    </aside> <!-- #sidebar -->
-    
+	<!-- Main navigation -->
+	<nav class="main-navigation clearfix" role="navigation">
+		<h3 class="assistive-text">Main menu</h3>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li class="current">
+				<a href="about.html">About</a>
+				<ul class="sub-menu">
+					<li><a href="#">Subpage</a></li>
+					<li><a href="#">Subpage 2</a></li>
+				</ul>
+			</li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav> <!-- #main-navigation -->
+
+<div id="content" role="main">
+
+		<article class="post hentry">
+
+			<h1 class="entry-title">Contact</h1>
+
+				<form action="sendmail.php" method="post" id="contactform">
+
+					<fieldset>
+
+						<legend>Contact me!</legend>
+
+						<p>
+							<label for="name">Your Name</label>
+							<input type="text" name="name" id="name" value="" />
+						</p>
+
+						<p>
+							<label for="email">Your Email</label>
+							<input type="email" name="email" id="email" required value="" />
+						</p>
+
+						<p>
+							<label for="subject">Subject</label>
+							<input type="text" name="subject" id="subject" value="" />
+						</p>
+
+						<p>
+							<label for="message">Your message</label>
+							<textarea name="message" id="message" cols="50" rows="10" autofocus required></textarea>
+						</p>
+
+						<!-- This is hidden for normal users -->
+						<div class="hide">
+							<label>Do not fill out this field</label>
+							<input name="spam_check" type="text" value="" />
+						</div>
+
+						<p>
+						<input type="submit" name="submit" value="Send Email" />
+						</p>
+
+					</fieldset>
+
+					<p class="hide" id="response"></p>
+
+				</form>
+
+		</article> <!-- .post -->
+
+	</div> <!-- #content -->
+
+	<aside id="sidebar" role="complementary">
+
+		<aside class="widget">
+			<h3 class="widget-title">Sidebar heading</h3>
+
+			<ul>
+				<li><a href="#">Li element</a></li>
+				<li><a href="#">Li element</a></li>
+				<li><a href="#">Li element</a></li>
+				<li><a href="#">Li element</a></li>
+				<li><a href="#">Li element</a></li>
+			</ul>
+		</aside> <!-- .widget -->
+
+		<aside class="widget">
+			<!-- Non working search -->
+			<form action="#" class="searchform">
+				<input type="search" results="10" placeholder="Search..." />
+				<input type="submit" value="Search" />
+			</form> <!-- .searchform -->
+		</aside> <!-- .widget -->
+
+		<aside class="widget">
+			<h3 class="widget-title">Widget</h3>
+
+			<p>
+				Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.
+			</p>
+			<p>
+				One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+			</p>
+		</aside> <!-- .widget -->
+
+	</aside> <!-- #sidebar -->
+
 </div> <!-- #main -->
-    
-    <footer id="footer" role="contentinfo">
-        <!-- You're free to remove the credit link to Jayj.dk in the footer, but please, please leave it there :) -->
-        <p>
-            Copyright &copy; 2011 <a href="#">Sitename.com</a>
-            <span class="sep">|</span>
-            Design by <a href="http://jayj.dk" title="Design by Jayj.dk">Jayj.dk</a>
-        </p>
-    </footer> <!-- #footer -->
-    
-    <div class="clear"></div>
 
-</div> <!-- #wrapper -->
+	<footer id="footer" role="contentinfo">
+		<!-- You're free to remove the credit link to Jayj.dk in the footer, but please, please leave it there :) -->
+		<p>
+			Copyright &copy; 2011 <a href="#">Sitename.com</a>
+			<span class="sep">|</span>
+			Design by <a href="http://jayj.dk" title="Design by Jayj.dk">Jayj.dk</a>
+		</p>
+	</footer> <!-- #footer -->
 
-	<!-- JavaScript at the bottom for fast page loading -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
-    <script src="js/script.js"></script>
+	<div class="clear"></div>
+
+	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+
+	<!-- Load custom scripts -->
+	<script src="js/script.js"></script>
 
 </body>
 </html>

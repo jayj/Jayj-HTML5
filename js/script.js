@@ -1,17 +1,20 @@
 $(document).ready(function(){
 
-	$(".ie").load("js/ie.html"); // Load the IE warning into a div with a class of ie
-	
+	// Call the Google Code Prettify
+	if (typeof prettyPrint === 'function') {
+		prettyPrint();
+	}
+
 	// Contact form
 	$("form#contactform").submit(function(e) {
-		
+
 		// Setup any needed variables
 		var input_name = $('#name').val(),
 		input_email    = $('#email').val(),
 		input_subject  = $('#subject').val(),
 		input_message  = $('#message').val(),
 		response_text  = $('#response');
-		
+
 		// Hide any previous response text
 		response_text.hide();
 
@@ -25,7 +28,7 @@ $(document).ready(function(){
 
 		// Cancel default action
 		return false;
-		
+
 	});
-	
+
 });

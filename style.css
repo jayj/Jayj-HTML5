@@ -343,16 +343,9 @@ pre {
 
 	/* Blue stribes to make it look like paper */
 	background-image: -webkit-linear-gradient(#e2f1f7 1px, transparent 1px);
-	background-image: -moz-linear-gradient(#e2f1f7 1px, transparent 1px);
-	background-image: -o-linear-gradient(#e2f1f7 1px, transparent 1px);
-	background-image: -ms-linear-gradient(#e2f1f7 1px, transparent 1px);
-	background-image: linear-gradient(#e2f1f7 1px, transparent 1px);
-	-webkit-background-size: 100% 26px;
-	-moz-background-size: 100% 26px;
 	background-size: 100% 26px;
-	-webkit-box-shadow: inset 0 3px 3px #f5f5f5, 0 1px 2px rgba(0, 0, 0, 0.05);
-	box-shadow: inset 0 3px 3px #f5f5f5, 0 1px 2px rgba(0, 0, 0, 0.05);
-	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 1px #fff, 0 0 15px rgba(204, 204, 204, 0.35);
+	border: 1px solid #e7e7e7;
 	border-radius: 3px;
 	color: #222;
 	font-size: 14px;
@@ -437,21 +430,12 @@ iframe {
 	max-width: 100%;
 }
 
-img {
+/* Entry thumbnails */
+.thumbnail {
 	background-color: #fff;
 	border-radius: 3px;
 	padding: 4px;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-}
-
-img.noborder {
-	border-radius: 0;
-	padding: 0;
-	box-shadow: none;
-}
-
-/* Entry thumbnails */
-.thumbnail {
+	box-shadow: -2px 0 6px rgba(0, 0, 0, 0.1);
 	float: left;
 	margin: 0 25px 25px -80px;
 }
@@ -493,25 +477,28 @@ svg:not(:root) {
  */
 
 figure {
-	background-color: #fff;
-	border: 1px solid #ccc;
-	border: 1px solid rgba(0, 0, 0, 0.17);
-	border-radius: 4px;
-	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
-	margin-bottom: 1em;
+	background: #f2f2f2;
+	border: solid #e9e9e9;
+	border-width: 0 2px 2px 0;
+	border-radius: 0 0 5px 5px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	max-width: 100%;
 	padding: 20px;
 	text-align: center;
 }
 
 figure img {
 	border-radius: 0;
+	display: block;
+	margin: 0 auto;
 	padding: 0;
 	box-shadow: none;
 }
 
 figcaption {
 	font: 14px 'Merriweather', serif;
-	margin-top: 17px;
+	margin-top: 21px;
 }
 
 /* =============================================================================
@@ -520,7 +507,7 @@ figcaption {
 
 table {
 	background-color: #fff;
-	border: 1px solid #ccc;
+	border: 1px solid #ddd;
 	border-collapse: separate;
 	*border-collapse: collapsed;
 	border-radius: 4px;
@@ -730,11 +717,22 @@ textarea {
    ========================================================================== */
 
 #main {
-	background: #fff; /* Might change to white background */
-	background: rgba(204, 204, 204, 0.2);
+	background-image: -webkit-linear-gradient(rgba(255,255,255,0.25), rgb(255,255,255) 190px);
+	background-image: -moz-linear-gradient(rgba(255,255,255,0.25), rgb(255,255,255) 190px);
+	background-image: -o-linear-gradient(rgba(255,255,255,0.25), rgb(255,255,255) 190px);
+	background-image: -ms-linear-gradient(rgba(255,255,255,0.25), rgb(255,255,255) 190px);
+	background-image: linear-gradient(rgba(255,255,255,0.25), rgb(255,255,255) 190px);
 	border-radius: 10px;
 	padding: 40px;
-	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.6), 0 0 15px rgba(204, 204, 204, 0.5);
+	box-shadow: 1px 1px 6px rgba(204, 204, 204, 0.6);
+
+	/* Semi-transparent background */
+	/*background: rgba(204, 204, 204, 0.2);*/
+	/*box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.6), 0 0 15px rgba(204, 204, 204, 0.5);*/
+}
+
+#no-cssgradients #main {
+	background-color: #fff;
 }
 
 #content {

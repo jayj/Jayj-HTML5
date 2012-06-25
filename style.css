@@ -180,40 +180,60 @@ a:active {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Merriweather', serif;
-	/*text-shadow: 0 1px 0 #fff;*/
+	text-rendering: optimizelegibility;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+	font-weight: normal;
+	color: #999;
+	padding-left: 10px;
 }
 
 h1 {
-	/*font-size: 32px;*/
+	font-size: 28px;
+	font-weight: 900;
 }
 
-h2,
-.entry-title {
-	/*font-size: 28px;*/
+h1 small {
+	font-size: 18px;
+	letter-spacing: -1px;
 }
 
-h3,
-.widget-title {
-	/*font-size: 26px;
-	letter-spacing: -1px;*/
-}
-
-.post h3 {
-	/*margin: 30px 0 20px;*/
+h2 {
+	font-size: 24px;
+	letter-spacing: -1px;
 }
 
 h4 {
-	/*font-size: 21px;
-	margin-bottom: 15px;*/
-}
-
-h5 {
-	/*font-size: 18px;*/
+	border-bottom: 1px solid #eee;
+	color: #f71570;
+	font: bold 16px 'Open Sans', serif;
+	padding-bottom: 8px;
 }
 
 h6 {
-	/*font-weight: normal;
-	font-size: 16px;*/
+	font-size: 12px;
+	color: #999;
+	text-transform: uppercase;
+}
+
+/* Entry title */
+.entry-title {
+	font-size: 32px;
+	letter-spacing: -1px;
+}
+
+/* Section title */
+section h1,
+.page-header h1,
+h1.page-header {
+	border-bottom: 4px double #ededed;
+	padding-bottom: 8px;
 }
 
 /* =============================================================================
@@ -947,13 +967,7 @@ textarea {
 	margin-bottom: 40px;
 }
 
-/* Entry title */
-.entry-title {
-	font-weight: 900;
-	font-size: 32px;
-	letter-spacing: -1px;
-}
-
+/* Entry title (more styling under Headings) */
 .entry-title a:hover {
 	text-decoration: none;
 	-webkit-transition: color 300ms ease-in-out;

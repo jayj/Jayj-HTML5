@@ -22,7 +22,7 @@
 	<link href="style.css" rel="stylesheet">
 
 	<!-- Load Open Sans and Merriweather from Google Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Merriweather:400,900' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Merriweather:400,700,900' rel='stylesheet' type='text/css'>
 
 	<!-- All JavaScript at the bottom, except for Modernizr
 		Modernizr enables HTML5 elements & feature detects; It includes Respond, a polyfill for min/max-width CSS3 Media Queries
@@ -149,47 +149,44 @@
 
 </div> <!-- #content -->
 
-	<div id="sidebar" role="complementary" class="span4">
+<div id="sidebar" role="complementary" class="span4">
 
-		<aside class="widget">
-			<h3 class="widget-title">Sidebar heading</h3>
+	<aside class="widget">
+		<h3 class="widget-title">Sidebar heading</h3>
 
-			<ul>
-				<li><a href="#">Li element</a></li>
-				<li><a href="#">Li element</a></li>
-				<li><a href="#">Li element</a></li>
-				<li><a href="#">Li element</a></li>
-				<li><a href="#">Li element</a></li>
-			</ul>
-		</aside> <!-- .widget -->
+		<ul>
+			<li><a href="#">Li element</a></li>
+			<li><a href="#">Li element</a></li>
+			<li><a href="#">Li element</a></li>
+			<li>Li element</li>
+			<li><a href="#">Li element</a></li>
+		</ul>
+	</aside> <!-- .widget -->
 
-		<aside class="widget">
-			<!-- Non working search -->
-			<form action="#" class="searchform">
-				<input type="search" results="10" placeholder="Search..." />
-				<input type="submit" value="Search" />
-			</form> <!-- .searchform -->
-		</aside> <!-- .widget -->
+	<aside class="widget">
+		<!-- Non-working search form -->
+		<form role="search" action="#" class="searchform">
+			<label class="assistive-text" for="s">Search for:</label>
+			<input type="search" name="s" id="s" results="10" placeholder="Search..." value="" />
+			<input type="submit" value="Search" />
+		</form> <!-- .searchform -->
+	</aside> <!-- .widget -->
 
-		<aside class="widget">
-			<h3 class="widget-title">Widget</h3>
+	<aside class="widget">
+		<h3 class="widget-title">Widget</h3>
 
-			<p>
-				Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.
-			</p>
-			<p>
-				One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-			</p>
-		</aside> <!-- .widget -->
+		<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
+		<p>One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+	</aside> <!-- .widget -->
 
-	</div> <!-- #sidebar -->
+</div> <!-- #sidebar -->
 
 </div> <!-- #main -->
 
 	<footer id="footer" role="contentinfo">
 		<!-- You're free to remove the credit link to Jayj.dk in the footer, but please, please leave it there :) -->
 		<p>
-			Copyright &copy; 2011 <a href="#">Sitename.com</a>
+			Copyright &copy; 2012 <a href="#">Sitename.com</a>
 			<span class="sep">|</span>
 			Design by <a href="http://jayj.dk" title="Design by Jayj.dk">Jayj.dk</a>
 		</p>

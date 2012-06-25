@@ -22,7 +22,7 @@
 	<link href="style.css" rel="stylesheet">
 
 	<!-- Load Open Sans and Merriweather from Google Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Merriweather:400,900,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Merriweather:400,900' rel='stylesheet' type='text/css'>
 
 	<!-- All JavaScript at the bottom, except for Modernizr
 		Modernizr enables HTML5 elements & feature detects; It includes Respond, a polyfill for min/max-width CSS3 Media Queries
@@ -44,10 +44,10 @@
 
 	</header> <!-- #master-header.site-header -->
 
-<div id="main" class="clearfix">
+<div id="main" class="row clearfix">
 
 	<!-- Main navigation -->
-	<nav class="main-navigation clearfix" role="navigation">
+	<nav class="main-navigation clearfix span12" role="navigation">
 		<h3 class="assistive-text">Main menu</h3>
 		<ul>
 			<li class="current"><a href="index.html">Home</a></li>
@@ -62,14 +62,14 @@
 		</ul>
 	</nav> <!-- #main-navigation -->
 
-<div id="content" role="main">
+<div id="content" role="main" class="span7">
 
 	<article class="post hentry">
 
 		<header class="entry-header">
 			<h1 class="entry-title"><a href="#" title="Post Heading" rel="bookmark">Post heading</a></h1>
 
-			<a href="#" title="Post Heading"><img src="images/thumbnail.jpg" alt="Post thumbnail" class="thumbnail" /></a>
+			<a href="#" title="Post Heading"><img src="images/200x200.gif" alt="Post thumbnail" class="thumbnail" /></a>
 		</header> <!-- .entry-header -->
 
 		<div class="entry-content">
@@ -85,13 +85,15 @@
 				One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
 			</p>
 
-			<p><a href="#" class="more-link">Read more</a></p>
+			<p><a href="#" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
 		</div> <!-- .entry-content -->
 
 		<footer class="entry-meta">
 			Posted in <a href="#" rel="category">Category Name</a>
-			on <time class="entry-date" datetime="2012-06-24" pubdate>June 24 2012</time>
+			on <time class="entry-date" datetime="2012-06-25" pubdate>June 25 2012</time>
 			by <span class="author vcard"><a class="url fn n" href="#" title="View all posts by Author" rel="author">Author Name</a></span>
+
+			<span class="edit-link"><a href="#" title="Edit entry">Edit &#9997;</a></span>
 		</footer>
 
 	</article> <!-- .post.hentry -->
@@ -101,7 +103,7 @@
 		<header class="entry-header">
 			<h1 class="entry-title">Post heading 2 Goes Here</h1>
 
-			<a href="#" title="Post heading 2 Goes Her"><img src="images/thumbnail.jpg" alt="Post thumbnail" class="thumbnail" /></a>
+			<a href="#" title="Post heading 2 Goes Her"><img src="images/130x180.gif" alt="Post thumbnail" class="thumbnail" /></a>
 		</header> <!-- .entry-header -->
 
 		<div class="entry-content">
@@ -112,12 +114,34 @@
 				It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
 			</p>
 
-			<p><a href="#" class="more-link">Read more</a></p>
+			<p><a href="#" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+		</div> <!-- .entry-content -->
+
+	</article> <!-- .post.hentry -->
+
+	<article class="post hentry">
+
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="#" title="Post Heading" rel="bookmark">Post heading 3 Goes Here and it's longer than the rest</a></h1>
+		</header> <!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>
+				Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+				Separated they live in <a href="#">Bookmarksgrove right at the coast of the Semantics</a>, a large language ocean.
+				A small river named Duden flows by their place and supplies it with the necessary regelialia.
+				It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+			</p>
+
+			<p>
+				Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.
+				One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+			</p>
 		</div> <!-- .entry-content -->
 
 		<footer class="entry-meta">
 			Posted in <a href="#" rel="category">Category Name</a>
-			on <time class="entry-date" datetime="2012-06-22" pubdate>June 22 2012</time>
+			on <time class="entry-date" datetime="2012-06-24" pubdate>June 24 2012</time>
 			by <span class="author vcard"><a class="url fn n" href="#" title="View all posts by Author" rel="author">Author Name</a></span>
 		</footer>
 
@@ -125,7 +149,7 @@
 
 </div> <!-- #content -->
 
-	<div id="sidebar" role="complementary">
+	<div id="sidebar" role="complementary" class="span4">
 
 		<aside class="widget">
 			<h3 class="widget-title">Sidebar heading</h3>

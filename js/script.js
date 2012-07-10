@@ -8,11 +8,13 @@ $(document).ready(function(){
 	// Contact form
 	$("form#contactform").submit(function(e) {
 
+		console.log('ran');
+
 		// Setup any needed variables
-		var input_name = $('#name').val(),
-		input_email    = $('#email').val(),
-		input_subject  = $('#subject').val(),
-		input_message  = $('#message').val(),
+		var input_name = $('#your-name').val(),
+		input_email    = $('#your-email').val(),
+		input_subject  = $('#your-subject').val(),
+		input_message  = $('#your-message').val(),
 		response_text  = $('#response');
 
 		// Hide any previous response text
@@ -27,7 +29,7 @@ $(document).ready(function(){
 		});
 
 		// Cancel default action
-		return false;
+		e.preventDefault();
 
 	});
 

@@ -6,7 +6,7 @@
  */
 
 // If the form have been submitted and the spam check field is empty
-if ( isset( $_POST['name'] ) && empty( $_POST['spam_check'] ) ) :
+if ( isset( $_POST['name'] ) && empty( $_POST['s_check'] ) ) :
 
 	// Enter your email
 	$mail = 'name@example.com';

@@ -28,6 +28,8 @@ $(document).ready(function(){
 			response_text.html(data);
 		});
 
+
+
 		// Cancel default action
 		e.preventDefault();
 

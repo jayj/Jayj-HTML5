@@ -793,7 +793,7 @@ input[type="submit"] {
 
 	/* Pink, primary button */
 	&.primary {
-		.buttonBackground( @btnPrimaryBackgroundHighlight, @btnPrimaryBackground, @white);
+		.buttonBackground( @btnPrimaryBackgroundHighlight, @btnPrimaryBackground, @btnPrimaryTextColor);
 		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 	}
 }
@@ -841,26 +841,17 @@ input[type="search"] {
    ========================================================================== */
 
 #main {
-	background-image: -webkit-linear-gradient(rgba(255,255,255,0.25), rgb(255,255,255) 190px);
-	background-image: -moz-linear-gradient(rgba(255,255,255,0.25), rgb(255,255,255) 190px);
-	background-image: -o-linear-gradient(rgba(255,255,255,0.25), rgb(255,255,255) 190px);
-	background-image: -ms-linear-gradient(rgba(255,255,255,0.25), rgb(255,255,255) 190px);
-	background-image: linear-gradient(rgba(255,255,255,0.25), rgb(255,255,255) 190px);
+	#gradient > .vertical(fade(@contentBackground, 25%), @contentBackground, none, 190px);
 	border-radius: 10px;
-	padding: 40px;
+	padding: @gutterWidth;
 	box-shadow: 1px 1px 6px rgba(204, 204, 204, 0.6);
-
-	/* Semi-transparent background */
-	/*background: rgba(204, 204, 204, 0.2);*/
-	/*box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.6), 0 0 15px rgba(204, 204, 204, 0.5);*/
 }
 
 .no-cssgradients #main {
-	background-color: #fff;
+	background-color: @contentBackground;
 }
 
 #content {
-	float: left;
 	margin-left: 0;
 }
 
@@ -880,7 +871,7 @@ input[type="search"] {
    ========================================================================== */
 
 #master-header {
-	padding: 40px;
+	padding: @gutterWidth;
 	position: relative;
 	z-index: 2;
 }
@@ -894,24 +885,15 @@ input[type="search"] {
 	font-size: 48px;
 	font-weight: 900;
 	letter-spacing: -1px;
-	text-shadow: 0 1px 0 #fff;
-	-webkit-transition: all 200ms ease-in-out;
-	-moz-transition: all 200ms ease-in-out;
-	-o-transition: all 200ms ease-in-out;
-	-ms-transition: all 200ms ease-in-out;
-	transition: all 200ms ease-in-out;
+	text-shadow: 0 1px 0 @white;
+	.transition(all 200ms ease-in-out);
 }
 
 #site-title a:hover {
 	text-decoration: none;
-	text-shadow: 0 1px 0 #fff;
 
 	/* Scale the site title on hover */
-	-webkit-transform: scale(0.95);
-	-moz-transform: scale(0.95);
-	-o-transform: scale(0.95);
-	-ms-transform: scale(0.95);
-	transform: scale(0.95);
+	.scale(0.95);
 }
 
 #site-description {
@@ -925,46 +907,46 @@ input[type="search"] {
    ========================================================================== */
 
 .main-navigation {
-	margin: 0 0 2em;
+	margin: 0 0 @smallGutterWidth;
 }
 
 .main-navigation li {
 	float: left;
-	margin: 0 20px 0 0;
+	margin: 0 15px 0 0;
 	position: relative;
 }
 
 /* Navigation item */
 .main-navigation a {
-	background: -webkit-linear-gradient(#f3f3f3, #ececec);
+	#gradient > .vertical(lighten(@btnBackgroundHighlight, 5%), @btnBackgroundHighlight, @btnBackgroundHighlight);
 	border: 1px solid;
-	border-color: #fff #c9c9c9 #c9c9c9 #fff;
+	border-color: @white #c9c9c9 #c9c9c9 @white;
 	border-radius: 5px;
 	display: block;
-	font: 16px 'Merriweather', serif;
+	font: 16px @headingsFontFamily;
 	margin-bottom: 5px;
 	padding: 14px 21px;
-	text-shadow: 0 1px 0 #fff;
-	-webkit-transition: all 150ms ease;
+	text-shadow: 0 1px 0 @white;
+	.transition(all 150ms ease);
 }
 
 .main-navigation a:hover {
-	background: -webkit-linear-gradient(#f3f3f3, #e7e7e7);
+	#gradient > .vertical(lighten(@btnBackgroundHighlight, 5%), darken(@btnBackgroundHighlight, 1%), darken(@btnBackgroundHighlight, 2%));
 	border-radius: 10px 0 10px 0;
 	text-decoration: none;
 }
 
 .main-navigation a:active,
 .main-navigation a:focus {
-	box-shadow: inset 1px 1px 8px #ccc;
+	box-shadow: inset 1px 1px 6px @grayLight;
 }
 
 /* Current navigation item */
 .main-navigation .current > a {
-	background: -webkit-linear-gradient(#fa4fab, #f71570);
+	#gradient > .vertical(@btnPrimaryBackgroundHighlight, @btnPrimaryBackground, @btnPrimaryBackground);
 	border-color: transparent;
 	border-radius: 10px 0 10px 0;
-	color: #fff;
+	color: @btnPrimaryTextColor;
 	text-shadow: 0 1px 0 rgba(0,0,0, 0.1);
 }
 
@@ -975,7 +957,7 @@ input[type="search"] {
 /* Navigation, level 2 */
 .main-navigation .sub-menu {
 	display: none;
-	box-shadow: 0 1px 6px rgba(0,0,0, 0.25);
+	box-shadow: 0 1px 6px rgba(0,0,0, 0.22);
 	min-width: 200px;
 	position: absolute;
 	top: 100%; left: 0;
@@ -1007,10 +989,10 @@ input[type="search"] {
    ========================================================================== */
 
 .hentry {
-	border-bottom: 4px double #ededed;
+	border-bottom: 4px double @grayLighter;
 	position: relative;
-	padding-bottom: 20px;
-	margin-bottom: 40px;
+	padding-bottom: @gutterWidth / 2;
+	margin-bottom: @gutterWidth;
 }
 
 .hentry:last-of-type {
@@ -1020,23 +1002,23 @@ input[type="search"] {
 /* Entry title (more styling under Headings) */
 .entry-title a:hover {
 	text-decoration: none;
-	-webkit-transition: color 300ms ease-in-out;
+	.transition(color 300ms ease-in-out);
 }
 
 /* Entry meta */
 .entry-meta {
-	background: #f3f3f3;
-	background: -webkit-linear-gradient(#f3f3f3, #ececec);
-	border: 1px solid #fff;
+	#gradient > .vertical(lighten(@btnBackgroundHighlight, 5%), @btnBackgroundHighlight, @btnBackgroundHighlight);
+	border: 1px solid;
+	border-color: @white #c9c9c9 #c9c9c9 @white;
 	border-radius: 5px;
-	box-shadow: -2px 0 6px rgba(0, 0, 0, 0.1);
-	color: #555;
+	box-shadow: -1px 0 4px rgba(0, 0, 0, 0.1);
+	color: @gray;
 	clear: both;
 	font-size: 13px;
 	line-height: 1.8;
-	margin: 40px 0 0 -80px;
+	margin: @gutterWidth 0 0 (@gutterWidth - @gutterWidth * 3);
 	padding: 14px 15px;
-	text-shadow: 0 1px 0 #fff;
+	text-shadow: 0 1px 0 @white;
 }
 
 /* Edit link */

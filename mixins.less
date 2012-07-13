@@ -145,13 +145,13 @@
 		background-image: linear-gradient(left, @startColor, @endColor); // Le standard
 		background-repeat: repeat-x;
 	}
-	.vertical(@startColor: #555, @endColor: #333, @fallback: @white) {
+	.vertical(@startColor: #555, @endColor: #333, @fallback: @white, @colorStop: 100%) {
 		background-color: @fallback;
-		background-image: -moz-linear-gradient(top, @startColor, @endColor); // FF 3.6+
-		background-image: -ms-linear-gradient(top, @startColor, @endColor); // IE10
-		background-image: -webkit-linear-gradient(top, @startColor, @endColor); // Safari 5.1+, Chrome 10+
-		background-image: -o-linear-gradient(top, @startColor, @endColor); // Opera 11.10
-		background-image: linear-gradient(top, @startColor, @endColor); // The standard
+		background-image: -moz-linear-gradient(top, @startColor, @endColor @colorStop); // FF 3.6+
+		background-image: -ms-linear-gradient(top, @startColor, @endColor @colorStop); // IE10
+		background-image: -webkit-linear-gradient(top, @startColor, @endColor @colorStop); // Safari 5.1+, Chrome 10+
+		background-image: -o-linear-gradient(top, @startColor, @endColor @colorStop); // Opera 11.10
+		background-image: linear-gradient(top, @startColor, @endColor @colorStop); // The standard
 	}
 	.directional(@startColor: #555, @endColor: #333, @deg: 45deg) {
 		background-color: @endColor;

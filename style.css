@@ -413,11 +413,11 @@ pre {
   /* Blue stribes to make it look like paper */
 
   background-color: #fefefe;
-  background-image: -moz-linear-gradient(top, #e2f1f7 1px, transparent 1px 100%);
-  background-image: -ms-linear-gradient(top, #e2f1f7 1px, transparent 1px 100%);
-  background-image: -webkit-linear-gradient(top, #e2f1f7 1px, transparent 1px 100%);
-  background-image: -o-linear-gradient(top, #e2f1f7 1px, transparent 1px 100%);
-  background-image: linear-gradient(top, #e2f1f7 1px, transparent 1px 100%);
+  background-image: -moz-linear-gradient(top, #e2f1f7 1px, transparent 1px);
+  background-image: -ms-linear-gradient(top, #e2f1f7 1px, transparent 1px);
+  background-image: -webkit-linear-gradient(top, #e2f1f7 1px, transparent 1px);
+  background-image: -o-linear-gradient(top, #e2f1f7 1px, transparent 1px);
+  background-image: linear-gradient(top, #e2f1f7 1px, transparent 1px);
   -webkit-background-size: 100% 26px;
   -moz-background-size: 100% 26px;
   -o-background-size: 100% 26px;
@@ -522,13 +522,6 @@ img {
   box-sizing: content-box;
   -ms-interpolation-mode: bicubic;
 }
-img,
-embed,
-object,
-video,
-iframe {
-  max-width: 100%;
-}
 a:hover img {
   box-shadow: 0 0 8px #f71570;
   -webkit-transition: all 200ms ease;
@@ -537,24 +530,39 @@ a:hover img {
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
 }
+img,
+embed,
+object,
+video,
+iframe {
+  max-width: 100%;
+}
+/* Seamless iframes */
+iframe[seamless] {
+  background-color: transparent;
+  border: 0px none transparent;
+  padding: 0px;
+  overflow: hidden;
+}
 /* Correct overflow not hidden in IE9 */
 svg:not(:root) {
   overflow: hidden;
 }
 /**
  * Figures
- * @TODO: LESS it
  */
 figure {
-  background: #f2f2f2;
-  border: solid #e9e9e9;
-  border-width: 0 2px 2px 0;
-  border-radius: 0 0 5px 5px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  max-width: 100%;
+  background: #333333;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 100%;
   padding: 20px;
+  margin: 25px 0;
   text-align: center;
+}
+figure figcaption {
+  font: 14px "Merriweather", Georgia, serif;
+  margin: 21px 0 3px;
 }
 figure img {
   border-radius: 0;
@@ -562,10 +570,6 @@ figure img {
   margin: 0 auto;
   padding: 0;
   box-shadow: none;
-}
-figcaption {
-  font: 14px "Merriweather", Georgia, serif;
-  margin-top: 21px;
 }
 /* =============================================================================
    Tables
@@ -752,10 +756,13 @@ textarea {
   -ms-transition: border, box-shadow linear 200ms;
   -o-transition: border, box-shadow linear 200ms;
   transition: border, box-shadow linear 200ms;
+  /* :focus styling */
+
+  /* Invalid inputs, change focus to red */
+
 }
-/* :focus styling */
-textarea:focus,
-input:focus {
+input:focus,
+textarea:focus {
   border-color: rgba(82, 168, 236, 0.8);
   outline: 0;
   outline: thin dotted \9;
@@ -763,7 +770,6 @@ input:focus {
 
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.4);
 }
-/* Invalid inputs, change focus to red */
 input:invalid:focus,
 textarea:invalid:focus {
   border-color: #e9322d;
@@ -817,9 +823,6 @@ input[type="submit"] {
   vertical-align: middle;
   cursor: pointer;
   /* Display hand cursor for clickable form elements */
-
-  -webkit-appearance: button;
-  /* Allow styling of clickable form elements in iOS */
 
   *overflow: visible;
   /* Correct inner spacing displayed oddly in IE7 (doesn't effect IE6) */
@@ -940,6 +943,7 @@ input[type="search"] {
   border: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 4px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  margin-bottom: 25px;
 }
 .searchform input[type="search"] {
   width: 60%;
@@ -1088,13 +1092,20 @@ input[type="search"] {
    ========================================================================== */
 .main-navigation {
   margin: 0 0 25px;
+  /* Navigation item */
+
+  /* Current navigation item */
+
+  /* Navigation, level 2 */
+
+  /* Show sub-menu on :hover */
+
 }
 .main-navigation li {
   float: left;
   margin: 0 15px 0 0;
   position: relative;
 }
-/* Navigation item */
 .main-navigation a {
   background-color: #e6e6e6;
   background-image: -moz-linear-gradient(top, #f2f2f2, #e6e6e6 100%);
@@ -1130,7 +1141,6 @@ input[type="search"] {
 .main-navigation a:focus {
   box-shadow: inset 1px 1px 6px #999999;
 }
-/* Current navigation item */
 .main-navigation .current > a {
   background-color: #f71570;
   background-image: -moz-linear-gradient(top, #f950ab, #f71570 100%);
@@ -1146,7 +1156,6 @@ input[type="search"] {
 .main-navigation .current > a:hover {
   border-radius: 0 10px 0 10px;
 }
-/* Navigation, level 2 */
 .main-navigation .sub-menu {
   display: none;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.22);
@@ -1155,10 +1164,8 @@ input[type="search"] {
   top: 100%;
   left: 0;
   z-index: 1000;
-}
-/* Show sub-menu on :hover */
-.main-navigation li:hover > .sub-menu {
-  display: block;
+  /* Navigation, level n */
+
 }
 .main-navigation .sub-menu li {
   float: none;
@@ -1168,10 +1175,12 @@ input[type="search"] {
   border-radius: 0;
   margin-bottom: 0;
 }
-/* Navigation, level n */
 .main-navigation .sub-menu .sub-menu {
   top: 0;
   left: 100%;
+}
+.main-navigation li:hover > .sub-menu {
+  display: block;
 }
 /* =============================================================================
    Entries
@@ -1206,7 +1215,7 @@ input[type="search"] {
   border-color: #ffffff #c9c9c9 #c9c9c9 #ffffff;
   border-radius: 5px;
   box-shadow: -1px 0 4px rgba(0, 0, 0, 0.1);
-  color: #555555;
+  color: #333333;
   clear: both;
   font-size: 13px;
   line-height: 1.8;
@@ -1219,15 +1228,15 @@ input[type="search"] {
   float: right;
 }
 .edit-link a {
-  color: #555;
+  color: #555555;
 }
-.entry-meta:hover .edit-link a {
+.edit-link a:hover {
   color: #f71570;
   text-decoration: none;
 }
 /* More link */
 .more-link {
-  font: bold 15px 'Merriweather', 'Open Sans', serif;
+  font: 700 15px "Merriweather", Georgia, serif;
 }
 .more-link:hover {
   text-decoration: none;
@@ -1235,26 +1244,51 @@ input[type="search"] {
 .more-link:hover .meta-nav {
   margin-left: 5px;
   -webkit-transition: margin-left 200ms ease-in-out;
+  -moz-transition: margin-left 200ms ease-in-out;
+  -ms-transition: margin-left 200ms ease-in-out;
+  -o-transition: margin-left 200ms ease-in-out;
+  transition: margin-left 200ms ease-in-out;
 }
 /* Entry thumbnails */
 .thumbnail {
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 3px;
   padding: 4px;
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.15);
   float: left;
   margin: 0 25px 10px -80px;
+  /* Thumbnail rotation */
+
 }
-/* Thumbnail rotation */
 .hentry .thumbnail:hover {
   -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  transform: rotate(-2deg);
 }
 .hentry:nth-of-type(even) .thumbnail:hover {
   -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  transform: rotate(2deg);
 }
 /* =============================================================================
-   Sidebar
+   Widgets
    ========================================================================== */
+.widget {
+  border-bottom: 4px double #ededed;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.widget:last-child {
+  border-bottom: none;
+}
+.well .widget-title {
+  margin-top: 5px;
+}
 /* =============================================================================
    Footer
    ========================================================================== */
@@ -1274,24 +1308,11 @@ input[type="search"] {
     width: auto;
     float: none !important;
   }
-  .row .onecol,
-  .row .twocol,
-  .row .threecol,
-  .row .fourcol,
-  .row .fivecol,
-  .row .sixcol,
-  .row .sevencol,
-  .row .eightcol,
-  .row .ninecol,
-  .row .tencol,
-  .row .elevencol,
-  .row .twelvecol {
-    width: auto;
+  .row [class*="span"] {
     float: none;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+    display: block;
+    width: auto;
+    margin-left: 0;
   }
 }
 /* =============================================================================

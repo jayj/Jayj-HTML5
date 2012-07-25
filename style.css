@@ -134,16 +134,30 @@ body {
   max-width: 1140px;
   min-width: 755px;
   margin: 0 auto;
-  /* Background image and color */
+  /**
+	 * CSS3 gradient background pattern - http://leaverou.me/demos/css3-patterns.html
+	 * @link http://leaverou.me/demos/css3-patterns.html
+	 */
 
   background-color: #ededed;
+  background-color: #ededed;
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  background-image: -ms-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  -webkit-background-size: 16px 16px;
+  -moz-background-size: 16px 16px;
+  -o-background-size: 16px 16px;
+  background-size: 16px 16px;
+  background-attachment: fixed;
+}
+/* Fallback background image */
+.no-cssgradients body {
   background-image: url(images/bg.png);
   background-repeat: repeat;
-  background-attachment: fixed;
-  /* Fallback background image */
-
 }
-/**
+/**d
  * The selection color
  * These selection declarations have to be separate
  */
@@ -952,7 +966,7 @@ input[type="search"] {
   background-image: linear-gradient(top, rgba(255, 255, 255, 0.25), #ffffff 190px);
   border-radius: 10px;
   padding: 40px;
-  box-shadow: 0 2px 3px 0 rgba(204, 204, 204, 0.8);
+  box-shadow: 1px 1px 6px rgba(204, 204, 204, 0.6);
 }
 .no-cssgradients #main {
   background-color: #ffffff;
@@ -1067,9 +1081,6 @@ input[type="search"] {
   -ms-transform: scale(0.95);
   -o-transform: scale(0.95);
   transform: scale(0.95);
-}
-#site-title img {
-  box-shadow: none;
 }
 #site-description {
   font-size: 19px;

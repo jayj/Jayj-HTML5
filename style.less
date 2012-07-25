@@ -100,23 +100,26 @@ body {
 	min-width: 755px;
 	margin: 0 auto;
 
-	/**
-	 * CSS3 gradient background pattern - http://leaverou.me/demos/css3-patterns.html
-	 * @link http://leaverou.me/demos/css3-patterns.html
-	 */
+	/* Background image and color */
 	background-color: @bodyBackground;
-	#gradient > .striped(@bodyBackground, 45deg);
-	.background-size(16px 16px);
-	background-attachment: fixed;
-}
-
-/* Fallback background image */
-.no-cssgradients body {
 	background-image: url(images/bg.png);
 	background-repeat: repeat;
+	background-attachment: fixed;
+
+	// CSS3 gradient background pattern - http://leaverou.me/demos/css3-patterns.html
+	// @link http://leaverou.me/demos/css3-patterns.html
+	// Removed because of performance issues
+	//#gradient > .striped(@bodyBackground, 45deg);
+	//.background-size(16px 16px);
+
+	/* Fallback background image */
+	// .no-cssgradients & {
+	// 		background-image: url(images/bg.png);
+	// 		background-repeat: repeat;
+	// }
 }
 
-/**d
+/**
  * The selection color
  * These selection declarations have to be separate
  */
@@ -847,7 +850,7 @@ input[type="search"] {
 	#gradient > .vertical(fade(@contentBackground, 25%), @contentBackground, none, 190px);
 	border-radius: 10px;
 	padding: @gutterWidth;
-	box-shadow: 1px 1px 6px rgba(204, 204, 204, 0.6);
+	box-shadow: 0 2px 3px 0 rgba(204, 204, 204, 0.8);
 }
 
 .no-cssgradients #main {
@@ -894,6 +897,10 @@ input[type="search"] {
 			/* Scale the site title on hover */
 			.scale(0.95);
 		}
+	}
+
+	img {
+		box-shadow: none;
 	}
 }
 

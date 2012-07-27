@@ -885,6 +885,7 @@ input[type="search"] {
 	float: left;
 
 	a {
+		color: @siteTitleColor;
 		display: inline-block;
 		font-size: 48px;
 		font-weight: 900;
@@ -1093,6 +1094,11 @@ input[type="search"] {
 	&:last-child {
 		border-bottom: none;
 	}
+
+	li a:hover {
+		margin-left: 5px;
+		.transition(margin-left 300ms linear);
+	}
 }
 
 .well .widget-title {
@@ -1103,7 +1109,18 @@ input[type="search"] {
    Footer
    ========================================================================== */
 
+#footer {
+	#gradient > .radial(rgba(0,0,0, @footerBackgroundOpacity), rgba(0,0,0,0));
+	font-size: @baseFontSize + 3px;
+	padding: 25px 40px;
+	text-shadow: 0px 1px 0px rgba(255,255,255, 0.5);
+	text-align: center;
 
+	a {
+		color: @footerLinkColor;
+		text-shadow: none;
+	}
+}
 
 /* =============================================================================
    Media queries
@@ -1170,66 +1187,6 @@ input[type="search"] {
 	visibility: hidden;
 }
 
-
-
-
-
-
-
-
-
-/**
- * Sidebar
- */
-
-/*#sidebar {}
-
-.widget {
-	border-top: 1px solid rgba(255, 255, 255, 0.6);
-	border-bottom: 1px solid #ccc;
-	padding: 30px 0;
-}
-
-.widget:first-child {
-	border-top: none;
-	padding-top: 0;
-}
-
-.widget:last-child {
-	border-bottom: none;
-}*/
-
-	/* Lists in widgets */
-	/*.widget li {
-		line-height: 35px;
-	}
-
-	.widget li a {
-		color: #333;
-		-webkit-transition: margin-left 300ms linear;
-		-moz-transition: margin-left 300ms linear;
-		transition: margin-left 300ms linear;
-	}
-
-	.widget li a:hover {
-		color: #AC0649;
-		margin-left: 10px;
-	}
-*/
-/*
- * Footer
- */
-
-/*#footer {
-	color: #555;
-	padding: 40px 20px;
-	text-shadow: 1px 1px 0px #fff;
-}
-
-#footer a {
-	font: 14px 'Droid Serif', Georgia, serif;
-}
-*/
 
 
 /*

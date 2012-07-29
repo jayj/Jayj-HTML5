@@ -1,12 +1,6 @@
 /* =============================================================================
-	 Mixins
-	 ========================================================================== */
-/**
- * Colors
- */
-/* =============================================================================
-	 Mixins
-	 ========================================================================== */
+   HTML5 display definitions
+   ========================================================================== */
 .clearfix {
   *zoom: 1;
 }
@@ -28,13 +22,10 @@
   border-radius: 4px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
-/* =============================================================================
-   Grid
-   ========================================================================== */
 /**
  * Jayj HTML5, a free HTML5 And CSS3 Theme
  * Version 2.1-dev
- * By Jesper J, Jayj.dk
+ * By Jesper J, http://jayj.dk
  * Download for free at http://jayj.dk/a-free-html5-and-css3-theme/
 
 	Released under New BSD License
@@ -42,38 +33,6 @@
 
 	Copyright (c) 2009-2012, Jayj.dk
 	All rights reserved.
-
-	Redistribution and use in source and binary forms, with or without modification,
-	are permitted provided that the following conditions are met:
-
-		* Redistributions of source code must retain the above copyright notice,
-		  this list of conditions and the following disclaimer.
-
-		* Redistributions in binary form must reproduce the above copyright notice,
-		  this list of conditions and the following disclaimer in the documentation
-		  and/or other materials provided with the distribution.
-
-		* Neither the name of Jayj.dk nor the names of its
-		  contributors may be used to endorse or promote products derived from this
-		  software without specific prior written permission.
-
-	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-	ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-	WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-	DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
-	ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-	(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-	LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
-	ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-	(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-	SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-
-
-	Normalize.css: http://necolas.github.com/normalize.css/
-
-	font-family: 'Open Sans', sans-serif;
-	font-family: 'Merriweather', serif;
 */
 /* =============================================================================
    HTML5 display definitions
@@ -124,7 +83,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   color: #222222;
 }
 body {
@@ -217,7 +176,7 @@ h2 {
 h4 {
   border-bottom: 1px solid #ededed;
   color: #f71570;
-  font: bold 16px "Open Sans", sans-serif;
+  font: bold 16px "Open Sans", "Helvetica Neue", sans-serif;
   padding-bottom: 8px;
 }
 h6 {
@@ -229,6 +188,14 @@ h6 {
 .entry-title {
   font-size: 32px;
   letter-spacing: -1px;
+}
+.entry-title a:hover {
+  text-decoration: none;
+  -webkit-transition: color 300ms ease-in-out;
+  -moz-transition: color 300ms ease-in-out;
+  -ms-transition: color 300ms ease-in-out;
+  -o-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
 }
 /* Section title */
 section h1,
@@ -262,12 +229,12 @@ hr {
   padding: 0;
 }
 ins {
-  background: #ff9;
+  background: #ffff99;
   color: #000000;
   text-decoration: none;
 }
 mark {
-  background: #ff0;
+  background: #ffff00;
   color: #000000;
   font-style: italic;
   font-weight: bold;
@@ -275,7 +242,7 @@ mark {
 small {
   font-size: 85%;
 }
-/*
+/**
  * Position subscript and superscript content without affecting line-height: h5bp.com/k
  */
 sub,
@@ -386,7 +353,7 @@ q:after {
 /* =============================================================================
    Code
    ========================================================================== */
-/*
+/**
  * Redeclare monospace font family: h5bp.com/j
  */
 pre,
@@ -407,9 +374,6 @@ pre {
   background-image: -webkit-linear-gradient(top, #e2f1f7 1px, transparent 1px);
   background-image: -o-linear-gradient(top, #e2f1f7 1px, transparent 1px);
   background-image: linear-gradient(top, #e2f1f7 1px, transparent 1px);
-  -webkit-background-size: 100% 26px;
-  -moz-background-size: 100% 26px;
-  -o-background-size: 100% 26px;
   background-size: 100% 26px;
   box-shadow: inset 0 1px 1px #ffffff, 0 0 15px rgba(204, 204, 204, 0.35);
   border: 1px solid #e0e0e0;
@@ -433,8 +397,7 @@ pre ol.linenums {
   line-height: 26px;
 }
 /**
- * Line numbering
- * Specify class=linenums on a pre to get line numbering
+ * Line numbering for the Google Prettify script
  */
 /* Add to red stribes to make it look like a notebook */
 pre[class*="linenums"]:before {
@@ -912,7 +875,7 @@ input[disabled] {
   cursor: not-allowed;
   background-color: #ededed;
   background-image: none !important;
-  color: #333;
+  color: #333333;
   text-shadow: none;
   opacity: 0.65;
   filter: alpha(opacity=65);
@@ -1086,14 +1049,6 @@ input[type="search"] {
    ========================================================================== */
 .main-navigation {
   margin: 0 0 25px;
-  /* Navigation item */
-
-  /* Current navigation item */
-
-  /* Navigation, level 2 */
-
-  /* Show sub-menu on :hover */
-
 }
 .main-navigation li {
   float: left;
@@ -1111,7 +1066,7 @@ input[type="search"] {
   border-color: #ffffff #c9c9c9 #c9c9c9 #ffffff;
   border-radius: 5px;
   display: block;
-  font: 16px "Merriweather", Georgia, serif;
+  font: normal 16px "Merriweather", Georgia, serif;
   margin-bottom: 5px;
   padding: 14px 21px;
   text-shadow: 0 1px 0 #ffffff;
@@ -1158,8 +1113,6 @@ input[type="search"] {
   top: 100%;
   left: 0;
   z-index: 1000;
-  /* Navigation, level n */
-
 }
 .main-navigation .sub-menu li {
   float: none;
@@ -1187,15 +1140,6 @@ input[type="search"] {
 }
 .hentry:last-of-type {
   border-bottom: none;
-}
-/* Entry title (more styling under Headings) */
-.entry-title a:hover {
-  text-decoration: none;
-  -webkit-transition: color 300ms ease-in-out;
-  -moz-transition: color 300ms ease-in-out;
-  -ms-transition: color 300ms ease-in-out;
-  -o-transition: color 300ms ease-in-out;
-  transition: color 300ms ease-in-out;
 }
 /* Entry meta */
 .entry-meta {

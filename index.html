@@ -6,7 +6,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
 
-	<meta charset="utf-8" />
+	<meta charset="utf-8">
 
 	<!-- Always force latest IE rendering engine & Chrome Frame -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -36,16 +36,18 @@
 <body>
 
 	<!-- Prompt IE 6 users to install Chrome Frame:		chromium.org/developers/how-tos/chrome-frame-getting-started -->
-	<!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	<!--[if lt IE 7]>
+		<p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
+	<![endif]-->
 
-	<header id="master-header" class="site-header clearfix" role="banner">
+	<header id="master-header" class="clearfix" role="banner">
 
 		<hgroup>
 			<h1 id="site-title"><a href="index.html" title="Your Site Name">Jayj HTML5 Theme</a></h1>
 			<h2 id="site-description">This is an awesome description of the site!</h2>
 		</hgroup>
 
-	</header> <!-- #master-header.site-header -->
+	</header> <!-- #master-header -->
 
 <div id="main" class="row clearfix">
 
@@ -70,7 +72,9 @@
 	<article class="post hentry">
 
 		<header class="entry-header">
-			<h1 class="entry-title"><a href="#" title="Post Heading" rel="bookmark">Post heading</a></h1>
+			<h1 class="entry-title">
+				<a href="#" title="Post Heading" rel="bookmark">Post heading</a>
+			</h1>
 
 			<a href="#" title="Post Heading"><img src="images/200x200.gif" alt="Post thumbnail" class="thumbnail" /></a>
 		</header> <!-- .entry-header -->
@@ -106,7 +110,9 @@
 		<header class="entry-header">
 			<h1 class="entry-title">Post heading 2 Goes Here</h1>
 
-			<a href="#" title="Post heading 2 Goes Her"><img src="images/130x180.gif" alt="Post thumbnail" class="thumbnail" /></a>
+			<a href="#" title="Post heading 2 Goes Her">
+				<img src="images/130x180.gif" alt="Post thumbnail" class="thumbnail" />
+			</a>
 		</header> <!-- .entry-header -->
 
 		<div class="entry-content">
@@ -125,7 +131,9 @@
 	<article class="post hentry">
 
 		<header class="entry-header">
-			<h1 class="entry-title"><a href="#" title="Post Heading" rel="bookmark">Post heading 3 Goes Here and it's longer than the rest</a></h1>
+			<h1 class="entry-title">
+				<a href="#" title="Post Heading" rel="bookmark">Post heading 3 Goes Here and it's longer than the rest</a>
+			</h1>
 		</header> <!-- .entry-header -->
 
 		<div class="entry-content">
@@ -157,8 +165,8 @@
 	<!-- Non-working search form -->
 	<form role="search" action="#" class="searchform">
 		<label class="assistive-text" for="s">Search for:</label>
-		<input type="search" name="s" id="s" results="10" placeholder="Search..." value="" />
-		<input type="submit" value="Search" />
+		<input type="search" name="s" id="s" results="10" placeholder="Search..." value="">
+		<input type="submit" value="Search">
 	</form> <!-- .searchform.widget -->
 
 	<aside class="widget">
@@ -199,6 +207,5 @@
 
 	<!-- Load custom scripts -->
 	<script src="js/script.js"></script>
-
 </body>
 </html>

@@ -1,126 +1,153 @@
-/**
- * Colors
- */
+// =======================================
+// Variables
+// -- The best way to customize the look and feel of Jayj HTML5 theme
+// =======================================
 
-@black:                 #000;
-@grayDarker:            #222;
-@grayDark:              #333;
-@gray:                  #555;
-@grayLight:             #999;
-@grayLighter:           #ededed;
-@white:                 #fff;
+// ====================
+// Color definitions
+// ====================
 
-@blue:                  #049cdb;
-@blueDark:              #0064cd;
-@green:                 #093;
-@red:                   #e9322d;
-@yellow:                #ffc40d;
-@orange:                #f89406;
-@pink:                  #f71570;
-@purple:                #ca349b;
+// Greys
+@black:				#000;
+@grayDarker:		#222;
+@grayDark:			#333;
+@gray:				#555;
+@grayLight:			#999;
+@grayLighter:		#ededed;
+@white:				#fff;
 
-@selectionColor:		#bada55;
+// Accent colors
+@blue:				#049cdb;
+@blueDark:			#0064cd;
+@green:				#093;
+@red:				#e9322d;
+@yellow:			#ff0;
+@orange:			#f89406;
+@pink:				#f71570;
+@purple:			#ca349b;
+
+// ====================
+// Scaffolding
+// ====================
+
+@primaryColor:				@pink;
+@textColor:					@grayDarker;
+@bodyBackground:			@grayLighter;
+@contentBackground:			@white;
+
+// Site title
+@siteTitleColor:			@linkColor;
+
+// Footer
+@footerLinkColor:			@linkColor;
+@footerBackgroundOpacity:	10%; // Opacity on the black radial gradient in the footer
+
+// ====================
+// Links
+// ====================
+
+@linkColor:				@primaryColor;
+@linkColorHover:		darken(@linkColor, 18%);
+
+// ====================
+// Typography
+// ====================
+
+@sansFontFamily:		"Helvetica Neue", sans-serif;
+@serifFontFamily:		Georgia, serif;
+@monoFontFamily:		Menlo, Monaco, Consolas, "Courier New", monospace;
+
+// Base fonts
+@baseFontFamily:		"Open Sans", @sansFontFamily;
+@headingsFontFamily:	"Merriweather", @serifFontFamily;
+
+// Base sizes
+@baseFontSize:			15px;
+@baseHeadingSize:		28px;
+@baseLineHeight:		1.6;
+
+// ====================
+// HTML elements
+// ====================
+
+// Color on selected text
+@selectionColor:		#bada55; // Green
 @selectionTextColor:	@black;
 
+// Horizontal rule <hr />
+@hrBorder:				darken(@grayLighter, 5%);
 
-@primaryColor:			@pink;
-@bodyBackground:        @grayLighter;
-@contentBackground:     @white;
-@textColor:             @grayDarker;
+// Blockquotes
+@blockquoteBorder:		@blue;
 
+// Tables
+@tableBorder:			#ddd;
 
-@linkColor:             @primaryColor;
-@linkColorHover:        darken(@linkColor, 18%);
+// Figures <figure>
+@figureBackground:		@grayDark;
+@figureTextColor:		@white;
 
-@siteTitleColor: @linkColor;
-@footerLinkColor: @linkColor;
+// Code <code>
+@codeColor:				@green;
 
-@btnBackground:                     @white;
-@btnBackgroundHighlight:            darken(@white, 10%);
-@btnTextColor: @grayDark;
+// ====================
+// Buttons
+// ====================
 
-@btnPrimaryBackground:              @primaryColor;
-@btnPrimaryBackgroundHighlight:     spin(lighten(@primaryColor, 12%), -8);
-@btnPrimaryTextColor: @white;
+@btnHighlight:						@white;
+@btnShadow:							#c9c9c9;
 
-@btnHighlight: @white;
-@btnShadow: #c9c9c9;
+@btnBackground:						@white;
+@btnBackgroundHighlight:			darken(@white, 10%);
+@btnTextColor:						@grayDark;
 
-@hrBorder: darken(@grayLighter, 5%);
-@blockquoteBorder: @blue;
-@tableBorder: #ddd;
-@figureBackground: @grayDark;
-@figureTextColor: @white;
+@btnPrimaryBackground:				@primaryColor;
+@btnPrimaryBackgroundHighlight:		spin(lighten(@primaryColor, 12%), -8);
+@btnPrimaryTextColor:				@white;
 
-@codeColor: @green;
+// ====================
+// Form elements
+// ====================
 
-@footerBackgroundOpacity: 10%;
+// Legends <legend>
+@legendBackground:			#ffeef7;
+@legendColor:				darken(@purple, 10%);
 
+// Inputs
+@inputBackground:			@white;
+@inputBorder:				#ccc;
+@inputBorderRadius:			3px;
 
-@legendBackground: #ffeef7;
-@legendColor: darken(@purple, 10%);
+// ====================
+// Alert messages
+// ====================
 
+@alertText:					@grayDarker;
+@alertBackground:			@grayLighter;
+@alertBorder:				darken(@grayLighter, 8%);
 
-@inputBackground:               @white;
-@inputBorder:                   #ccc;
-@inputBorderRadius:             3px;
+@warningText:				#3b3601;
+@warningBackground:			#fef9c7;
+@warningBorder:				darken(spin(@warningBackground, -5), 25%);
 
+@errorText:					#7a0b0a;
+@errorBackground:			#f2dede;
+@errorBorder:				darken(spin(@errorBackground, -10), 25%);
 
-// ac0648		hover
-// bed1e1 		quote
-// ededed       grey hentry
-// f3f3f3, ececec    grey gradient
-// fa4fab, @pink     pink gradient
+@successText:				#0d370d;
+@successBackground:			#dff0d8;
+@successBorder:				darken(spin(@successBackground, 10), 40%);
 
+@infoText:					#0c3346;
+@infoBackground:			#d9edf7;
+@infoBorder:				@blue;
 
+// ====================
+// The grid
+// ====================
 
-// Typography
-// -------------------------
-@sansFontFamily:       "Helvetica Neue", Helvetica, Arial, sans-serif;
-@serifFontFamily:       Georgia, "Times New Roman", Times, serif;
-@monoFontFamily:        Menlo, Monaco, Consolas, "Courier New", monospace;
+@gutterWidth:				40px;
+@smallGutterWidth:			25px;
 
-@baseFontSize:          15px;
-@baseHeadingSize:		28px;
-@baseFontFamily:        "Open Sans", sans-serif;
-@baseLineHeight:        1.6;
-@headingsFontFamily:    "Merriweather", Georgia, serif;
-
-
-
-@alertText: @grayDarker;
-@alertBackground: @grayLighter;
-@alertBorder: darken(@grayLighter, 8%);
-
-@warningText:             #3b3601;
-@warningBackground:       #fef9c7;
-@warningBorder:           darken(spin(@warningBackground, -5), 25%);
-
-@errorText:               #7a0b0a;
-@errorBackground:         #f2dede;
-@errorBorder:             darken(spin(@errorBackground, -10), 25%);
-
-@successText:             #0d370d;
-@successBackground:       #dff0d8;
-@successBorder:           darken(spin(@successBackground, 10), 40%);
-
-@infoText:                #0c3346;
-@infoBackground:          #d9edf7;
-@infoBorder:              @blue;
-
-
-
-
-
-
-
-
-
-
-
-@gutterWidth: 40px;
-@smallGutterWidth: 25px;
-
-
-@fluidGridColumnWidth:    6.382978723%;
-@fluidGridGutterWidth:    2.127659574%;
+@fluidGridColumnWidth:		6.382978723%;
+@fluidGridGutterWidth:		2.127659574%;

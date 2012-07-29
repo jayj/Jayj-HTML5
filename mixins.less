@@ -1,24 +1,28 @@
-/* =============================================================================
-	 Mixins
-	 ========================================================================== */
+// =======================================
+// Mixins
+// -- Snippets of reusable CSS to develop faster and keep code readable
+// =======================================
 
-
-// Clearfix
-// --------
-// For clearing floats like a boss h5bp.com/q
+// ====================
+// Clearfix --- For clearing floats like a boss h5bp.com/q
+// ====================
 .clearfix {
 	*zoom: 1;
+
 	&:before,
 	&:after {
 		display: table;
 		content: "";
 	}
+
 	&:after {
 		clear: both;
 	}
 }
 
-
+// ====================
+// Wells
+// ====================
 .well {
 	min-height: 20px;
 	padding: 20px;
@@ -30,6 +34,10 @@
 	box-shadow: inset 0 1px 1px rgba(0,0,0, .05);
 }
 
+// ====================
+// Border seperators
+// ====================
+
 .border-seperator(border) {
 	border: 4px double @grayLighter;
 }
@@ -38,13 +46,18 @@
 	border-bottom: 4px double @grayLighter;
 }
 
+// ====================
+// Sizes
+// ====================
 
 .size(@width: auto, @height: auto) {
 	width: @width;
 	height: @height;
 }
 
-
+// ====================
+// Fonts
+// ====================
 
 #font {
 	.shorthand(@size: @baseFontSize, @weight: normal, @family: @baseFontFamily) {
@@ -52,96 +65,100 @@
 	}
 }
 
+// ====================
 // Transitions
+// ====================
+
 .transition(@transition) {
-	-webkit-transition: @transition;
-		 -moz-transition: @transition;
-			-ms-transition: @transition;
-			 -o-transition: @transition;
-					transition: @transition;
+	-webkit-transition:	@transition;
+	-moz-transition:	@transition;
+	-ms-transition:		@transition;
+	-o-transition:		@transition;
+	transition:			@transition;
 }
 
+// ====================
 // Transformations
+// ====================
+
 .rotate(@degrees) {
-	-webkit-transform: rotate(@degrees);
-		 -moz-transform: rotate(@degrees);
-			-ms-transform: rotate(@degrees);
-			 -o-transform: rotate(@degrees);
-					transform: rotate(@degrees);
+	-webkit-transform:	rotate(@degrees);
+	-moz-transform:		rotate(@degrees);
+	-ms-transform:		rotate(@degrees);
+	-o-transform:		rotate(@degrees);
+	transform:			rotate(@degrees);
 }
+
 .scale(@ratio) {
-	-webkit-transform: scale(@ratio);
-		 -moz-transform: scale(@ratio);
-			-ms-transform: scale(@ratio);
-			 -o-transform: scale(@ratio);
-					transform: scale(@ratio);
+	-webkit-transform:	scale(@ratio);
+	-moz-transform:		scale(@ratio);
+	-ms-transform:		scale(@ratio);
+	-o-transform:		scale(@ratio);
+	transform:			scale(@ratio);
 }
+
 .translate(@x, @y) {
-	-webkit-transform: translate(@x, @y);
-		 -moz-transform: translate(@x, @y);
-			-ms-transform: translate(@x, @y);
-			 -o-transform: translate(@x, @y);
-					transform: translate(@x, @y);
+	-webkit-transform:	translate(@x, @y);
+	-moz-transform:		translate(@x, @y);
+	-ms-transform:		translate(@x, @y);
+	-o-transform:		translate(@x, @y);
+	transform:			translate(@x, @y);
 }
+
 .skew(@x, @y) {
-	-webkit-transform: skew(@x, @y);
-		 -moz-transform: skew(@x, @y);
-			-ms-transform: skew(@x, @y);
-			 -o-transform: skew(@x, @y);
-					transform: skew(@x, @y);
+	-webkit-transform:	skew(@x, @y);
+	-moz-transform:		skew(@x, @y);
+	-ms-transform:		skew(@x, @y);
+	-o-transform:		skew(@x, @y);
+	transform:			skew(@x, @y);
 }
+
 .translate3d(@x, @y, @z) {
-	-webkit-transform: translate(@x, @y, @z);
-		 -moz-transform: translate(@x, @y, @z);
-			-ms-transform: translate(@x, @y, @z);
-			 -o-transform: translate(@x, @y, @z);
-					transform: translate(@x, @y, @z);
+	-webkit-transform:	translate(@x, @y, @z);
+	-moz-transform:		translate(@x, @y, @z);
+	-ms-transform:		translate(@x, @y, @z);
+	-o-transform:		translate(@x, @y, @z);
+	transform:			translate(@x, @y, @z);
 }
 
-// Background clipping
-.background-clip(@clip) {
-	-webkit-background-clip: @clip;
-		 -moz-background-clip: @clip;
-					background-clip: @clip;
-}
-
-// Background sizing
-.background-size(@size){
-	-webkit-background-size: @size;
-		 -moz-background-size: @size;
-			 -o-background-size: @size;
-					background-size: @size;
-}
-
+// ====================
 // Box sizing
+// ====================
 .box-sizing(@boxmodel) {
 	-webkit-box-sizing: @boxmodel;
-		 -moz-box-sizing: @boxmodel;
-			-ms-box-sizing: @boxmodel;
-					box-sizing: @boxmodel;
+	-moz-box-sizing:	@boxmodel;
+	-ms-box-sizing:		@boxmodel;
+	box-sizing:			@boxmodel;
 }
 
+// ====================
 // CSS3 Content Columns
-.content-columns(@columnCount, @columnGap: @gridGutterWidth) {
-	-webkit-column-count: @columnCount;
-		 -moz-column-count: @columnCount;
-					column-count: @columnCount;
-	-webkit-column-gap: @columnGap;
-		 -moz-column-gap: @columnGap;
-					column-gap: @columnGap;
+// ====================
+.content-columns(@columnCount, @columnGap: @gutterWidth) {
+	-webkit-column-count:	@columnCount;
+	-moz-column-count:		@columnCount;
+	column-count:			@columnCount;
+	-webkit-column-gap:		@columnGap;
+	-moz-column-gap:		@columnGap;
+	column-gap:				@columnGap;
 }
 
+// ====================
 // Optional hyphenation
+// ====================
+
 .hyphens(@mode: auto) {
-	word-wrap: break-word;
-	-webkit-hyphens: @mode;
-		 -moz-hyphens: @mode;
-			-ms-hyphens: @mode;
-			 -o-hyphens: @mode;
-					hyphens: @mode;
+	word-wrap:			break-word;
+	-webkit-hyphens:	@mode;
+	-moz-hyphens:		@mode;
+	-ms-hyphens:		@mode;
+	-o-hyphens:			@mode;
+	hyphens:			@mode;
 }
 
+// ====================
 // Gradients
+// ====================
 #gradient {
 	.horizontal(@startColor: #555, @endColor: #333) {
 		background-color: @endColor;
@@ -149,9 +166,10 @@
 		background-image: -ms-linear-gradient(left, @startColor, @endColor); // IE10
 		background-image: -webkit-linear-gradient(left, @startColor, @endColor); // Safari 5.1+, Chrome 10+
 		background-image: -o-linear-gradient(left, @startColor, @endColor); // Opera 11.10
-		background-image: linear-gradient(left, @startColor, @endColor); // Le standard
+		background-image: linear-gradient(left, @startColor, @endColor); // The standard
 		background-repeat: repeat-x;
 	}
+
 	.vertical(@startColor: #555, @endColor: #333, @fallback: @white, @colorStop: 100%) {
 		background-color: @fallback;
 		background-image: -moz-linear-gradient(top, @startColor, @endColor @colorStop); // FF 3.6+
@@ -160,6 +178,7 @@
 		background-image: -o-linear-gradient(top, @startColor, @endColor @colorStop); // Opera 11.10
 		background-image: linear-gradient(top, @startColor, @endColor @colorStop); // The standard
 	}
+
 	.directional(@startColor: #555, @endColor: #333, @deg: 45deg) {
 		background-color: @endColor;
 		background-repeat: repeat-x;
@@ -169,6 +188,7 @@
 		background-image: -o-linear-gradient(@deg, @startColor, @endColor); // Opera 11.10
 		background-image: linear-gradient(@deg, @startColor, @endColor); // The standard
 	}
+
 	.vertical-three-colors(@startColor: #00b3ee, @midColor: #7a43b6, @colorStop: 50%, @endColor: #c3325f) {
 		background-color: mix(@midColor, @endColor, 80%);
 		background-image: -webkit-linear-gradient(@startColor, @midColor @colorStop, @endColor);
@@ -178,6 +198,7 @@
 		background-image: linear-gradient(@startColor, @midColor @colorStop, @endColor);
 		background-repeat: no-repeat;
 	}
+
 	.radial(@innerColor: #555, @outerColor: #333)  {
 		background-color: @outerColor;
 		background-image: -webkit-radial-gradient(circle, @innerColor, @outerColor);
@@ -186,6 +207,7 @@
 		background-image: -o-radial-gradient(circle, @innerColor, @outerColor);
 		background-repeat: no-repeat;
 	}
+
 	.striped(@color, @angle: -45deg) {
 		background-color: @color;
 		background-image: -webkit-linear-gradient(@angle, rgba(255,255,255,.2) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.2) 50%, rgba(255,255,255,.2) 75%, transparent 75%, transparent);
@@ -196,8 +218,9 @@
 	}
 }
 
-// Button backgrounds
-// ------------------
+// ====================
+// Buttons
+// ====================
 .buttonBackground(@startColor, @endColor, @textColor: @btnTextColor) {
 	#gradient > .vertical(@startColor, @endColor, @endColor);
 	background-repeat: repeat-x;
@@ -226,20 +249,24 @@
 	}
 }
 
-/* =============================================================================
-   Grid
-   ========================================================================== */
+// ====================
+// The grid
+// ====================
+
 #grid {
-	.fluid (@fluidGridColumnWidth, @fluidGridGutterWidth) {
-		@gridColumns    : 12;
-		@gridColumnWidth: 60px;
-		@gridGutterWidth: 20px;
-		@gridRowWidth   : (@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1));
+	.fluid(@fluidGridColumnWidth, @fluidGridGutterWidth) {
+
+		// Variables
+		@gridColumns:		12;
+		@gridColumnWidth:	60px;
+		@gridGutterWidth:	20px;
+		@gridRowWidth:		(@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1));
 
 		.spanX (@index) when (@index > 0) {
 			(~".span@{index}") { .span(@index); }
 			.spanX(@index - 1);
 		}
+
 		.spanX (0) {}
 
 		.span (@columns) {
@@ -261,7 +288,7 @@
 				margin-left: 0;
 			}
 
-			// generate .spanX
+			// Generate .spanX
 			.spanX (@gridColumns);
 		}
 	}

@@ -1,3 +1,6 @@
+/* =============================================================================
+	 Mixins
+	 ========================================================================== */
 /**
  * Colors
  */
@@ -415,6 +418,7 @@ pre {
   font-size: 14px;
   line-height: 26px;
   padding: 26px 25px;
+  margin: 0 0 25px;
   position: relative;
   white-space: pre;
   white-space: pre-wrap;
@@ -1307,27 +1311,46 @@ input[type="search"] {
   text-shadow: none;
 }
 /* =============================================================================
-   Media queries
+   Alert messages
    ========================================================================== */
-@media only screen and (max-width: 768px) {
-  body {
-    width: 100%;
-    min-width: 0;
-  }
-  #main {
-    padding: 20px;
-  }
-  #content,
-  #sidebar {
-    width: auto;
-    float: none !important;
-  }
-  .row [class*="span"] {
-    float: none;
-    display: block;
-    width: auto;
-    margin-left: 0;
-  }
+.alert {
+  background-color: #ededed;
+  border-left: 5px solid #d9d9d9;
+  border-radius: 0 5px 5px 0;
+  color: #222222;
+  padding: 10px 14px;
+  margin-bottom: 25px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.alert h4 {
+  border-bottom: 0;
+  color: inherit;
+  padding-bottom: 0;
+  margin: 10px 0;
+}
+.alert p + p {
+  margin-bottom: 5px;
+}
+.alert-warning {
+  background-color: #fef9c7;
+  border-color: #fcdd4a;
+  color: #3b3601;
+}
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #54b646;
+  color: #0d370d;
+}
+.alert-danger,
+.alert-error {
+  background-color: #f2dede;
+  border-color: #ce838f;
+  color: #7a0b0a;
+}
+.alert-info {
+  background-color: #d9edf7;
+  border-color: #049cdb;
+  color: #0c3346;
 }
 /* =============================================================================
    Non-semantic helper classes
@@ -1373,32 +1396,26 @@ input[type="search"] {
 .invisible {
   visibility: hidden;
 }
-/*
-.success {
-	background: url(images/accepted.png) no-repeat 10px center;
-	background-color: rgb(231, 247, 211);
-	background-color: rgba(231, 247, 211, 0.5);
-	border: 1px solid #6c3;
-	border-radius: 5px;
-	padding: 20px 0 20px 80px;
+/* =============================================================================
+   Media queries
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    min-width: 0;
+  }
+  #main {
+    padding: 20px;
+  }
+  #content,
+  #sidebar {
+    width: auto;
+    float: none !important;
+  }
+  .row [class*="span"] {
+    float: none;
+    display: block;
+    width: auto;
+    margin-left: 0;
+  }
 }
-
-.error {
-	background: url(images/cancel.png) no-repeat 10px center;
-	background-color: rgb(255, 235, 232);
-	background-color: rgba(255, 235, 232, 0.5);
-	border: 1px solid #C00;
-	border-radius: 5px;
-	color: #C00;
-	padding: 20px 0 20px 80px;
-}
-
-.warning {
-	background: #fffbbc;
-	border: 1px solid #E6DB55;
-	padding: 20px;
-	border-radius: 5px;
-}
-
-div.warning { margin-bottom: 20px; }*/
-/**/

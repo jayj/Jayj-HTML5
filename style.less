@@ -405,6 +405,7 @@ pre {
 	font-size: 14px;
 	line-height: @preLineHeight;
 	padding: @preLineHeight @smallGutterWidth;
+	margin: 0 0 @smallGutterWidth;
 	position: relative;
 	white-space: pre;
 	white-space: pre-wrap;
@@ -1123,31 +1124,53 @@ input[type="search"] {
 }
 
 /* =============================================================================
-   Media queries
+   Alert messages
    ========================================================================== */
 
-@media only screen and (max-width: 768px) {
-	body {
-		width: 100%;
-		min-width: 0;
+.alert {
+	background-color: @alertBackground;
+	border-left: 5px solid @alertBorder;
+	border-radius: 0 5px 5px 0;
+	color: @alertText;
+	padding: 10px 14px;
+	margin-bottom: @smallGutterWidth;
+	text-shadow: 0 1px 0 rgba(255,255,255, .5);
+
+	h4 {
+		border-bottom: 0;
+		color: inherit;
+		padding-bottom: 0;
+		margin: 10px 0;
 	}
 
-	#main {
-		padding: 20px;
+	p + p {
+		margin-bottom: 5px;
 	}
+}
 
-	#content, #sidebar {
-		width: auto;
-		float: none !important;
-	}
+.alert-warning {
+	background-color: @warningBackground;
+	border-color: @warningBorder;
+	color: @warningText;
+}
 
-	// Make all grid-sized elements block level again
-	.row [class*="span"] {
-		float: none;
-		display: block;
-		width: auto;
-		margin-left: 0;
-	}
+.alert-success {
+	background-color: @successBackground;
+	border-color: @successBorder;
+	color: @successText;
+}
+
+.alert-danger,
+.alert-error {
+	background-color: @errorBackground;
+	border-color: @errorBorder;
+	color: @errorText;
+}
+
+.alert-info {
+	background-color: @infoBackground;
+	border-color: @infoBorder;
+	color: @infoText;
 }
 
 /* =============================================================================
@@ -1187,34 +1210,30 @@ input[type="search"] {
 	visibility: hidden;
 }
 
+/* =============================================================================
+   Media queries
+   ========================================================================== */
 
+@media only screen and (max-width: 768px) {
+	body {
+		width: 100%;
+		min-width: 0;
+	}
 
-/*
-.success {
-	background: url(images/accepted.png) no-repeat 10px center;
-	background-color: rgb(231, 247, 211);
-	background-color: rgba(231, 247, 211, 0.5);
-	border: 1px solid #6c3;
-	border-radius: 5px;
-	padding: 20px 0 20px 80px;
+	#main {
+		padding: 20px;
+	}
+
+	#content, #sidebar {
+		width: auto;
+		float: none !important;
+	}
+
+	// Make all grid-sized elements block level again
+	.row [class*="span"] {
+		float: none;
+		display: block;
+		width: auto;
+		margin-left: 0;
+	}
 }
-
-.error {
-	background: url(images/cancel.png) no-repeat 10px center;
-	background-color: rgb(255, 235, 232);
-	background-color: rgba(255, 235, 232, 0.5);
-	border: 1px solid #C00;
-	border-radius: 5px;
-	color: #C00;
-	padding: 20px 0 20px 80px;
-}
-
-.warning {
-	background: #fffbbc;
-	border: 1px solid #E6DB55;
-	padding: 20px;
-	border-radius: 5px;
-}
-
-div.warning { margin-bottom: 20px; }*/
-/**/

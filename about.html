@@ -74,8 +74,7 @@
 
 		<div class="entry-content">
 			<p>
-				Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.
-				One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+				This page contains examples of many basic HTML elements and their styles.
 			</p>
 
 			<!-- Typography
@@ -85,13 +84,35 @@
 
 					<p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
 
-					<h2>h2. Heading 2</h2>
-					<h3>h3. Heading 3</h3>
-					<h4>h4. Heading 4</h4>
-					<h5>h5. Heading 5</h5>
-					<h6>h6. Heading 6</h6>
+					<div class="row">
+						<div class="span7">
+							<h2>h2. Heading 2</h2>
+							<h3>h3. Heading 3</h3>
+							<h4>h4. Heading 4</h4>
+							<h5>h5. Heading 5</h5>
+							<h6>h6. Heading 6</h6>
+						</div>
 
-	  			<h2>Emphasis, address, and abbreviation</h2>
+						<div class="span5">
+
+							<h1 class="page-header">Page Header <small><code>&lt;small&gt;</code>Subtitle<code>&lt;/small&gt;</code></small></h1>
+
+<pre class="prettyprint">
+&lt;h1 class="page-header"&gt;&lt;/h1&gt;
+
+// or
+&lt;div class="page-header"&gt;
+   &lt;h1&gt;&lt;/h1&gt;
+&lt;/div&gt;
+
+// or
+&lt;section&gt;
+   &lt;h1&gt;&lt;/h1&gt;
+&lt;/section&gt;</pre>
+					</div>
+				</div>
+
+	  			<h2>HTML elements</h2>
 
 					<table>
 						<thead>
@@ -122,21 +143,74 @@
 								<td>For contact information for its nearest ancestor or the entire body of work</td>
 								<td>Preserve formatting by ending all lines with <code>&lt;br&gt;</code></td>
 							</tr>
+
+							<tr>
+								<td><code>&lt;hr /&gt;</code></td>
+								<td>Represents a paragraph-level thematic break</td>
+								<td>Can be written as <code>&lt;hr&gt;</code></td>
+							</tr>
+
+							<tr>
+								<td><code>&lt;ins&gt;</code></td>
+								<td>Represents an addition to the document</td>
+								<td>Include optional <code>cite</code> attribute to specify the address of a document that explains the change <br />
+									The <code>datetime</code> attribute may be used to specify the time and date of the change.</td>
+							</tr>
+
+							<tr>
+								<td><code>&lt;del&gt;</code></td>
+								<td>Represents a removal from the document</td>
+								<td>Same as for <code>&lt;ins&gt;</code></td>
+							</tr>
+
+							<tr>
+								<td><code>&lt;mark&gt;</code></td>
+								<td>Represents a run of text in one document marked or highlighted because of its relevance in another context</td>
+								<td></td>
+							</tr>
+
+							<tr>
+								<td><code>&lt;small&gt;</code></td>
+								<td>Represents side comments such as small print</td>
+								<td></td>
+							</tr>
+
+							<tr>
+								<td><code>&lt;sub&gt;</code></td>
+								<td>Subscripts</td>
+								<td>Water is H<sub>2</sub>O: &nbsp; <code>Water is H&lt;sub&gt;2&lt;/sub&gt;O</code></td>
+							</tr>
+
+							<tr>
+								<td><code>&lt;sup&gt;</code></td>
+								<td>Superscripts</td>
+								<td>E = MC<sup>2</sup>: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <code>E = MC&lt;sub&gt;2&lt;/sub&gt;</code></td>
+							</tr>
 						</tbody>
 					</table>
 
 					<h3>Examples</h3>
 
 					<div class="row">
-   						<div class="span6">
+   						<div class="span4">
 							<p><a href="#">Fusce dapibus</a>, <strong>tellus ac cursus commodo</strong>, <em>tortor mauris condimentum nibh</em>, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue.</p>
 
 							<p><strong>Note:</strong> Feel free to use <code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> in HTML5, but their usage has changed a bit. <code>&lt;b&gt;</code> is meant to highlight words or phrases without conveying additional importance while <code>&lt;i&gt;</code> is mostly for voice, technical terms, etc.</p>
 						</div>
 
-						<div class="span6">
+						<div class="span4">
 							<p>Abbreviations with a <code>title</code> attribute have a light dotted bottom border and a help cursor on hover. This gives users extra indication something will be shown on hover.</p>
 							<p><abbr title="HyperText Markup Language">HTML</abbr> is the best thing since sliced bread. An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
+
+							<p>Elderflower cordial, with one <mark>part</mark> cordial to ten <mark>part</mark>s water, stands a<mark>part</mark> from the rest. This is marked using the <code>&lt;mark&gt;</code> tag.</p>
+						</div>
+
+						<div class="span4">
+							<p>Oh no! I wrote something incorrectly. <del>I’d better delete it</del>, using the <code>&lt;del&gt;</code> tag. I could alternately <span style="text-decoration: line-through;">strike something out</span> using the <code>&lt;strike&gt;</code> tag, or strike something out using the <code>&lt;s&gt;</code> tag. <em>So many choices</em>, which I emphasize using the <code>&lt;em&gt;</code> tag.</p>
+
+							<p>Just to clarify, <ins>this is some inserted text</ins>, that I’ll highlight using the <code>&lt;ins&gt;</code> tag.</p>
+
+							<p><small>Information obtained from <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> and the HTML5 spec. I use the <code>&lt;small&gt;</code> tag here.</small></p>
 						</div>
 					</div>
 
@@ -284,7 +358,7 @@
 					<div class="span4">
 						<h2>Inline</h2>
 						<p>Wrap inline snippets of code with <code>&lt;code&gt;</code>.</p>
-<pre class="prettyprint linenums">
+<pre class="prettyprint">
 For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.</pre>
 					</div> <!-- .span4 -->
 
@@ -458,7 +532,7 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.</pre>
 						<p><label>Textarea <textarea cols="30" rows="5">Textarea text</textarea></label></p>
 					</fieldset>
 
-					<fieldset class="span5">
+					<fieldset class="span4">
 						<legend>Inputs as siblings of labels</legend>
 
 						<p><label for="ic">Color input</label> <input type="color" id="ic"></p>
@@ -495,15 +569,19 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.</pre>
 						<p><label for="t">Textarea</label> <textarea id="t" cols="30" rows="5">Textarea text</textarea></p>
 					</fieldset>
 
-					<fieldset class="span2">
+					<fieldset class="span3">
 						<legend>Clickable inputs and buttons</legend>
 						<p><input type="image" src="http://placekitten.com/90/24" alt="Image (input)"></p>
 						<p><input type="reset" value="Reset (input)"></p>
 						<p><input type="button" value="Button (input)"></p>
 						<p><input type="submit" value="Submit (input)"></p>
+						<p><input type="reset" class="primary" value="Reset (.primary)"></p>
+						<p><input type="button" class="primary" value="Button (.primary)"></p>
+						<p><input type="submit" class="primary" value="Submit (.primary)"></p>
 						<p><button type="reset">Reset (button)</button></p>
 						<p><button type="button">Button (button)</button></p>
 						<p><button type="submit">Submit (button)</button></p>
+						<p><button type="submit" disabled>Disabled button</button></p>
 					</fieldset>
 				</form>
 
@@ -517,21 +595,222 @@ For example, &lt;code&gt;section&lt;/code&gt; should be wrapped as inline.</pre>
 
 				<div class="row">
 					<figure class="span8">
-						<a href="http://i.imgur.com/I7DSo.jpg" title="Full size">
-							<img src="http://i.imgur.com/I7DSo.jpg" alt="Image alt">
+						<a href="http://i.imgur.com/lG2bb.jpg" title="Full size">
+							<img src="http://i.imgur.com/lG2bb.jpg" alt="Image alt">
 						</a>
 						<figcaption>Image caption</figcaption>
 					</figure>
 
-					<div class="span3">
-						<img src="http://i.imgur.com/I7DSo.jpg" alt="Image alt">
+					<div class="span4">
+<pre class="prettyprint">
+&lt;figure&gt;
+   &lt;img src="" alt=""&gt;
+   &lt;figcaption&gt;Caption&lt;/figcaption&gt;
+&lt;/figure&gt;
+</pre>
+						<img src="http://i.imgur.com/lG2bbl.jpg" alt="Image alt">
 					</div>
-
             	</div>
-
 			</section> <!-- #images -->
 
+			<!-- Miscellaneous
+			================================================== -->
+			<section id="miscellaneous">
 
+				<h1>Miscellaneous</h1>
+
+				<h2>The grid system</h2>
+
+				<style>
+					.show-grid {
+						font-size: 12px;
+						margin-top: 10px;
+						margin-bottom: 20px;
+					}
+					.show-grid [class*="span"] {
+						background-color: #eee;
+						text-align: center;
+						border-radius: 3px;
+						min-height: 30px;
+						line-height: 30px;
+					}
+					.show-grid:hover [class*="span"] {
+						background: #bada55;
+					}
+					.show-grid .show-grid {
+						margin-top: 0;
+						margin-bottom: 0;
+					}
+					.show-grid .show-grid [class*="span"] {
+						background-color: #ccc;
+					}
+				</style>
+
+				<div class="row show-grid">
+					<div class="span1">1</div>
+					<div class="span1">1</div>
+					<div class="span1">1</div>
+					<div class="span1">1</div>
+					<div class="span1">1</div>
+					<div class="span1">1</div>
+					<div class="span1">1</div>
+					<div class="span1">1</div>
+					<div class="span1">1</div>
+					<div class="span1">1</div>
+					<div class="span1">1</div>
+					<div class="span1">1</div>
+				</div>
+				<div class="row show-grid">
+					<div class="span4">4</div>
+					<div class="span4">4</div>
+					<div class="span4">4</div>
+				</div>
+				<div class="row show-grid">
+					<div class="span4">4</div>
+					<div class="span8">8</div>
+				</div>
+				<div class="row show-grid">
+					<div class="span6">6</div>
+					<div class="span6">6</div>
+				</div>
+				<div class="row show-grid">
+					<div class="span12">12</div>
+				</div>
+
+				<div class="row">
+					<div class="span4">
+						<p>The grid system is a fluid grid, adapted from <a href="http://twitter.github.com/bootstrap">Twitter Bootstrap</a>. It utilizes <strong>12 columns</strong> and uses percents for column widths instead of fixed pixels.</p>
+					</div>
+					<div class="span5">
+<pre class="prettyprint linenums">
+&lt;div class=&quot;row&quot;&gt;
+   &lt;div class=&quot;span4&quot;&gt;...&lt;/div&gt;
+   &lt;div class=&quot;span8&quot;&gt;...&lt;/div&gt;
+&lt;/div&gt;</pre>
+					</div>
+					<div class="span3">
+						<p>As shown here, a basic layout can be created with two "columns", each spanning a number of the 12 columns.</p>
+					</div>
+				</div>
+
+				<h2>Alerts <small>Styles for success, warning, and error messages</small></h2>
+
+				<div class="row">
+					<div class="alert span6">
+						<strong>Default!</strong> This is a default alert.
+					</div>
+
+<pre class="prettyprint span6">
+&lt;div class=&quot;alert&quot;&gt;
+   ...
+&lt;/div&gt;
+</pre>
+				</div>
+
+				<div class="row">
+					<div class="alert alert-warning span6">
+						<strong>Oh snap!</strong> Change this and that and <a href="#">try again</a>.
+					</div>
+
+<pre class="prettyprint span6">
+&lt;div class=&quot;alert alert-warning&quot;&gt; [...] &lt;/div&gt;
+</pre>
+				</div>
+
+				<div class="row">
+					<div class="alert alert-error span6">
+						<h4>Holy guacamole!</h4>
+						<p>Best check yo self, you're not looking too good.</p>
+						<p>This is line two</p>
+					</div>
+
+<pre class="prettyprint span6">
+&lt;div class=&quot;alert alert-error&quot;&gt; [...] &lt;/div&gt;
+</pre>
+				</div>
+
+				<div class="row">
+					<div class="alert alert-success span6">
+						<strong>Success!</strong> You successfully read this important alert message.
+					</div>
+
+<pre class="prettyprint span6">
+&lt;div class=&quot;alert alert-success&quot;&gt; [...] &lt;/div&gt;
+</pre>
+				</div>
+
+				<div class="row">
+					<div class="alert alert-info span6">
+						<strong>Tip!</strong> This is an alert that needs your attention, but it’s not a huge priority just yet.
+					</div>
+
+<pre class="prettyprint span6">
+&lt;div class=&quot;alert alert-info&quot;&gt; [...] &lt;/div&gt;
+</pre>
+
+				</div>
+
+				<div class="row">
+
+					<div class="span6">
+						<h2>Wells</h2>
+
+						<p>Use the well as a simple effect on an element to give it an inset effect.</p>
+
+						<div class="well">Look, I'm in a well!</div>
+
+<pre class="prettyprint">
+&lt;div class=&quot;well&quot;&gt; [...] &lt;/div&gt;
+</pre>
+					</div>
+
+					<div class="span6">
+						<h2>Helper classes</h2>
+
+						<table>
+						<thead>
+							<tr>
+								<th>Class</th>
+								<th>Usage</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><code>.alignleft</code></td>
+								<td>Floats an element to the left</td>
+							</tr>
+							<tr>
+								<td><code>.alignright</code></td>
+								<td>Floats an element to the right</td>
+							</tr>
+							<tr>
+								<td><code>.aligncenter</code></td>
+								<td>Makes the element a block element and centers it</td>
+							</tr>
+							<tr>
+								<td><code>.clearfix</code></td>
+								<td>For clearing floats, see <a href="http://nicolasgallagher.com/micro-clearfix-hack/">"A new micro clearfix hack"</a></td>
+							</tr>
+							<tr>
+								<td><code>.assistive-text</code></td>
+								<td>Hides text visually, but it will be available for screenreaders</td>
+							</tr>
+							<tr>
+								<td><code>.hidden</code></td>
+								<td>Hides from both screenreaders and browsers</td>
+							</tr>
+							<tr>
+								<td><code>.invisible</code></td>
+								<td>Hides visually and from screenreaders, but maintains layout</td>
+							</tr>
+						</tbody>
+					</table>
+
+
+					</div>
+				</div>
+
+			</section> <!-- #miscellaneous -->
 
 		</div> <!-- .entry-content -->
 

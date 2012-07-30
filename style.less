@@ -517,6 +517,7 @@ table {
 	border-spacing: 0;
 	width: 100%;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	margin-bottom: @smallGutterWidth;
 
 	th, td {
 		border-top: 1px solid @tableBorder;
@@ -658,7 +659,6 @@ input[type="color"] {
 
 input[type="search"] {
 	-webkit-appearance: textfield;
-	.box-sizing(content-box);
 }
 
 input[type="search"]::-webkit-search-decoration,
@@ -801,10 +801,12 @@ input[type="search"] {
 
 .searchform {
 	.well;
+	.clearfix;
 	margin-bottom: @smallGutterWidth;
 
 	input[type="search"] {
-		width: 60%;
+		float: left;
+		width: 68%;
 		margin-bottom: 0;
 	}
 
@@ -1180,6 +1182,29 @@ input[type="search"] {
    Media queries
    ========================================================================== */
 
+@media only screen and (max-width: 1260px) {
+	/* Remove negative margins on post thumbnails and meta */
+	.entry-meta,
+	.thumbnail {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	#main {
+		border-radius: 0;
+		padding: @smallGutterWidth;
+		box-shadow: none;
+	}
+
+	#footer {
+		box-shadow: inset 0 2px 3px rgba(204, 204, 204, 0.6);
+	}
+}
+
+/**
+ * Turn the layout into one column
+ */
 @media only screen and (max-width: 768px) {
 	body {
 		width: 100%;
@@ -1201,5 +1226,45 @@ input[type="search"] {
 		display: block;
 		width: auto;
 		margin-left: 0;
+	}
+
+	#site-title,
+	#site-description {
+		float: none;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+
+	/**
+	 * Make the navigation full width
+	 */
+	.main-navigation li {
+		float: none;
+	}
+
+	.main-navigation .sub-menu {
+		box-shadow: none;
+		display: block;
+		margin: 0 0 5px @smallGutterWidth;
+		position: relative;
+	}
+
+	.edit-link {
+		float: none;
+		margin-left: 5px;
+	}
+
+	/**
+	 * Remove thumbnail image styles and center the image
+	 */
+	.thumbnail {
+		border-radius: 0;
+		box-shadow: none;
+		display: block;
+		float: none;
+		margin: 0 auto @smallGutterWidth;
+		padding: 0;
 	}
 }

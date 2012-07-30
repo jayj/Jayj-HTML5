@@ -536,6 +536,7 @@ table {
   border-spacing: 0;
   width: 100%;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  margin-bottom: 25px;
 }
 table th,
 table td {
@@ -661,10 +662,6 @@ input[type="color"] {
 }
 input[type="search"] {
   -webkit-appearance: textfield;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  -ms-box-sizing: content-box;
-  box-sizing: content-box;
 }
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-results-button {
@@ -896,10 +893,20 @@ input[type="search"] {
   border: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 4px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  *zoom: 1;
   margin-bottom: 25px;
 }
+.searchform:before,
+.searchform:after {
+  display: table;
+  content: "";
+}
+.searchform:after {
+  clear: both;
+}
 .searchform input[type="search"] {
-  width: 60%;
+  float: left;
+  width: 68%;
   margin-bottom: 0;
 }
 .searchform input[type="submit"] {
@@ -1343,6 +1350,26 @@ input[type="search"] {
 /* =============================================================================
    Media queries
    ========================================================================== */
+@media only screen and (max-width: 1260px) {
+  /* Remove negative margins on post thumbnails and meta */
+  .entry-meta,
+  .thumbnail {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #main {
+    border-radius: 0;
+    padding: 25px;
+    box-shadow: none;
+  }
+  #footer {
+    box-shadow: inset 0 2px 3px rgba(204, 204, 204, 0.6);
+  }
+}
+/**
+ * Turn the layout into one column
+ */
 @media only screen and (max-width: 768px) {
   body {
     width: 100%;
@@ -1361,5 +1388,39 @@ input[type="search"] {
     display: block;
     width: auto;
     margin-left: 0;
+  }
+  #site-title,
+  #site-description {
+    float: none;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /**
+  	 * Make the navigation full width
+  	 */
+  .main-navigation li {
+    float: none;
+  }
+  .main-navigation .sub-menu {
+    box-shadow: none;
+    display: block;
+    margin: 0 0 5px 25px;
+    position: relative;
+  }
+  .edit-link {
+    float: none;
+    margin-left: 5px;
+  }
+  /**
+  	 * Remove thumbnail image styles and center the image
+  	 */
+  .thumbnail {
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    float: none;
+    margin: 0 auto 25px;
+    padding: 0;
   }
 }

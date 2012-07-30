@@ -30,8 +30,8 @@ if ( isset( $_POST['email'] ) && empty( $_POST['s_check'] ) ) :
 	$required = array(
 		//'name'    => 'Name',
 		//'subject' => 'Subject',
-		'email'     => 'Email',
-		'message'   => 'Message'
+		'email'   => 'Email',
+		'message' => 'Message'
 	);
 
 	// Declare our $errors variable we will be using later to store any errors.

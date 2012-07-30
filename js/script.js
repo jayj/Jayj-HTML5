@@ -6,9 +6,7 @@ $(document).ready(function(){
 	}
 
 	// Contact form
-	$("form#contactform").submit(function(e) {
-
-		console.log('ran');
+	$("#contactform").submit(function(e) {
 
 		// Setup any needed variables
 		var input_name = $('#your-name').val(),
@@ -24,15 +22,17 @@ $(document).ready(function(){
 		response_text.html('Loading...').show();
 
 		// Make AJAX request
-		$.post('sendmail.php', {name: input_name, email: input_email, subject: input_subject, message: input_message}, function(data){
+		$.post('sendmail.php', {
+			name: input_name,
+			email: input_email,
+			subject: input_subject,
+			message: input_message
+		}, function(data) {
 			response_text.html(data);
 		});
 
-
-
 		// Cancel default action
 		e.preventDefault();
-
 	});
 
 });

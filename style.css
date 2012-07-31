@@ -1056,11 +1056,13 @@ input[type="search"] {
    ========================================================================== */
 .main-navigation {
   margin: 0 0 25px;
+  *z-index: 10;
 }
 .main-navigation li {
   float: left;
   margin: 0 15px 0 0;
   position: relative;
+  *z-index: 5;
 }
 .main-navigation a {
   background-color: #e6e6e6;
@@ -1168,6 +1170,9 @@ input[type="search"] {
   padding: 14px 15px;
   text-shadow: 0 1px 0 #ffffff;
 }
+.ie7 .entry-meta {
+  margin-left: 0;
+}
 /* Edit link */
 .edit-link {
   float: right;
@@ -1218,6 +1223,9 @@ input[type="search"] {
   -ms-transform: rotate(2deg);
   -o-transform: rotate(2deg);
   transform: rotate(2deg);
+}
+.ie7 .thumbnail {
+  margin-left: 0;
 }
 /* =============================================================================
    Widgets
@@ -1372,11 +1380,17 @@ input[type="search"] {
  */
 @media only screen and (max-width: 768px) {
   body {
+    font-size: 16px;
+    line-height: 1.8;
     width: 100%;
     min-width: 0;
   }
-  #main {
+  #main,
+  #master-header {
     padding: 20px;
+  }
+  #main {
+    background: #ffffff;
   }
   #content,
   #sidebar {
@@ -1393,6 +1407,16 @@ input[type="search"] {
   #site-description {
     float: none;
     text-align: center;
+  }
+  #site-description {
+    padding-top: 0;
+  }
+  /* Remove radial gradient in the footer */
+  #footer {
+    background-image: none;
+  }
+  #footer .sep {
+    visibility: hidden;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -1413,14 +1437,11 @@ input[type="search"] {
     margin-left: 5px;
   }
   /**
-  	 * Remove thumbnail image styles and center the image
+  	 * Center the thumbnail image
   	 */
   .thumbnail {
-    border-radius: 0;
-    box-shadow: none;
     display: block;
     float: none;
     margin: 0 auto 25px;
-    padding: 0;
   }
 }

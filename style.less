@@ -892,11 +892,13 @@ input[type="search"] {
 
 .main-navigation {
 	margin: 0 0 @smallGutterWidth;
+	*z-index: 10; // IE7
 
 	li {
 		float: left;
 		margin: 0 15px 0 0;
 		position: relative;
+		*z-index: 5; // IE7
 	}
 
 	// Navigation item
@@ -999,6 +1001,10 @@ input[type="search"] {
 	margin: @gutterWidth 0 0 (@gutterWidth - @gutterWidth * 3);
 	padding: 14px 15px;
 	text-shadow: 0 1px 0 @btnHighlight;
+
+	.ie7 & {
+		margin-left: 0;
+	}
 }
 
 /* Edit link */
@@ -1045,6 +1051,10 @@ input[type="search"] {
 
 	.hentry:nth-of-type(even) &:hover {
 		.rotate(2deg);
+	}
+
+	.ie7 & {
+		margin-left: 0;
 	}
 }
 
@@ -1207,12 +1217,19 @@ input[type="search"] {
  */
 @media only screen and (max-width: 768px) {
 	body {
+		font-size: @baseFontSize + 1px;
+		line-height: @baseLineHeight + 0.2;
 		width: 100%;
 		min-width: 0;
 	}
 
-	#main {
+	#main,
+	#master-header {
 		padding: 20px;
+	}
+
+	#main {
+		background: @contentBackground;
 	}
 
 	#content, #sidebar {
@@ -1232,6 +1249,19 @@ input[type="search"] {
 	#site-description {
 		float: none;
 		text-align: center;
+	}
+
+	#site-description {
+		padding-top: 0;
+	}
+
+	/* Remove radial gradient in the footer */
+	#footer {
+		background-image: none;
+
+		.sep {
+			.invisible;
+		}
 	}
 }
 
@@ -1257,14 +1287,11 @@ input[type="search"] {
 	}
 
 	/**
-	 * Remove thumbnail image styles and center the image
+	 * Center the thumbnail image
 	 */
 	.thumbnail {
-		border-radius: 0;
-		box-shadow: none;
 		display: block;
 		float: none;
 		margin: 0 auto @smallGutterWidth;
-		padding: 0;
 	}
 }

@@ -1,4 +1,6 @@
-# A free HTML5 and CSS3 theme - by [Jesper J](http://jayj.dk)
+# Jayj HTML5 Theme v2.1
+
+> A free HTML5 and CSS3 theme by [Jesper J](http://jayj.dk)
 
 **You are free to use this theme for any purpose** - both private and commercial. You're allowed to remove the credit link in the footer, but please, please leave it there. It allows me continuing creating free themes.
 
@@ -12,12 +14,14 @@ The theme is available as both WordPress and Blogger theme as well
 ## Features
 
 * Uses HTML5 and CSS3
-* Awesome design with a hot pink color!
+* Uses the CSS preprocessor [LESS](http://lesscss.org/)
+* Awesome design with a hot pink color! (can easily be changed)
 * **Fully working Ajax PHP contact form**
 * [Modernizr](http://www.modernizr.com/) for enabling of HTML5 elements &amp; feature detects
-* [Respond.js](https://github.com/scottjehl/Respond) - a lightweight polyfill for min/max-width CSS3 Media Queries
-* Uses Droid Serif, loaded from Google Fonts, for the headings
-* IE6 &amp; IE7 warning (can easily be edited to IE6 only or removed)
+* Uses the fonts [http://goo.gl/QufgJ](Open Sans and Merriweather), both loaded from Google Fonts
+* Uses a 12-col grid system, known from Twitter Bootstrap
+* The theme supports Google Prettify but it is not included in the download
+* Friendly IE6 &amp; IE7 warning; user is recommended to update or install Google Chrome Frame
 * Free to use! (: – It's released under [New BSD License](http://www.opensource.org/licenses/bsd-license.php). The license is included in license.txt
 
 ## License
@@ -26,10 +30,13 @@ The theme is available as both WordPress and Blogger theme as well
 
 ## Credits
 
-* Much of the contact form code from [Dev-tips.com](http://dev-tips.com/featured/ajax-and-php-contact-form)
-* Icons by [Wefunction](http://wefunction.com/2008/07/function-free-icon-set/)
+* [Open Sans font](http://www.google.com/webfonts/specimen/Open+Sans)
+* [Merriweather font](http://www.google.com/webfonts/specimen/Merriweather)
 * [Modernizr](http://www.modernizr.com/)
-* HTML5 Boilerplate
+* [HTML5 Boilerplate](http://html5boilerplate.com/)
+* [normalize.css](http://necolas.github.com/normalize.css/)
+* [Bootstrap, from Twitter](ttp://twitter.github.com/bootstrap/)
+* [HTML5]()
 * Tyler Longren for WordPress version
 * Rethnaraj Rambabu for Blogger version
 * **You!** For being awesome

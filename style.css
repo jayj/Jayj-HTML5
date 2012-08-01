@@ -1,6 +1,17 @@
-/* =============================================================================
-   HTML5 display definitions
-   ========================================================================== */
+/* ============================================================================= */
+/* ============================================================================= */
+/*
+ * Jayj HTML5, a free HTML5 And CSS3 Theme
+ * Version 2.1
+ * By Jesper J, http://jayj.dk
+ * Download for free at http://jayj.dk/a-free-html5-and-css3-theme/
+
+	Released under New BSD License
+	http://www.opensource.org/licenses/bsd-license.php
+
+	Copyright (c) 2009-2012, Jayj.dk
+	All rights reserved.
+*/
 .clearfix {
   *zoom: 1;
 }
@@ -22,18 +33,6 @@
   border-radius: 4px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
-/**
- * Jayj HTML5, a free HTML5 And CSS3 Theme
- * Version 2.1-dev
- * By Jesper J, http://jayj.dk
- * Download for free at http://jayj.dk/a-free-html5-and-css3-theme/
-
-	Released under New BSD License
-	http://www.opensource.org/licenses/bsd-license.php
-
-	Copyright (c) 2009-2012, Jayj.dk
-	All rights reserved.
-*/
 /* =============================================================================
    HTML5 display definitions
    ========================================================================== */

@@ -1,0 +1,15 @@
+{
+  "name": "JayjHTML5template",
+  "version": "3.0.0",
+  "description": "A free HTML5 template.",
+  "homepage": "http://jayj.dk/themes/html5-theme/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jayj/Jayj-HTML5.git"
+  },
+  "author": "Jesper Johansen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayj/Jayj-HTML5/issues"
+  }
+}

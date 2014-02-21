@@ -95,7 +95,7 @@ body {
   margin: 0 auto;
   /* Background image and color */
   background-color: #ededed;
-  background-image: url(images/bg.png);
+  background-image: url(../images/bg.png);
   background-repeat: repeat;
   background-attachment: fixed;
   /* Fallback background image */
@@ -864,7 +864,7 @@ input[disabled] {
  * Search inputs
   */
 input[type="search"] {
-  background: #ffffff url(images/search.png) no-repeat 8px center;
+  background: #ffffff url(../images/search.png) no-repeat 8px center;
   padding-left: 22px;
 }
 .searchform {

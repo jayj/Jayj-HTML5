@@ -263,7 +263,7 @@
 		@gridRowWidth:		(@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1));
 
 		.spanX (@index) when (@index > 0) {
-			(~".span@{index}") { .span(@index); }
+			.span_@{index} { .span(@index); }
 			.spanX(@index - 1);
 		}
 

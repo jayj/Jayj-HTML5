@@ -437,15 +437,11 @@ pre .tag { color: #000088; }
    Embedded content
    ========================================================================== */
 
-/*
- * 1. Improve image quality when scaled in IE7: h5bp.com/d
- * 2. Remove the gap between images and borders on image containers: h5bp.com/i/440
- */
+
 img {
 	border: 0;
 	vertical-align: middle;
 	.box-sizing(content-box);
-	-ms-interpolation-mode: bicubic;
 }
 
 a:hover img {
@@ -764,7 +760,6 @@ input[type="submit"] {
 	display: inline-block;
 	vertical-align: middle;
 	cursor: pointer; /* Display hand cursor for clickable form elements */
-	*overflow: visible; /* Correct inner spacing displayed oddly in IE7 (doesn't effect IE6) */
 
 	/* Pink, primary button */
 	&.primary {
@@ -889,13 +884,11 @@ input[type="search"] {
 
 .main-navigation {
 	margin: 0 0 @smallGutterWidth;
-	*z-index: 10; // IE7
 
 	li {
 		float: left;
 		margin: 0 15px 0 0;
 		position: relative;
-		*z-index: 5; // IE7
 	}
 
 	// Navigation item
@@ -998,10 +991,6 @@ input[type="search"] {
 	margin: @gutterWidth 0 0 (@gutterWidth - @gutterWidth * 3);
 	padding: 14px 15px;
 	text-shadow: 0 1px 0 @btnHighlight;
-
-	.ie7 & {
-		margin-left: 0;
-	}
 }
 
 /* Edit link */
@@ -1048,10 +1037,6 @@ input[type="search"] {
 
 	.hentry:nth-of-type(even) &:hover {
 		.rotate(2deg);
-	}
-
-	.ie7 & {
-		margin-left: 0;
 	}
 }
 

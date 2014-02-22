@@ -3,23 +3,36 @@ module.exports = function(grunt) {
 	// Project configuration.
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
-		// Compile Less
-		less: {
+		// Compile Sass
+		sass: {
 			dev: {
 				files: {
-					'css/style.css': 'less/style.less'
+					'css/style.css': 'sass/main.scss'
+				},
+				options: {
+					style: 'expanded'
 				}
 			}
 		},
 		// Watch for file changes
 		watch: {
-			less: {
-				files: [ 'less/*.less' ],
-				tasks: [ 'less' ],
+			css: {
+				files: [ 'sass/**/*.scss' ],
+				tasks: [ 'sass', 'autoprefixer' ],
 				options: {
 					livereload: true,
 				},
 			}
+		},
+		// Autoprefix the compiled CSS
+		autoprefixer: {
+			dev: {
+				options: {
+					browsers: ['last 2 version', 'ie 8', 'ie 9']
+				},
+				src: 'css/style.css',
+				dest: 'css/style.css'
+			},
 		},
 		// Minify images
 		imagemin: {
@@ -66,14 +79,16 @@ module.exports = function(grunt) {
 
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-less');
+	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
+	grunt.loadNpmTasks('grunt-autoprefixer');
 
 
 	// Default task
 	grunt.registerTask( 'default', [ 'watch' ] );
 
 	// Pre-build task
-	grunt.registerTask( 'pre-build', [ 'less', 'imagemin' ]);
+	grunt.registerTask( 'pre-build', [ 'sass', 'autoprefixer', 'imagemin' ]);
 
 	// Build task
 	grunt.registerTask( 'build', [ 'clean:build', 'copy:build', 'compress:build' ]);

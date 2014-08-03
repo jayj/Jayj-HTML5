@@ -1,0 +1,66 @@
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+// Apply a natural box layout model to all elements
+// http://paulirish.com/2012/box-sizing-border-box-ftw/
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+// Set base font and color
+body, button, input, select, textarea {
+    color: $text-color;
+    font: {
+        family: $base-font-family;
+        weight: $base-font-weight;
+        @include rem(size, $base-font-size);
+    }
+    line-height: $base-line-height;
+}
+
+// Set body background
+// @todo CSS3 gradient
+body {
+    background:
+        $body-background-color
+        url($body-background-image)
+        repeat
+        fixed;
+}
+
+// @todo Selections
+/**
+ * The selection color
+ * These selection declarations have to be separate
+ */
+::-moz-selection {
+    background: $selection-color;
+    color: $selection-text-color;
+    text-shadow: none;
+}
+
+::selection {
+    background: $selection-color;
+    color: $selection-text-color;
+    text-shadow: none;
+}
+
+
+
+/* Links
+   ========================================================================== */
+
+a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $link-color-hover;
+        text-decoration: underline;
+    }
+}

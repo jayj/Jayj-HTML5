@@ -1,0 +1,47 @@
+/*!
+ * Jayj HTML5 template
+ * Version 3.0
+ * By Jesper Johansen, http://jayj.dk
+ * Download for free at http://jayj.dk/a-free-html5-and-css3-theme/
+
+    Released under MIT License.
+    See LICENSE.md
+    http://www.opensource.org/licenses/bsd-license.php
+*/
+
+// Overwrite variables by defining them here
+
+$primary-color: #f71570; // pink
+
+
+// Load variables and mixins
+@import "modules/variables";
+@import "modules/mixins";
+
+// Reset
+@import "vendor/normalize";
+
+// Partials
+@import "partials/base";
+@import "partials/type";
+@import "partials/lists";
+@import "partials/quotes";
+@import "partials/code";
+@import "partials/tables";
+@import "partials/forms";
+@import "partials/buttons";
+@import "partials/media";
+
+// Sections
+@import "partials/layout";
+@import "partials/header";
+@import "partials/navigation";
+@import "partials/posts";
+@import "partials/widgets";
+@import "partials/footer";
+
+// Misc
+@import "partials/utilities";
+
+// Third-party
+// ...

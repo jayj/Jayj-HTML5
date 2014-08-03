@@ -1,0 +1,106 @@
+/* Layout: Navigation
+   ========================================================================== */
+
+.main-navigation {
+    // Set up variables
+    $highlight: nth($menu-bg-color, 1);
+    $shadow: nth($menu-bg-color, 2);
+
+    // Set margins
+    @include rem(margin-top, -$gutter-width - 10px);
+    @include rem(margin-bottom, $gutter-width);
+
+    > ul {
+        display: flex;
+        @include no-list-style;
+        justify-content: center;
+
+        @include bp(medium) {
+            justify-content: flex-start;
+        }
+    }
+
+    // Menu items
+    li {
+        @include rem(margin-left, 15px);
+        position: relative;
+
+        &:first-of-type {
+            margin-left: 0;
+        }
+    }
+
+    li > a {
+        $btn-hover-darken: 4%; // overwrite the default value
+        $border-color: lighten($highlight, 5%), darken($shadow, 11.5%), darken($shadow, 11.5%), lighten($highlight, 5%);
+        @include button-variant($link-color, $menu-bg-color, $border-color, lighten($highlight, 5%) );
+        @include rem(font-size, $base-font-size + 2px);
+        @include rem(padding, 14px 21px);
+        display: block;
+
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+
+        transition: all 180ms ease;
+
+
+
+    }
+
+    li > a:hover {
+        //background-image: linear-gradient(to bottom, $highlight, darken($shadow, 3%));
+        border-radius: 10px 0 10px 0;
+        text-decoration: none;
+    }
+
+    // Current menu item
+    .current > a,
+    .current > a:hover {
+        background-image: linear-gradient(
+            to bottom,
+            nth($menu-current-bg-color, 1),
+            nth($menu-current-bg-color, 2)
+        );
+        border-color: transparent;
+        border-radius: 10px 0 10px 0;
+        color: #fff;
+        text-shadow: 0 1px 0 rgba(#000, 0.1);
+    }
+
+    .current > a:hover {
+        border-radius: 0 10px 0 10px;
+    }
+}
+
+// Sub-menu
+.main-navigation .sub-menu {
+    $sub-menu-width: 200px;
+    @include rem(min-width, $sub-menu-width);
+    @include no-list-style;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    box-shadow: 0 1px 6px rgba(#000, 0.2);
+
+    li {
+        margin-left: 0;
+    }
+
+    li > a,
+    .current > a:hover  {
+        border-radius: 0;
+    }
+
+    // Sub-menu, level n
+    & .sub-menu {
+        top: 0;
+        left: 100%;
+    }
+}
+
+// Show sub-menu on hover
+.main-navigation li:hover > .sub-menu {
+    display: block;
+}

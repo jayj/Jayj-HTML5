@@ -1,0 +1,66 @@
+/* Embedded content
+   ========================================================================== */
+
+// Responsive media (ensure media don't scale beyond their parents)
+@if $media-responsive {
+	img, iframe,
+	embed, object,
+	audio, video {
+		max-width: 100%;
+	}
+
+	img {
+		height: auto;
+	}
+}
+
+// a:hover img {
+// 	box-shadow: 0 0 8px @primaryColor;
+// 	.transition(all 200ms ease);
+// }
+
+// Figures
+figure {
+	@include rem(padding, $figure-spacing);
+	@include rem(margin, $figure-spacing 0);
+	border-radius: 5px;
+	background: $figure-background;
+	color: $figure-text-color;
+	text-align: center;
+
+	// Figure content
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	pre {
+		text-align: left;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	// Figure caption
+	figcaption {
+		font: {
+			family: $figure-font-family;
+			@include rem(size, $base-font-size - 1px);
+		}
+
+		code {
+			color: $figure-code-color;
+		}
+
+		// Caption is first in the figure
+		&:first-child {
+			@include rem(margin-bottom, $figure-spacing);
+		}
+
+		// Caption is last in the figure
+		&:last-child {
+			@include rem(margin-top, $figure-spacing);
+		}
+	}
+}

@@ -1,0 +1,53 @@
+/* Layout: Header
+   ========================================================================== */
+
+.site-header {
+    padding: $gutter-width;
+    text-align: center;
+
+    @include breakpoint(medium) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+}
+
+.site-title {
+    flex: 3;
+
+    a {
+        color: $site-title-color;
+        display: inline-block;
+        font: {
+            size: $site-title-size;
+            weight: $site-title-weight;
+        }
+        text-shadow: 0 1px 0 $site-title-shadow-color;
+        transition: all 200ms ease-in-out;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: darken($site-title-color, 10%);
+            text-decoration: none;
+            transform: scale(1.06);
+
+            // 3d shadow effect
+            @include shadow(#fff, 5);
+        }
+    }
+}
+
+.site-description {
+    flex: 2;
+
+    font: {
+        size: $site-description-size;
+        weight: $site-description-weight;
+    }
+
+    @include breakpoint(medium) {
+        text-align: right;
+    }
+}

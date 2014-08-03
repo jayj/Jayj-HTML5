@@ -1,0 +1,83 @@
+/* =============================================================================
+   Layout
+   ========================================================================== */
+
+// Set site width
+body {
+    width: 100%;
+    max-width: $site-width;
+    margin: 0 auto;
+}
+
+// Content wrapper
+.site-content {
+    background-image: linear-gradient(
+        to bottom,
+        rgba($content-background, 0.25),
+        $content-background 12rem);
+
+    border-radius: 10px;
+    box-shadow: 0 2px 3px 0 rgba($gray-light, 0.4);
+
+    padding: $gutter-width;
+
+    // Use Flexbox for screen bigger than the medium width
+    @include breakpoint(medium) {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    // No support for CSS3 gradients
+    .no-cssgradients & {
+        background-color: $content-background;
+    }
+}
+
+// Main navigation
+.main-navigation {
+    @include breakpoint(medium) {
+        flex: 1 100%;
+    }
+}
+
+// Main content
+main {
+    @include breakpoint(medium) {
+        flex: 3 56%;
+    }
+}
+
+// Sidebar
+.sidebar {
+    @include breakpoint(medium) {
+        flex: 1 34%;
+        margin-left: $gutter-width;
+        padding-left: $gutter-width;
+        border-left: 1px solid $gray-lighter;
+    }
+}
+
+
+// GRID!!!
+
+// .row {
+//     display: flex;
+//     flex-wrap: wrap;
+//     @include no-list-style;
+// }
+
+// @for $i from 1 through 12 {
+//     .col-#{$i} {
+//         flex: $i;
+//     }
+// }
+
+// [class*="col-"] {
+//     @include rem(margin-left, $gutter-width / 2);
+// }
+
+// [class*="col-"]:first-child {
+//     margin-left: 0;
+// }
+
+

@@ -1,0 +1,97 @@
+/* Forms
+   ========================================================================== */
+
+fieldset {
+    @include rem(margin-bottom, $gutter-width);
+}
+
+legend {
+    @include rem(padding, 6px 8px);
+    border: solid $content-background;
+    border-width: 0 2px;
+    border-radius: 5px;
+    background-color: $legend-background;
+    color: $legend-text-color;
+}
+
+// Inputs
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+textarea,
+select {
+    display: block;
+    padding: 6px;
+    width: 100%;
+    border: 1px solid $input-border-color;
+    border-radius: $input-border-radius;
+    background-color: $input-background;
+    box-shadow: inset 0 1px 1px rgba(#000, 0.075);
+    color: $input-text-color;
+
+    label > & {
+        margin-top: $label-input-spacing;
+    }
+
+    // Invalid inputs, change outline to red
+    &:invalid:focus {
+        outline-color: $red;
+    }
+}
+
+input[type="range"] {
+    // full width range input
+    display: block;
+    width: 100%;
+
+    label > & {
+        margin-top: $label-input-spacing;
+    }
+}
+
+input[type="color"] {
+    padding: 0; // reset padding, otherwise the color is barely visible
+}
+
+input[type="search"] {
+    box-sizing: border-box; // overwrites normalize.css
+}
+
+// Labels
+label {
+    display: block;
+    font: {
+        family: $label-font-family;
+        weight: $label-font-weight;
+        @include rem(size, $label-font-size);
+    }
+
+    .required {
+        @include rem(padding-left, 2px);
+        color: $label-required-color;
+        font-weight: normal;
+        font-size: 90%;
+    }
+}
+
+// Checkboxes and radios
+.checkbox,
+.radio {
+    // Reset label font weight
+    &, label {
+        font-weight: inherit;
+        cursor: pointer;
+    }
+}
+

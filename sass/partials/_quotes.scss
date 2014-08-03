@@ -1,0 +1,50 @@
+/* Quotes
+   ========================================================================== */
+
+blockquote {
+    @include rem(padding, 10px 20px);
+    @include rem(margin, 0 0 $gutter-width);
+    @include rem(font-size, $base-font-size * 1.25);
+    border-left: 5px solid $quote-border-color;
+
+    p {
+        margin-top: 0;
+    }
+
+    p:last-child,
+    ul:last-child,
+    ol:last-child {
+        margin-bottom: 0;
+    }
+
+    // Citations
+    footer,
+    > cite {
+        display: block;
+        color: $gray-light;
+        font-size: 85%;
+
+        &:before {
+            content: '\2014 \00A0'; // em dash, space
+        }
+    }
+}
+
+// Right-aligned blockquote
+.blockquote-reverse,
+blockquote.alignright {
+    float: right;
+    border-right: 5px solid $quote-border-color;
+    border-left: 0;
+    text-align: right;
+
+    // Citations
+    footer,
+    > cite {
+        &:before { content: ''; }
+
+        &:after {
+            content: '\00A0 \2014'; // space, em dash
+        }
+    }
+}

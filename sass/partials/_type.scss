@@ -1,0 +1,39 @@
+/* Headings
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+    font: {
+        family: $heading-font-family;
+        weight: $heading-font-weight;
+    }
+    line-height: $heading-line-height;
+}
+
+.entry-title {
+    @include rem(font-size, $heading-font-size + 6px);
+    letter-spacing: -1px;
+}
+
+// Style h3 and h5 headings differently
+h3 {
+    @include rem(padding-bottom, 6px);
+    border-bottom: 1px solid $gray-lighter;
+    color: $primary-color;
+}
+
+h5 {
+    @include rem(font-size, $base-font-size);
+    color: $gray-light;
+    text-transform: uppercase;
+}
+
+/* HTML elements
+   ========================================================================== */
+
+hr {
+    @include rem(margin, $gutter-width 0);
+    border: 0;
+    border-top: 4px double $hr-border-color;
+}
+
+

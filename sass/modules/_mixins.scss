@@ -1,0 +1,137 @@
+//
+// Mixins
+// --------------------------------------------------
+
+@import "rem";
+
+// Clearfix
+// Source: http://nicolasgallagher.com/micro-clearfix-hack/
+@mixin clearfix() {
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+// Breakpoint mixin
+// Source: http://css-tricks.com/naming-media-queries/
+@mixin breakpoint($point) {
+    @if $point == very-large {
+        @media (min-width: 1600px) { @content; }
+    }
+    @if $point == large {
+        @media (min-width: 1260px) { @content; }
+    }
+    @else if $point == medium {
+        @media (min-width: 840px) { @content; }
+    }
+    @else if $point == small {
+        @media (min-width: 620px)  { @content; }
+    }
+    @else if $point == very-small {
+        @media (min-width: 480px)  { @content; }
+    }
+}
+
+// @todo remove this
+@mixin bp($point) {
+    @if $point == very-large {
+        @media (min-width: 1600px) { @content; }
+    }
+    @if $point == large {
+        @media (min-width: 1260px) { @content; }
+    }
+    @else if $point == medium {
+        @media (min-width: 840px) { @content; }
+    }
+    @else if $point == small {
+        @media (min-width: 620px)  { @content; }
+    }
+    @else if $point == very-small {
+        @media (min-width: 480px)  { @content; }
+    }
+}
+
+// Sizing shortcuts
+@mixin size($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin square($size) {
+    @include size($size, $size);
+}
+
+// 3d text-shadow
+@mixin shadow($color, $steps) {
+    $content: ();
+    @for $i from 1 through $steps {
+        $shadow: unquote(#{$i}px #{$i}px $color);
+        $content: append($content, $shadow, comma);
+    }
+    text-shadow: $content;
+}
+
+// Remove list styles
+@mixin no-list-style {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+// Buttons
+@mixin button() {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    white-space: nowrap;
+    font-weight: $btn-font-weight;
+    @include rem(padding, 9px 14px);
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+@mixin button-variant($color, $background, $border, $shadow: false) {
+
+    // Use a gradient if $background is a list
+    @if type-of($background) == list {
+        background-image: linear-gradient(to bottom, $background);
+    } @else {
+        background: $background;
+    }
+
+    @if $border != false {
+        border-color: join($border, (), 'space'); // Convert comma to space
+    }
+
+    @if $shadow != false {
+        text-shadow: 1px 1px 0 $shadow;
+    }
+
+    color: $color;
+
+    &:hover {
+        // Use a gradient if $background is a list
+        @if type-of($background) == list {
+            $hover-bg: ();
+
+            // Darken each color in the list
+            @each $bg in $background {
+                $hover-bg: append( $hover-bg, darken($bg, $btn-hover-darken), 'comma' );
+            }
+
+            background-image: linear-gradient(to bottom, $hover-bg);
+        } @else {
+            background: darken($background, $btn-hover-darken);
+        }
+
+        color: darken($color, $btn-hover-darken);
+    }
+}

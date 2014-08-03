@@ -1,0 +1,222 @@
+// ===========================
+// Color definitions
+// ===========================
+
+// Greys
+$black:             #000;
+$gray-darker:       #222 !default;
+$gray-dark:         #333 !default;
+$gray:              #555 !default;
+$gray-light:        #999 !default;
+$gray-lighter:      #eee !default;
+$white:             #fff;
+
+
+// Accent colors
+$blue:              #049cdb !default;
+$blue-dark:         #0064cd !default;
+$green:             #093    !default;
+$red:               #e9322d !default;
+$yellow:            #ff0    !default;
+$orange:            #f89406 !default;
+$pink:              #f71570 !default;
+$purple:            #ca349b !default;
+
+// ===========================
+// Scaffolding
+// ===========================
+
+$primary-color:               $pink !default;
+$text-color:                  $gray-darker !default;
+
+$baseline-px:                 10px;
+
+$body-background-color:       #ededed !default;
+$body-background-image:       '../images/bg.png' !default;
+$content-background:          #fff !default;
+
+// ===========================
+// Fonts
+// ===========================
+
+// Font weights
+$light:                       300 !default;
+$regular:                     400 !default;
+$bold:                        700 !default;
+
+// Base Font
+$base-font-family:            "Open Sans", sans-serif !default;
+$base-font-weight:            $regular !default;
+$base-font-size:              15px !default;
+$base-line-height:            1.6 !default;
+
+// Heading Font
+$heading-font-family:         "Merriweather", sans-serif !default;
+$heading-font-weight:         $bold !default;
+$heading-font-size:           30px !default;
+$heading-line-height:         $base-line-height !default;
+
+// Monospace Font
+$monospace-font-family:       Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$monospace-font-size:         15px !default;
+$monospace-line-height:       $base-line-height !default;
+
+// ===========================
+// Layout
+// ===========================
+
+$gutter-width:				  40px !default;
+$small-gutter-width:		  25px !default;
+
+$site-width: 1140px !default; // 114rem
+
+// ===========================
+// Links
+// ===========================
+
+$link-color:                  $primary-color !default;
+$link-color-hover:            darken($link-color, 18%) !default;
+
+// ===========================
+// Header
+// ===========================
+
+// Site title
+$site-title-size:             4.8rem !default;
+$site-title-color:            $link-color !default;
+$site-title-shadow-color:     #fff !default;
+$site-title-weight:           $regular !default;
+
+// Site description
+$site-description-size:       1.8rem !default;
+$site-description-weight:     $light !default;
+
+// ===========================
+// Footer
+// ===========================
+
+$footer-link-color:           $link-color !default;
+$footer-background-opacity:   10% !default; // Opacity on the black radial gradient in the footer
+
+// ===========================
+// Navigation
+// ===========================
+
+$menu-bg-color:               #f2f2f2, #e6e6e6 !default;
+$menu-current-bg-color:       lighten($primary-color, 10%), $primary-color !default;
+
+// ===========================
+// HTML elements
+// ===========================
+
+// Color on selected text
+$selection-color:             #bada55 !default; // Green
+$selection-text-color:        #000 !default;
+
+// Horizontal rule <hr />
+$hr-border-color:             darken($gray-lighter, 5%) !default;
+
+// Lists
+$list-description-indent:     $small-gutter-width !default;
+
+// Blockquotes
+$quote-border-color:          $blue !default;
+
+// Tables
+$table-background:            #fff !default;
+$table-border-color:          #ddd !default;
+$table-foot-background:       #f5f5f5 !default;
+
+
+// Code blocks <pre>
+$pre-bg:                      #f5f5f5    !default;
+$pre-text-color:              $gray-dark !default;
+$pre-border-color:            #ccc       !default;
+$pre-show-lines:              true       !default;
+$pre-prettify-sep-color:      #ebe0e1    !default;
+
+// Code <code>
+$code-text-color:             $green !default;
+
+// Keyboard text <kbd>
+$kbd-color:                   #fff !default;
+$kbd-bg:                      $gray-dark !default;
+
+// ===========================
+// Media
+// ===========================
+
+$media-responsive:              true !default;
+
+// Figures <figure>
+$figure-background:           $gray-dark !default;
+$figure-text-color:           #fff !default;
+$figure-code-color:           lighten($code-text-color, 7%) !default;
+$figure-font-family:          $heading-font-family !default;
+$figure-spacing:              $small-gutter-width !default;
+
+// ===========================
+// Buttons
+// ===========================
+
+$btn-font-weight: $regular;
+$btn-hover-darken: 7%;
+
+// Default button
+$btn-default-bg:              #f2f2f2, #e8e8e8 !default;
+$btn-default-border-color:    #ccc, #ccc, #bbb !default;
+$btn-default-text-color:      $gray-dark !default;
+$btn-default-shadow-color:    rgba(#fff, 0.5)!default;
+
+// Primary button
+$btn-primary-bg:              $primary-color !default;
+$btn-primary-border-color:    darken($btn-primary-bg, 5%);
+$btn-primary-text-color:      #fff !default;
+$btn-primary-shadow-color:    rgba(#000, 0.3)!default;
+
+
+// ===========================
+// Form elements
+// ===========================
+
+// Legends <legend>
+$legend-background:           #ffeef7 !default;
+$legend-text-color:           darken($purple, 10%) !default;
+
+// Inputs
+$input-background:            #fff !default;
+$input-border-color:          #ccc !default;
+$input-border-radius:         3px !default;
+$input-text-color:            $text-color !default;
+
+// Labels
+$label-font-weight: $bold !default;
+$label-font-family: $base-font-family !default;
+$label-font-size: $base-font-size !default;
+$label-required-color: #777 !default;
+$label-input-spacing: 5px!default;
+
+// ===========================
+// Alert messages
+// ===========================
+
+$alert-text-color:            $gray-darker !default;
+$alert-background:            $gray-lighter !default;
+$alert-border-color:          darken($gray-lighter, 8%) !default;
+
+$warning-text-color:          #3b3601 !default;
+$warning-background:          #fef9c7 !default;
+$warning-border-color:        spin(darken($warning-background, 25%), -5) !default;
+
+$error-text-color:            #7a0b0a !default;
+$error-background:            #f2dede !default;
+$error-border-color:          spin(darken($error-background, 25%), -10) !default;
+
+$success-text-color:          #0d370d !default;
+$success-background:          #dff0d8 !default;
+$success-border-color:        spin(darken($success-background, 40%), 10) !default;
+
+$info-text-color:             #0c3346 !default;
+$info-background:             #d9edf7 !default;
+$info-border-color:           $blue !default;
+

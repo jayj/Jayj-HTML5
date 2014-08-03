@@ -33,22 +33,7 @@ body {
         fixed;
 }
 
-// @todo Selections
-/**
- * The selection color
- * These selection declarations have to be separate
- */
-::-moz-selection {
-    background: $selection-color;
-    color: $selection-text-color;
-    text-shadow: none;
-}
 
-::selection {
-    background: $selection-color;
-    color: $selection-text-color;
-    text-shadow: none;
-}
 
 
 
@@ -63,4 +48,14 @@ a {
         color: $link-color-hover;
         text-decoration: underline;
     }
+}
+
+
+/* Selection color
+   ========================================================================== */
+
+::selection {
+    background: $selection-color;
+    color: $selection-text-color;
+    text-shadow: none;
 }

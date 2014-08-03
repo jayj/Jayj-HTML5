@@ -31,8 +31,23 @@ $text-color:                  $gray-darker !default;
 
 $baseline-px:                 10px;
 
-$body-background-color:       #ededed !default;
-$body-background-image:       '../images/bg.png' !default;
+// ===========================
+// Body
+// ===========================
+
+$body-bg-color:       #ededed !default;
+
+$body-bg-image:       'gradient' !default; // gradient or image reference
+$body-bg-fallback:    '../images/bg.png' !default; // if browser doesn't support gradients
+
+// Body gradient options
+$body-bg-gradient-size: 16px 16px !default;
+$body-bg-gradient-angle: 45deg !default;
+$body-bg-gradient-color: rgba(#fff, 0.2) !default;
+
+// Body image options
+$body-bg-image-repeat:     repeat !default;
+$body-bg-image-attachment: fixed !default;
 $content-background:          #fff !default;
 
 // ===========================

@@ -6,52 +6,52 @@
     $highlight: nth($menu-bg-color, 1);
     $shadow: nth($menu-bg-color, 2);
 
-    // Set margins
-    @include rem(margin-top, -$gutter-width - 10px);
-    @include rem(margin-bottom, $gutter-width);
+    clear: both;
+    margin-top: (-$gutter-width-rem - 1rem);
+    margin-bottom: ($gutter-width-rem - $menu-items-space);
 
-    > ul {
+    ul {
         display: flex;
         @include no-list-style;
         justify-content: center;
+        flex-wrap: wrap;
 
         @include bp(medium) {
             justify-content: flex-start;
+            // justify-content: space-between;
         }
     }
 
     // Menu items
     li {
-        @include rem(margin-left, 15px);
         position: relative;
+        margin-right: $menu-items-space;
+        margin-bottom: $menu-items-space; // For long two-line menus
 
-        &:first-of-type {
-            margin-left: 0;
+        &:last-of-type {
+            margin-right: 0;
         }
     }
 
     li > a {
-        $btn-hover-darken: 4%; // overwrite the default value
+        // Style the menu item as a button
         $border-color: lighten($highlight, 5%), darken($shadow, 11.5%), darken($shadow, 11.5%), lighten($highlight, 5%);
-        @include button-variant($link-color, $menu-bg-color, $border-color, lighten($highlight, 5%) );
-        @include rem(font-size, $base-font-size + 2px);
-        @include rem(padding, 14px 21px);
-        display: block;
+        @include button-variant($menu-text-color, $menu-bg-color, $border-color, $menu-text-shadow);
 
         border-width: 1px;
         border-style: solid;
         border-radius: 5px;
 
+        display: block;
+        padding: 1.4rem 2.1rem;
+        font-size: $menu-font-size;
         transition: all 180ms ease;
 
+        &:hover {
+            border-radius: 10px 0 10px 0;
+            text-decoration: none;
+        }
 
-
-    }
-
-    li > a:hover {
-        //background-image: linear-gradient(to bottom, $highlight, darken($shadow, 3%));
-        border-radius: 10px 0 10px 0;
-        text-decoration: none;
     }
 
     // Current menu item
@@ -65,7 +65,7 @@
         border-color: transparent;
         border-radius: 10px 0 10px 0;
         color: #fff;
-        text-shadow: 0 1px 0 rgba(#000, 0.1);
+        text-shadow: 0 1px 0 rgba(#000, 0.25);
     }
 
     .current > a:hover {
@@ -75,17 +75,21 @@
 
 // Sub-menu
 .main-navigation .sub-menu {
-    $sub-menu-width: 200px;
-    @include rem(min-width, $sub-menu-width);
-    @include no-list-style;
+    min-width: $menu-sub-width;
+    flex-direction: column;
     position: absolute;
+
     top: 100%;
-    left: 0;
+    left: 1px;
     display: none;
     box-shadow: 0 1px 6px rgba(#000, 0.2);
 
     li {
-        margin-left: 0;
+        margin: 0;
+    }
+
+    li > a {
+        font-size: $menu-font-size * 0.88;
     }
 
     li > a,

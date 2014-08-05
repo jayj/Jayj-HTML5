@@ -120,6 +120,14 @@ $footer-background-opacity:   10% !default; // Opacity on the black radial gradi
 $menu-bg-color:               #f2f2f2, #e6e6e6 !default;
 $menu-current-bg-color:       lighten($primary-color, 10%), $primary-color !default;
 
+$menu-text-color: $link-color !default;
+$menu-text-shadow: #fff !default;
+
+$menu-font-size: $base-font-size * 1.15 !default;
+
+$menu-items-space: 1.5rem !default;
+
+$menu-sub-width: 20rem !default;
 // ===========================
 // HTML elements
 // ===========================

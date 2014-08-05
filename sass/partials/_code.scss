@@ -8,7 +8,7 @@ pre,
 samp {
     font: {
         family: $monospace-font-family;
-        @include rem(size, $monospace-font-size);
+        size: $monospace-font-size;
     }
     line-height: $monospace-line-height;
 }
@@ -93,7 +93,7 @@ pre[class*="linenums"] {
         color: #aeaeae;
         margin: 0;
         padding: 0 0 0 24px;
-        @include rem(line-height, ($monospace-font-size * $monospace-line-height));
+        line-height: ($monospace-font-size * $monospace-line-height);
 
         li {
             padding-left: 24px;

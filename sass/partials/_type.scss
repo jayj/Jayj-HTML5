@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .entry-title {
-    @include rem(font-size, $heading-font-size + 6px);
+    font-size: 3.6rem; // @todo add as variable
     letter-spacing: -1px;
 }
 
@@ -22,7 +22,7 @@ h3 {
 }
 
 h5 {
-    @include rem(font-size, $base-font-size);
+    font-size: $base-font-size;
     color: $gray-light;
     text-transform: uppercase;
 }

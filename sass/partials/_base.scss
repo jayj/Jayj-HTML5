@@ -10,23 +10,27 @@
     box-sizing: border-box;
 }
 
+// Set base font size
 html {
-    font-size: 62.5%;
+    font-size: 62.5%; // Makes 1 rem = 10 px
 }
 
-// Set base font and color
-body, button, input, select, textarea {
+
+body {
+    //
+    // Set base font and color
+    //
     color: $text-color;
     font: {
         family: $base-font-family;
+        size:   $base-font-size;
         weight: $base-font-weight;
-        @include rem(size, $base-font-size);
     }
     line-height: $base-line-height;
-}
 
-// Set body background
-body {
+    //
+    // Set body background
+    //
     background-color: $body-bg-color;
 
     // Use a gradient background

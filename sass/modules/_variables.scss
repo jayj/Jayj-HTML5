@@ -62,18 +62,19 @@ $bold:                        700 !default;
 // Base Font
 $base-font-family:            "Open Sans", sans-serif !default;
 $base-font-weight:            $regular !default;
-$base-font-size:              15px !default;
+$base-font-size:              1.5rem !default;
 $base-line-height:            1.6 !default;
 
 // Heading Font
 $heading-font-family:         "Merriweather", sans-serif !default;
 $heading-font-weight:         $bold !default;
-$heading-font-size:           30px !default;
+$heading-font-size:           3.0rem !default;
 $heading-line-height:         $base-line-height !default;
 
 // Monospace Font
 $monospace-font-family:       Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $monospace-font-size:         15px !default;
+$monospace-font-size:         1.5rem !default;
 $monospace-line-height:       $base-line-height !default;
 
 // ===========================
@@ -81,6 +82,7 @@ $monospace-line-height:       $base-line-height !default;
 // ===========================
 
 $gutter-width:				  40px !default;
+$gutter-width-rem:		      4.0rem;
 $small-gutter-width:		  25px !default;
 
 $site-width: 1140px !default; // 114rem

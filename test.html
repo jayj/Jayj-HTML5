@@ -21,7 +21,7 @@
         For optimal performance, customize it to load the styles you need:
         http://goo.gl/QufgJ
     -->
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Merriweather:400,700,900" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400italic,700italic,400,700|Merriweather:300,400,700,900" rel="stylesheet">
 
     <!-- All JavaScript at the bottom, except for Modernizr.
         Modernizr enables HTML5 elements & feature detects.
@@ -33,20 +33,17 @@
 
 <body>
 
-    <header role="banner">
+    <header class="site-header" role="banner">
 
-        <div class="site-branding">
-            <h1 class="site-title">
-                <a href="index.html" title="Your Site Name" rel="home">
-                    Jayj HTML5 Theme
-                </a>
-            </h1>
-            <h2 class="site-description">
-                This is an awesome description of the site!
-            </h2>
-        </div>
+        <h1 class="site-title">
+            <a href="index.html" rel="home">Jayj HTML5 Theme</a>
+        </h1>
 
-    </header> <!-- /header -->
+        <h2 class="site-description">
+            This is an awesome description of the site!
+        </h2>
+
+    </header> <!-- /.site-header -->
 
     <div class="site-content">
 
@@ -78,7 +75,9 @@
                     <p>This page contains examples of many basic HTML elements
                     and their styles.</p>
 
-                    <h2>Headings</h2>
+                    <section>
+
+                        <h2>Headings</h2>
 
                         <p>Nullam quis risus eget urna mollis ornare vel eu leo.
                         Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -91,19 +90,123 @@
                         <h5>h5. Heading 5</h5>
                         <h6>h6. Heading 6</h6>
 
+                    </section>
+
+                    <hr />
+
+                    <div class="row">
+                        <div class="col-6">
+                            <h2>Basic Grid</h2>
+
+                            <p>The template has a basic 12-column grid included. It's in no way
+                            as powerful as other grids out there (like <a href="http://getbootstrap.com/css/#grid">Twitter Bootstrap</a> or <a href="http://philipwalton.github.io/solved-by-flexbox/demos/grids/">Solved by Flexbox</a>) so if you want more control you should
+                            their grid instead.</p>
+                        </div>
+
+                        <div class="col-6">
+                             <h3>The HTML</h3>
+<pre>
+&lt;div class="row"&gt;
+    &lt;div class="col-4"&gt;...&lt;/div&gt;
+    &lt;div class="col-4"&gt;...&lt;/div&gt;
+    &lt;div class="col-4"&gt;...&lt;/div&gt;
+&lt;/div&gt;</pre>
+                        </div>
+                    </div> <!-- /.row -->
+
+                        <!-- DEMO -->
+                        <style>
+                            .show-grid {
+                                margin-top: 10px;
+                                margin-bottom: 20px;
+                            }
+                            .show-grid [class*="col-"] {
+                                background-color: #eee;
+                                text-align: center;
+                                border-radius: 3px;
+                                padding: .8em 1em;
+                            }
+                            .show-grid .show-grid {
+                                margin-top: 0;
+                                margin-bottom: 0;
+                            }
+                            .show-grid .show-grid [class*="col-"] {
+                                background-color: #ccc;
+                            }
+                        </style>
+                        <!-- /DEMO -->
+
+                        <div class="row show-grid">
+                            <div class="col-1">1/12</div>
+                            <div class="col-1">1/12</div>
+                            <div class="col-1">1/12</div>
+                            <div class="col-1">1/12</div>
+                            <div class="col-1">1/12</div>
+                            <div class="col-1">1/12</div>
+                            <div class="col-1">1/12</div>
+                            <div class="col-1">1/12</div>
+                            <div class="col-1">1/12</div>
+                            <div class="col-1">1/12</div>
+                            <div class="col-1">1/12</div>
+                            <div class="col-1">1/12</div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="col-4">1/3</div>
+                            <div class="col-4">1/3</div>
+                            <div class="col-4">1/3</div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="col-4">1/3</div>
+                            <div class="col-8">2/3</div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="col-6">1/2</div>
+                            <div class="col-6">1/2</div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="col-12">Full</div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="col-3">1/4</div>
+                            <div class="col-3">1/4</div>
+                            <div class="col-3">1/4</div>
+                            <div class="col-3">1/4</div>
+                        </div>
+
+                        <div class="row show-grid">
+                            <div class="col-6">
+                                Full-height, even when my content doesn't fill the space.
+                            </div>
+
+                            <div class="col-6">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vestibulum mollis velit non gravida venenatis.
+                                Praesent consequat lectus purus, ut scelerisque
+                                velit condimentum eu. Maecenas sagittis ante ut
+                                turpis varius interdum. Quisque tellus ipsum,
+                                eleifend non ipsum id, suscipit ultricies neque.
+                            </div>
+                        </div>
+
+                    <hr />
+
                     <h2>Blockquotes</h2>
 
                         <p>To include a blockquote, wrap <code>&lt;blockquote&gt;</code>
                         around any <abbr title="HyperText Markup Language">HTML</abbr> as the quote.</p>
 
-                        <p>Include an optional <code>&lt;cite&gt;</code> element
-                        to cite your source.</p>
+                        <p>Include an optional <code>&lt;footer&gt;</code> for identifying the source and <code>&lt;cite&gt;</code> for the name of the source work.</p>
 
 <pre>
 &lt;blockquote&gt;
     &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Integer posuere erat a ante venenatis.&lt;/p&gt;
-    &lt;cite&gt;Someone famous&lt;/cite&gt;
+    &lt;footer&gt;Someone famous in &lt;cite title="Source Title"&gt;Source Title&lt;/cite&gt;&lt;/footer&gt;
 &lt;/blockquote&gt;</pre>
 
                         <h3>Example blockquotes</h3>
@@ -111,7 +214,7 @@
                         <p>Single line blockquote:</p>
                         <blockquote><p>Stay hungry. Stay foolish.</p></blockquote>
 
-                        <p>Multi line blockquote with a cite reference:</p>
+                        <p>Multi line blockquote with a cite reference in footer tag:</p>
                         <blockquote>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Integer posuere erat a ante venenatis. Nullam quis
@@ -119,8 +222,22 @@
                             natoque penatibus et magnis dis parturient montes,
                             nascetur ridiculus mus. Nullam id dolor id nibh
                             ultricies vehicula.</p>
+
+                            <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                        </blockquote>
+
+                        <p>Right-aligned blockquote (<code>.blockquote-reverse</code>) with a cite reference:</p>
+                        <blockquote class="blockquote-reverse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Integer posuere erat a ante venenatis. Nullam quis
+                            risus eget urna mollis ornare vel eu leo. Cum sociis
+                            natoque penatibus et magnis dis parturient montes,
+                            nascetur ridiculus mus. Nullam id dolor id nibh
+                            ultricies vehicula.</p>
+
                             <cite>Someone famous</cite>
                         </blockquote>
+
 
                     <hr />
 
@@ -170,14 +287,14 @@
                             <li>List item four</li>
                         </ol>
 
-                    <h2>Definition Lists</h2>
+                    <h2>Description Lists</h2>
 
                         <dl>
-                            <dt>Definition List Title</dt>
-                            <dd>Definition list division.</dd>
+                            <dt>List Title</dt>
+                            <dd>List division.</dd>
 
-                            <dt>Definition List</dt>
-                            <dd>A definition list is perfect for defining terms.</dd>
+                            <dt>Description List</dt>
+                            <dd>A description list is perfect for defining terms.</dd>
 
                             <dt>HTML</dt>
                             <dd>HyperText Markup Language</dd>
@@ -281,12 +398,6 @@
                         <p><strong>Abbreviation Tag</strong></p>
                         <p>The abbreviation <abbr title="Seriously">srsly</abbr> stands for &#8220;seriously&#8221;.</p>
 
-                        <p><strong>Cite Tag</strong></p>
-                        <p>&#8220;Code is poetry.&#8221; &#8211; <cite>Automattic</cite></p>
-
-                        <p><strong>Code Tag</strong></p>
-                        <p>You will learn later on in these tests that <code>word-wrap: break-word;</code> will be your best friend.</p>
-
                         <p><strong>Delete Tag</strong></p>
                         <p>The <code>del</code> element will let you <del>strikeout text</del> to represent a removal from the document.</p>
 
@@ -296,8 +407,11 @@
                         <p><strong>Insert Tag</strong></p>
                         <p>This tag should denote <ins>inserted</ins> text.</p>
 
+                        <p><strong>Code Tag</strong></p>
+                        <p>The <code>code</code> element represents a fragment of computer code, like <code>word-wrap: break-word;</code>.</p>
+
                         <p><strong>Keyboard Tag</strong></p>
-                        <p>This scarsly known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the <code>&lt;code&gt;</code> tag.</p>
+                        <p>This scarsly known tag emulates <kbd>keyboard text</kbd>.</p>
 
                         <p><strong>Preformatted Tag</strong></p>
                         <p>This tag styles large blocks of code.</p>
@@ -319,9 +433,6 @@
 
                         <p><strong>Superscript Tag</strong></p>
                         <p>Still sticking with science and Isaac Newton&#8217;s E = MC<sup>2</sup>, which should lift the 2 up.</p>
-
-                        <p><strong>Teletype Tag <strong>(<em>deprecated in HTML5</em>)</strong></strong></p>
-                        <p>This rarely used tag emulates <tt>teletype text</tt>, which is usually styled like the <code>&lt;code&gt;</code> tag.</p>
 
                         <p><strong>Variable Tag</strong></p>
                         <p>This allows you to denote <var>variables</var>.</p>
@@ -357,17 +468,22 @@
                         <fieldset>
                             <legend>Date fields</legend>
 
-                            <p><label>Date input <input type="date"></label></p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <p><label for="idd">Date input</label> <input type="date" id="idd"></p>
+                                    <p><label for="idm">Month input</label> <input type="month" id="idm"></p>
+                                </div>
 
-                            <p><label>Month input <input type="month"></label></p>
+                                <div class="col-6">
+                                    <p><label for="idw">Week input</label> <input type="week" id="idw"></p>
+                                    <p><label for="idt">Time input</label> <input type="time" id="idt"></p>
+                                </div>
 
-                            <p><label>Week input <input type="week"></label></p>
-
-                            <p><label>Time input <input type="time"></label></p>
-
-                            <p><label>Datetime input <input type="datetime"></label></p>
-
-                            <p><label>Datetime-local input <input type="datetime-local"></label></p>
+                                <div class="col-6">
+                                    <p><label for="idti">Datetime input</label> <input type="datetime" id="idti"></p>
+                                    <p><label for="idtl">Datetime-local input</label> <input type="datetime-local" id="idtl"></p>
+                                </div>
+                            </div>
                         </fieldset>
 
                         <fieldset>
@@ -381,10 +497,10 @@
 
                             <p><label>File input <input type="file"></label></p>
 
-                            <p><label><input type="radio" name="rad"> Radio input</label></p>
-                            <p><label><input type="radio" name="rad"> Radio input</label></p>
+                            <p class="radio"><label><input type="radio" name="rad"> Radio input</label></p>
+                            <p class="radio"><label><input type="radio" name="rad"> Radio input</label></p>
 
-                            <p><label><input type="checkbox"> Checkbox input</label></p>
+                            <p><label class="checkbox"><input type="checkbox"> Checkbox input</label></p>
 
                             <p>
                                 <label>Select field<br>
@@ -399,11 +515,13 @@
                         <fieldset>
                             <legend>Input fields and buttons</legend>
 
+                            <p><a href="#" class="btn" role="button">Link (.btn)</a></p>
                             <p><input type="submit" value="Submit (input)"></p>
                             <p><input type="button" value="Button (input)"></p>
                             <p><input type="reset" value="Reset (input)"></p>
                             <p><input type="image" src="http://placekitten.com/90/24" alt="Image (input)"></p>
 
+                            <p><a href="#" class="btn-primary" role="button">Link (.btn-primary)</a></p>
                             <p><input type="submit" class="btn-primary" value="Submit (.btn-primary)"></p>
                             <p><input type="button" class="btn-primary" value="Button (.btn-primary)"></p>
                             <p><input type="reset" class="btn-primary" value="Reset (.btn-primary)"></p>
@@ -426,8 +544,20 @@
                         <a href="http://i.imgur.com/lG2bb.jpg">
                             <img src="http://i.imgur.com/lG2bbm.jpg" alt="Image alt">
                         </a>
-                        <figcaption>Figure caption</figcaption>
+                        <figcaption>Figure caption (<code>&lt;figcaption&gt;</code> )</figcaption>
                     </figure>
+
+                    <p>A figure with code as content and <code>&lt;figcaption&gt;</code> before the content:</p>
+
+                    <figure>
+                        <figcaption>Listing 4. The primary core interface API declaration.</figcaption>
+<pre><code>interface PrimaryCore {
+    boolean verifyDataLine();
+    void sendData(in sequence&lt;byte> data);
+    void initSelfDestruct();
+}</code></pre>
+                    </figure>
+                    <p>Trailing text.</p>
 
                     <h3>Wide image</h3>
 
@@ -435,12 +565,12 @@
 
                     <h3>Youtube video (iframe)</h3>
 
-                    <iframe width="640" height="360" src="//www.youtube.com/embed/UiyDmqO59QE" allowfullscreen></iframe>
+                    <iframe width="640" height="360" src="//www.youtube.com/embed/UiyDmqO59QE" allowfullscreen frameborder="0"></iframe>
 
                     <h3>HTML5 video</h3>
 
                     <figure>
-                        <video controls preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
+                        <video controls preload="none" poster="http://i.imgur.com/3TFTUKs.png">
                             <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
                             <source id="webm" src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm">
                             <source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">
@@ -549,9 +679,8 @@
         </p>
     </footer> <!-- /footer -->
 
-    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+    <!-- Load jQuery -->
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
 
     <!-- Load custom scripts -->
     <script src="js/script.js"></script>

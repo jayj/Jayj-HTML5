@@ -32,20 +32,17 @@
 
 <body>
 
-    <header role="banner">
+    <header class="site-header" role="banner">
 
-        <div class="site-branding">
-            <h1 class="site-title">
-                <a href="index.html" title="Your Site Name" rel="home">
-                    Jayj HTML5 Theme
-                </a>
-            </h1>
-            <h2 class="site-description">
-                This is an awesome description of the site!
-            </h2>
-        </div>
+        <h1 class="site-title">
+            <a href="index.html" rel="home">Jayj HTML5 Theme</a>
+        </h1>
 
-    </header> <!-- /header -->
+        <h2 class="site-description">
+            This is an awesome description of the site!
+        </h2>
+
+    </header> <!-- /.site-header -->
 
     <div class="site-content">
 
@@ -93,8 +90,10 @@
                         </p>
 
                         <p>
-                            <label>Subject</label>
-                            <input type="text" name="subject">
+                            <label>
+                                Subject
+                                <input type="text" name="subject">
+                            </label>
                         </p>
 
                         <p>
@@ -106,7 +105,7 @@
 
                         <!-- Spam check - hidden for normal users -->
                         <div class="s_check">
-                            <label>Do not fill out this field <input name="s_check"></label>
+                            <label>Lorem <input name="fax1234"></label>
                         </div>
 
                         <p>
@@ -171,9 +170,8 @@
         </p>
     </footer> <!-- /footer -->
 
-    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+    <!-- Load jQuery -->
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
 
     <!-- Load custom scripts -->
     <script src="js/script.js"></script>

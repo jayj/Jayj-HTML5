@@ -2,14 +2,18 @@
    Layout
    ========================================================================== */
 
-// Set site width
+/**
+ * Set site width
+ */
 body {
     width: 100%;
     max-width: $site-width;
     margin: 0 auto;
 }
 
-// Content wrapper
+/**
+ * Content wrapper
+ */
 .site-content {
     background-image: linear-gradient(
         to bottom,
@@ -22,7 +26,7 @@ body {
     padding: $gutter-width;
 
     // Use Flexbox for screen bigger than the medium width
-    @include breakpoint(medium) {
+    @include breakpoint(screen-md) {
         display: flex;
         flex-flow: row wrap;
     }
@@ -33,23 +37,29 @@ body {
     }
 }
 
-// Main navigation
+/**
+ * Main navigation
+ */
 .main-navigation {
-    @include breakpoint(medium) {
+    @include breakpoint(screen-md) {
         flex: 1 100%;
     }
 }
 
-// Main content
+/**
+ * Main content
+ */
 main {
-    @include breakpoint(medium) {
+    @include breakpoint(screen-md) {
         flex: 3 56%;
     }
 }
 
-// Sidebar
+/**
+ * Sidebar
+ */
 .sidebar {
-    @include breakpoint(medium) {
+    @include breakpoint(screen-md) {
         flex: 1 34%;
         margin-left: $gutter-width;
         padding-left: $gutter-width;

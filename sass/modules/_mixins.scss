@@ -20,38 +20,16 @@
 // Breakpoint mixin
 // Source: http://css-tricks.com/naming-media-queries/
 @mixin breakpoint($point) {
-    @if $point == very-large {
-        @media (min-width: 1600px) { @content; }
-    }
-    @if $point == large {
+    @if $point == screen-lg {
         @media (min-width: 1260px) { @content; }
     }
-    @else if $point == medium {
+    @else if $point == screen-md {
         @media (min-width: 840px) { @content; }
     }
-    @else if $point == small {
+    @else if $point == screen-sm {
         @media (min-width: 620px)  { @content; }
     }
-    @else if $point == very-small {
-        @media (min-width: 480px)  { @content; }
-    }
-}
-
-// @todo remove this
-@mixin bp($point) {
-    @if $point == very-large {
-        @media (min-width: 1600px) { @content; }
-    }
-    @if $point == large {
-        @media (min-width: 1260px) { @content; }
-    }
-    @else if $point == medium {
-        @media (min-width: 840px) { @content; }
-    }
-    @else if $point == small {
-        @media (min-width: 620px)  { @content; }
-    }
-    @else if $point == very-small {
+    @else if $point == screen-xs {
         @media (min-width: 480px)  { @content; }
     }
 }

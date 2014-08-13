@@ -50,10 +50,10 @@ module.exports = function(grunt) {
         autoprefixer: {
             dev: {
                 options: {
-                    browsers: ['last 2 version', 'ie 8', 'ie 9']
+                    browsers: [ 'last 2 version', 'ie 9' ]
                 },
-                src: 'css/style.css',
-                dest: 'css/style.css'
+                src: '<%= config.src %>/css/style.css',
+                dest: '<%= config.src %>/css/style.css'
             }
         },
         // Minify CSS

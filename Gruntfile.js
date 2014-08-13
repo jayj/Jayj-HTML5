@@ -135,6 +135,19 @@ module.exports = function(grunt) {
                 }
             }
         },
+
+        // Create custom Modernizr build in build folder
+        modernizr: {
+            build: {
+                'devFile': '<%= config.src %>/bower_components/sprockets-modernizr/modernizr.js',
+                'outputFile': '<%= config.build %>/js/modernizr-custom.js',
+                'uglify': false, // will be done by the uglify task
+                'tests': [ 'csscolumns', 'flexbox', 'css-calc' ],
+                'extra': {
+                    'load': false
+                },
+            }
+        },
         // Compress the build folder into a zip file
         compress: {
             build: {

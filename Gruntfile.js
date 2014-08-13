@@ -181,9 +181,8 @@ module.exports = function(grunt) {
     // Default task
     grunt.registerTask( 'default', [ 'watch' ] );
 
-
-    // Pre-build task
-    grunt.registerTask( 'pre-build', [ 'sass', 'autoprefixer', 'cssmin:build', 'imagemin' ]);
+    // Pre-commit task
+    grunt.registerTask( 'pre-commit', [ 'sass', 'autoprefixer', 'jshint', 'imagemin' ]);
 
     // Build task
     grunt.registerTask( 'build', [ 'clean:build', 'copy:build', 'compress:build' ]);

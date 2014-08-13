@@ -181,8 +181,6 @@ module.exports = function(grunt) {
     // Default task
     grunt.registerTask( 'default', [ 'watch' ] );
 
-    // Generate CSS task
-    grunt.registerTask( 'css', [ 'sass', 'autoprefixer' ]);
 
     // Pre-build task
     grunt.registerTask( 'pre-build', [ 'sass', 'autoprefixer', 'cssmin:build', 'imagemin' ]);

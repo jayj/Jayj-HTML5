@@ -13,6 +13,27 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         config: config,
+
+        // Watch for file changes
+        watch: {
+            sass: {
+                files: [ '<%= config.src %>/sass/**/*.scss' ],
+                tasks: [ 'sass:dev', 'autoprefixer' ],
+            },
+            js: {
+                files: [ '<%= config.src %>/js/{,*/}*.js' ],
+                tasks: [ 'newer:jshint:js' ]
+            },
+            images: {
+                files: [ '<%= config.src %>/images/{,*/}*' ],
+                tasks: [ 'newer:imagemin' ]
+            },
+            grunt: {
+                files: [ 'Gruntfile.js' ],
+                tasks: [ 'jshint:grunt' ]
+            }
+        },
+
         // Compile Sass
         sass: {
             dev: {
@@ -25,16 +46,7 @@ module.exports = function(grunt) {
                 }
             }
         },
-        // Watch for file changes
-        watch: {
-            css: {
-                files: [ 'sass/**/*.scss' ],
-                tasks: [ 'sass:dev', 'autoprefixer:dev' ],
-                options: {
-                    livereload: true,
-                },
-            }
-        },
+
         // Autoprefix the compiled CSS
         autoprefixer: {
             dev: {

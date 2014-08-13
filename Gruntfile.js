@@ -70,11 +70,14 @@ module.exports = function(grunt) {
         // Minify CSS
         cssmin: {
             build: {
-                files: {
-                    'css/style.min.css': 'css/style.css'
-                }
+                expand: true,
+                src: [ 'css/style.css' ],
+                cwd: '<%= config.build %>/',
+                dest: '<%= config.build %>/',
+                ext: '.min.css'
             }
         },
+
         // Minify images
         imagemin: {
             dynamic: {

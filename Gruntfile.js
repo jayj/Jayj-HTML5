@@ -89,6 +89,21 @@ module.exports = function(grunt) {
                 }]
             }
         },
+
+        // Process HTML files
+        processhtml: {
+            options: {
+
+            },
+            build: {
+                files: {
+                    '<%= config.build %>/index.html': ['<%= config.src %>/index.html'],
+                    '<%= config.build %>/contact.html': ['<%= config.src %>/contact.html'],
+                    '<%= config.build %>/test.html': ['<%= config.src %>/test.html']
+                }
+            }
+        },
+
         // Clean the build folder
         clean: {
             build: {

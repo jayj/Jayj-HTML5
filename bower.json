@@ -1,0 +1,22 @@
+{
+  "name": "JayjHTML5theme",
+  "version": "3.0.0",
+  "description": "A free HTML5 template.",
+  "homepage": "https://github.com/jayj/Jayj-HTML5",
+  "authors": [
+    "Jesper Johansen"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "google-code-prettify": "~1.0.2",
+    "jquery": "~2.1.0"
+  }
+}

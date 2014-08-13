@@ -68,26 +68,37 @@ main {
 }
 
 
-// GRID!!!
 
-// .row {
-//     display: flex;
-//     flex-wrap: wrap;
-//     @include no-list-style;
-// }
+/* Grid
+   ========================================================================== */
 
-// @for $i from 1 through 12 {
-//     .col-#{$i} {
-//         flex: $i;
-//     }
-// }
+$classes: ();
 
-// [class*="col-"] {
-//     @include rem(margin-left, $gutter-width / 2);
-// }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-// [class*="col-"]:first-child {
-//     margin-left: 0;
-// }
+ul.row {
+    @include no-list-style;
+}
 
+// Generate column classes
+@for $i from 1 through $grid-columns {
+    // Add each column class to the $classes list
+    $classes: join($classes, unquote(".col-#{$i} "), comma);
 
+    .col-#{$i} {
+        flex: $i;
+    }
+}
+
+// Add column gutters
+#{$classes} {
+    margin-left: $grid-gutter;
+
+    &:first-child {
+        margin-left: 0;
+    }
+}

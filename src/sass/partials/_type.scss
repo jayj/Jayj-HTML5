@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 
 // Style h3 and h5 headings differently
 h3 {
-    @include rem(padding-bottom, 6px);
+    padding-bottom: 6px;
     border-bottom: 1px solid $gray-lighter;
     color: $primary-color;
 }

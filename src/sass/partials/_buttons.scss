@@ -6,15 +6,27 @@
     @include button-variant($btn-default-text-color, $btn-default-bg, $btn-default-border-color, $btn-default-shadow-color);
 }
 
-html .btn-primary {
+.btn-primary {
     @include button;
     @include button-variant($btn-primary-text-color, $btn-primary-bg, $btn-primary-border-color, $btn-primary-shadow-color);
 }
-
 
 button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
     @extend .btn;
+
+    &.btn-primary {
+    	@extend .btn-primary;
+    }
+
+	// Disabled buttons
+    &[disabled] {
+		pointer-events: none;
+		cursor: not-allowed;
+		box-shadow: none;
+		opacity: .65;
+    }
 }
+

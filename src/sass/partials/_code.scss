@@ -31,9 +31,9 @@ kbd {
 pre {
     $line-spacing: ($monospace-font-size * $monospace-line-height);
 
-    @include rem(padding, $line-spacing 25px);
+    padding: $line-spacing 2.5rem;
     display: block;
-    margin: 0 0 40px;
+    margin: 0 0 4.0rem;
     border: 1px solid $pre-border-color;
     border-radius: 4px;
     background-color: $pre-bg;
@@ -44,7 +44,7 @@ pre {
     // Show lines
     @if $pre-show-lines {
         // Set spacing to the same as the line-height
-        @include rem(background-size, 100% $line-spacing);
+        background-size: 100% $line-spacing;
 
         // Create the line gradient
         background-image: linear-gradient(

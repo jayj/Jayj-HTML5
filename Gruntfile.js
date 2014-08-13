@@ -124,6 +124,17 @@ module.exports = function(grunt) {
                 dest: '<%= config.build %>/',
             },
         },
+        // Copy Bower components to build folder
+        bower: {
+            build: {
+                dest: '<%= config.build %>',
+                js_dest: '<%= config.build %>/js',
+                css_dest: '<%= config.build %>/css',
+                options: {
+                    ignorePackages: [ 'google-code-prettify' ]
+                }
+            }
+        },
         // Compress the build folder into a zip file
         compress: {
             build: {

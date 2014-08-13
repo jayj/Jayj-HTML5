@@ -148,13 +148,30 @@ module.exports = function(grunt) {
                 },
             }
         },
+
+        // Minify JS in build folder
+        uglify: {
+            build: {
+                options: {
+                    preserveComments: 'some'
+                },
+                files: [{
+                    expand: true,
+                    cwd: '<%= config.build %>/js',
+                    dest: '<%= config.build %>/js',
+                    src: '**/*.js',
+                    ext: '.min.js'
+              }],
+            }
+        },
+
         // Compress the build folder into a zip file
         compress: {
             build: {
                 options: {
                     archive: '<%= config.build %>/jayj-html5-theme-<%= pkg.version %>.zip'
                 },
-                cwd: 'build/',
+                cwd: '<%= config.build %>/',
                 src: ['**/*'],
                 dest: 'jayj-html5-theme/'
             }

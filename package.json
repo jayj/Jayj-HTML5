@@ -22,5 +22,6 @@
     "grunt-contrib-sass": "~0.7.2",
     "grunt-autoprefixer": "~0.7.1",
     "grunt-contrib-cssmin": "~0.8.0"
+    "load-grunt-tasks": "~0.6.0",
   }
 }

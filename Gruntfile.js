@@ -107,14 +107,21 @@ module.exports = function(grunt) {
         // Clean the build folder
         clean: {
             build: {
-                src: ['build/']
+                src: [ '<%= config.build %>/' ]
             }
         },
+
         // Copy to build folder
         copy: {
             build: {
-                src: ['**', '!.gitignore', '!node_modules/**', '!.css.map'],
-                dest: 'build/',
+                expand: true,
+                cwd: '<%= config.src %>/',
+                src: [
+                    '**',
+                    '!bower_components/**',
+                    '!.css.map',
+                ],
+                dest: '<%= config.build %>/',
             },
         },
         // Compress the build folder into a zip file

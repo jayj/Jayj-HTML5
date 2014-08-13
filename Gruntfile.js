@@ -2,9 +2,17 @@ module.exports = function(grunt) {
 
     // Load all grunt tasks matching the `grunt-*` pattern
     require( 'load-grunt-tasks' )(grunt);
+
+    // Configurable paths
+    var config = {
+        src: 'src',
+        build: 'build'
+    };
+
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        config: config,
         // Compile Sass
         sass: {
             dev: {

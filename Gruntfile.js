@@ -185,6 +185,14 @@ module.exports = function(grunt) {
     grunt.registerTask( 'pre-commit', [ 'sass', 'autoprefixer', 'jshint', 'imagemin' ]);
 
     // Build task
-    grunt.registerTask( 'build', [ 'clean:build', 'copy:build', 'compress:build' ]);
+    grunt.registerTask( 'build', [
+        'clean:build',
+        'copy:build',
+        'bower:build',
+        'modernizr:build',
+        'uglify:build',
+        'cssmin:build',
+        'processhtml:build',
+    ]);
 
 };

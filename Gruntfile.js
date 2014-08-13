@@ -38,11 +38,10 @@ module.exports = function(grunt) {
         sass: {
             dev: {
                 files: {
-                    'css/style.css': 'sass/main.scss'
+                    '<%= config.src %>/css/style.css': '<%= config.src %>/sass/main.scss'
                 },
                 options: {
                     style: 'expanded',
-                    sourcemap: true
                 }
             }
         },

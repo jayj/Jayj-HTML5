@@ -71,11 +71,11 @@ module.exports = function(grunt) {
         compress: {
             build: {
                 options: {
-                    archive: 'build/jayj-html5-template-<%= pkg.version %>.zip'
+                    archive: '<%= config.build %>/jayj-html5-theme-<%= pkg.version %>.zip'
                 },
                 cwd: 'build/',
                 src: ['**/*'],
-                dest: 'jayj-html5-template/'
+                dest: 'jayj-html5-theme/'
             }
         }
     });

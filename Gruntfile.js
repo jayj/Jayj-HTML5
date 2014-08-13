@@ -56,6 +56,17 @@ module.exports = function(grunt) {
                 dest: '<%= config.src %>/css/style.css'
             }
         },
+
+        // Make sure code styles are up to par and there are no obvious mistakes
+        jshint: {
+            grunt: {
+                src: [ 'Gruntfile.js' ]
+            },
+            js: {
+                src: [ '<%= config.src %>/js/{,*/}*.js' ]
+            }
+        },
+
         // Minify CSS
         cssmin: {
             build: {

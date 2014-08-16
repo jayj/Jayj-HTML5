@@ -29,6 +29,7 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"],
+input[type="file"],
 textarea,
 select {
     display: block;
@@ -64,6 +65,11 @@ input[type="color"] {
 // Search inputs
 input[type="search"] {
     box-sizing: border-box; // overwrites normalize.css
+}
+
+// File upload button
+input[type="file"]::-webkit-file-upload-button {
+    @extend .btn; // style it as a normal button
 }
 
 // Invalid inputs, change outline to red

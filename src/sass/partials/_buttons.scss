@@ -18,15 +18,15 @@ input[type="button"] {
     @extend .btn;
 
     &.btn-primary {
-    	@extend .btn-primary;
+        @extend .btn-primary;
     }
 
-	// Disabled buttons
+    // Disabled buttons
     &[disabled] {
-		pointer-events: none;
-		cursor: not-allowed;
-		box-shadow: none;
-		opacity: .65;
+        pointer-events: none;
+        cursor: not-allowed;
+        box-shadow: none;
+        opacity: 0.65;
     }
 }
 

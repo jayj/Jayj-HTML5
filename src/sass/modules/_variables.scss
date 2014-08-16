@@ -242,15 +242,15 @@ $alert-border-color:          darken($gray-lighter, 8%) !default;
 
 $warning-text-color:          #3b3601 !default;
 $warning-background:          #fef9c7 !default;
-$warning-border-color:        spin(darken($warning-background, 25%), -5) !default;
+$warning-border-color:        darken($warning-background, 25%) !default;
 
 $error-text-color:            #7a0b0a !default;
 $error-background:            #f2dede !default;
-$error-border-color:          spin(darken($error-background, 25%), -10) !default;
+$error-border-color:          $red !default;
 
 $success-text-color:          #0d370d !default;
 $success-background:          #dff0d8 !default;
-$success-border-color:        spin(darken($success-background, 40%), 10) !default;
+$success-border-color:        darken($success-background, 40%) !default;
 
 $info-text-color:             #0c3346 !default;
 $info-background:             #d9edf7 !default;

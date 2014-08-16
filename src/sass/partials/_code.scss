@@ -90,13 +90,13 @@ pre[class*="linenums"] {
 .prettyprint {
     // Line numbers
     .linenums {
-        color: #aeaeae;
+        color: $pre-prettify-line-text-color;
         margin: 0;
-        padding: 0 0 0 24px;
+        padding: 0 0 0 2.4rem;
         line-height: ($monospace-font-size * $monospace-line-height);
 
         li {
-            padding-left: 24px;
+            padding-left: 2.4rem;
         }
     }
 

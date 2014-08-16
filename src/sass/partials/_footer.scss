@@ -1,2 +1,9 @@
 /* Layout: Footer
    ========================================================================== */
+
+footer[role="contentinfo"] {
+	font-size: $footer-font-size;
+	padding: $small-gutter-width-rem $gutter-width-rem;
+	text-align: center;
+	background-image: radial-gradient( circle, rgba(#000, $footer-background-opacity / 100), rgba(#000, 0) );
+}

@@ -88,6 +88,7 @@ $content-background:          #fff !default;
 $gutter-width:				  40px !default;
 $gutter-width-rem:		      4.0rem;
 $small-gutter-width:		  25px !default;
+$small-gutter-width-rem:	  2.5rem !default;
 
 $site-width: 1140px !default; // 114rem
 
@@ -119,8 +120,8 @@ $site-description-weight:     $light !default;
 // Footer
 // ===========================
 
-$footer-link-color:           $link-color !default;
-$footer-background-opacity:   10% !default; // Opacity on the black radial gradient in the footer
+$footer-font-size: $base-font-size * 1.2 !default;
+$footer-background-opacity:   8% !default; // Opacity on the black radial gradient in the footer
 
 // ===========================
 // Navigation

@@ -2,11 +2,11 @@
    ========================================================================== */
 
 fieldset {
-    @include rem(margin-bottom, $gutter-width);
+    margin-bottom: $gutter-width;
 }
 
 legend {
-    @include rem(padding, 6px 8px);
+    padding: 0.6rem 0.8rem;
     border: solid $content-background;
     border-width: 0 2px;
     border-radius: 5px;
@@ -32,7 +32,7 @@ input[type="color"],
 textarea,
 select {
     display: block;
-    padding: 6px;
+    padding: 0.6rem;
     width: 100%;
     border: 1px solid $input-border-color;
     border-radius: $input-border-radius;
@@ -51,8 +51,8 @@ select {
     }
 }
 
+// Full width range inputs
 input[type="range"] {
-    // full width range input
     display: block;
     width: 100%;
 
@@ -61,10 +61,12 @@ input[type="range"] {
     }
 }
 
+// Color inputs
 input[type="color"] {
     padding: 0; // reset padding, otherwise the color is barely visible
 }
 
+// Search inputs
 input[type="search"] {
     box-sizing: border-box; // overwrites normalize.css
 }
@@ -75,12 +77,12 @@ label {
     font: {
         family: $label-font-family;
         weight: $label-font-weight;
-        @include rem(size, $label-font-size);
+        size: $label-font-size;
     }
 
     .help,
     .required {
-        @include rem(padding-left, 2px);
+        padding-left: 0.2rem;
         color: $label-required-color;
         font-weight: normal;
         font-size: 90%;

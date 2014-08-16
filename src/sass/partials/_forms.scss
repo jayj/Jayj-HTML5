@@ -78,6 +78,7 @@ label {
         @include rem(size, $label-font-size);
     }
 
+    .help,
     .required {
         @include rem(padding-left, 2px);
         color: $label-required-color;

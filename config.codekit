@@ -1433,1134 +1433,1597 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/a-download.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/a-download.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/a-download.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/a-download-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/a-download.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/a-download.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/audio-audiodata-api.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/audio-audiodata-api.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/audio-audiodata-api.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/audio-audiodata-api-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/audio-audiodata-api.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/audio-audiodata-api.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/audio-webaudio-api.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/audio-webaudio-api.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/audio-webaudio-api.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/audio-webaudio-api-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/audio-webaudio-api.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/audio-webaudio-api.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/battery-api.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/battery-api.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/battery-api.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/battery-api-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/battery-api.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/battery-api.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/battery-level.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/battery-level.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/battery-level.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/battery-level-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/battery-level.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/battery-level.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/blob-constructor.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/blob-constructor.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/blob-constructor.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/blob-constructor-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/blob-constructor.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/blob-constructor.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/canvas-todataurl-type.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/canvas-todataurl-type.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/canvas-todataurl-type.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/canvas-todataurl-type-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/canvas-todataurl-type.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/canvas-todataurl-type.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/contenteditable.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/contenteditable.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/contenteditable.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/contenteditable-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/contenteditable.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/contenteditable.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/contentsecuritypolicy.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/contentsecuritypolicy.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/contentsecuritypolicy.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/contentsecuritypolicy-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/contentsecuritypolicy.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/contentsecuritypolicy.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/contextmenu.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/contextmenu.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/contextmenu.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/contextmenu-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/contextmenu.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/contextmenu.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/cookies.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/cookies.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/cookies.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/cookies-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/cookies.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/cookies.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/cors.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/cors.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/cors.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/cors-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/cors.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/cors.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-backgroundposition-shorthand.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-backgroundposition-shorthand.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-backgroundposition-shorthand.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-backgroundposition-shorthand-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-backgroundposition-shorthand.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-backgroundposition-shorthand.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-backgroundposition-xy.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-backgroundposition-xy.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-backgroundposition-xy.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-backgroundposition-xy-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-backgroundposition-xy.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-backgroundposition-xy.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-backgroundrepeat.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-backgroundrepeat.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-backgroundrepeat.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-backgroundrepeat-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-backgroundrepeat.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-backgroundrepeat.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-backgroundsizecover.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-backgroundsizecover.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-backgroundsizecover.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-backgroundsizecover-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-backgroundsizecover.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-backgroundsizecover.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-boxsizing.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-boxsizing.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-boxsizing.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-boxsizing-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-boxsizing.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-boxsizing.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-calc.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-calc.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-calc.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-calc-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-calc.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-calc.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-cubicbezierrange.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-cubicbezierrange.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-cubicbezierrange.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-cubicbezierrange-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-cubicbezierrange.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-cubicbezierrange.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-displayrunin.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-displayrunin.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-displayrunin.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-displayrunin-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-displayrunin.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-displayrunin.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-displaytable.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-displaytable.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-displaytable.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-displaytable-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-displaytable.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-displaytable.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-filters.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-filters.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-filters.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-filters-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-filters.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-filters.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-hyphens.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-hyphens.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-hyphens.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-hyphens-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-hyphens.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-hyphens.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-lastchild.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-lastchild.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-lastchild.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-lastchild-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-lastchild.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-lastchild.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-mask.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-mask.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-mask.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-mask-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-mask.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-mask.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-mediaqueries.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-mediaqueries.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-mediaqueries.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-mediaqueries-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-mediaqueries.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-mediaqueries.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-objectfit.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-objectfit.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-objectfit.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-objectfit-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-objectfit.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-objectfit.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-overflow-scrolling.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-overflow-scrolling.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-overflow-scrolling.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-overflow-scrolling-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-overflow-scrolling.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-overflow-scrolling.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-pointerevents.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-pointerevents.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-pointerevents.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-pointerevents-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-pointerevents.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-pointerevents.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-positionsticky.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-positionsticky.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-positionsticky.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-positionsticky-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-positionsticky.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-positionsticky.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-regions.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-regions.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-regions.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-regions-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-regions.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-regions.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-remunit.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-remunit.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-remunit.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-remunit-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-remunit.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-remunit.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-resize.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-resize.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-resize.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-resize-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-resize.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-resize.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-scrollbars.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-scrollbars.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-scrollbars.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-scrollbars-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-scrollbars.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-scrollbars.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-subpixelfont.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-shapes.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-subpixelfont.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-subpixelfont-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-shapes.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-shapes.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-supports.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-subpixelfont.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-supports.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-supports-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-subpixelfont.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-subpixelfont.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-userselect.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-supports.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-userselect.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-userselect-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-supports.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-supports.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-vhunit.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-userselect.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-vhunit.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-vhunit-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-userselect.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-userselect.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-vmaxunit.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-vhunit.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-vmaxunit.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-vmaxunit-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-vhunit.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-vhunit.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-vminunit.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-vmaxunit.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-vminunit.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-vminunit-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-vmaxunit.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-vmaxunit.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/css-vwunit.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-vminunit.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/css-vwunit.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/css-vwunit-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-vminunit.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-vminunit.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/custom-protocol-handler.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/css-vwunit.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/custom-protocol-handler.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/custom-protocol-handler-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-vwunit.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/css-vwunit.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/dart.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/custom-protocol-handler.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/dart.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/dart-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/custom-protocol-handler.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/custom-protocol-handler.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/dataview-api.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/dart.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/dataview-api.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/dataview-api-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/dart.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/dart.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/dom-classlist.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/dataview-api.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/dom-classlist.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/dom-classlist-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/dataview-api.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/dataview-api.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/dom-createElement-attrs.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/dom-classlist.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/dom-createElement-attrs.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/dom-createElement-attrs-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/dom-classlist.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/dom-classlist.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/dom-dataset.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/dom-createElement-attrs.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/dom-dataset.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/dom-dataset-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/dom-createElement-attrs.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/dom-createElement-attrs.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/dom-microdata.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/dom-dataset.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/dom-microdata.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/dom-microdata-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/dom-dataset.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/dom-dataset.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/elem-datalist.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/dom-microdata.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/elem-datalist.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/elem-datalist-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/dom-microdata.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/dom-microdata.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/elem-details.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/elem-datalist.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/elem-details.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/elem-details-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/elem-datalist.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/elem-datalist.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/elem-output.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/elem-details.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/elem-output.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/elem-output-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/elem-details.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/elem-details.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/elem-progress-meter.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/elem-output.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/elem-progress-meter.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/elem-progress-meter-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/elem-output.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/elem-output.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/elem-ruby.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/elem-progress-meter.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/elem-ruby.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/elem-ruby-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/elem-progress-meter.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/elem-progress-meter.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/elem-time.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/elem-ruby.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/elem-time.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/elem-time-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/elem-ruby.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/elem-ruby.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/elem-track.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/elem-time.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/elem-track.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/elem-track-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/elem-time.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/elem-time.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/emoji.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/elem-track.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/emoji.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/emoji-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/elem-track.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/elem-track.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/es5-strictmode.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/emoji.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/es5-strictmode.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/es5-strictmode-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/emoji.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/emoji.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/event-deviceorientation-motion.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/es5-strictmode.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/event-deviceorientation-motion.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/event-deviceorientation-motion-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/es5-strictmode.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/es5-strictmode.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/exif-orientation.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/event-deviceorientation-motion.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/exif-orientation.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/exif-orientation-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/event-deviceorientation-motion.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/event-deviceorientation-motion.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/file-api.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/exif-orientation.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/file-api.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/file-api-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/exif-orientation.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/exif-orientation.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/file-filesystem.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/file-api.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/file-filesystem.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/file-filesystem-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/file-api.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/file-api.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/forms-fileinput.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/file-filesystem.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/forms-fileinput.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/forms-fileinput-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/file-filesystem.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/file-filesystem.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/forms-formattribute.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/forms-fileinput.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/forms-formattribute.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/forms-formattribute-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/forms-fileinput.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/forms-fileinput.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/forms-inputnumber-l10n.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/forms-formattribute.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/forms-inputnumber-l10n.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/forms-inputnumber-l10n-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/forms-formattribute.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/forms-formattribute.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/forms-placeholder.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/forms-inputnumber-l10n.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/forms-placeholder.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/forms-placeholder-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/forms-inputnumber-l10n.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/forms-inputnumber-l10n.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/forms-speechinput.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/forms-placeholder.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/forms-speechinput.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/forms-speechinput-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/forms-placeholder.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/forms-placeholder.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/forms-validation.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/forms-speechinput.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/forms-validation.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/forms-validation-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/forms-speechinput.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/forms-speechinput.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/fullscreen-api.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/forms-validation.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/fullscreen-api.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/fullscreen-api-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/forms-validation.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/forms-validation.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/gamepad.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/fullscreen-api.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/gamepad.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/gamepad-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/fullscreen-api.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/fullscreen-api.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/getusermedia.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/gamepad.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/getusermedia.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/getusermedia-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/gamepad.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/gamepad.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/ie8compat.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/getusermedia.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/ie8compat.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/ie8compat-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/getusermedia.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/getusermedia.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/iframe-sandbox.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/ie8compat.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/iframe-sandbox.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/iframe-sandbox-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/ie8compat.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/ie8compat.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/iframe-seamless.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/iframe-sandbox.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/iframe-seamless.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/iframe-seamless-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/iframe-sandbox.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/iframe-sandbox.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/iframe-srcdoc.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/iframe-seamless.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/iframe-srcdoc.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/iframe-srcdoc-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/iframe-seamless.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/iframe-seamless.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/img-apng.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/iframe-srcdoc.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/img-apng.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/img-apng-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/iframe-srcdoc.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/iframe-srcdoc.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/img-webp.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/img-apng.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/img-webp.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/img-webp-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/img-apng.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/img-apng.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/json.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/img-webp.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/json.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/json-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/img-webp.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/img-webp.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/lists-reversed.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/json.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/lists-reversed.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/lists-reversed-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/json.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/json.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/mathml.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/lists-reversed.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/mathml.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/mathml-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/lists-reversed.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/lists-reversed.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/modernizr.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/mathml.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/modernizr.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/modernizr-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/mathml.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/mathml.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/network-connection.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/network-connection.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/network-connection.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/network-connection-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/network-connection.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/network-connection.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/network-eventsource.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/network-eventsource.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/network-eventsource.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/network-eventsource-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/network-eventsource.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/network-eventsource.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/network-xhr2.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/network-xhr2.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/network-xhr2.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/network-xhr2-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/network-xhr2.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/network-xhr2.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/notification.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/notification.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/notification.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/notification-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/notification.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/notification.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/performance.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/performance.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/performance.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/performance-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/performance.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/performance.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/pointerlock-api.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/pointerlock-api.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/pointerlock-api.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/pointerlock-api-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/pointerlock-api.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/pointerlock-api.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/quota-management-api.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/quota-management-api.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/quota-management-api.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/quota-management-api-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/quota-management-api.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/quota-management-api.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/requestanimationframe.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/requestanimationframe.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/requestanimationframe.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/requestanimationframe-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/requestanimationframe.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/requestanimationframe.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/script-async.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/script-async.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/script-async.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/script-async-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/script-async.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/script-async.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/script-defer.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/script-defer.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/script-defer.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/script-defer-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/script-defer.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/script-defer.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/style-scoped.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/style-scoped.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/style-scoped.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/style-scoped-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/style-scoped.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/style-scoped.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/svg-filters.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/svg-filters.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/svg-filters.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/svg-filters-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/svg-filters.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/svg-filters.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/unicode.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/unicode.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/unicode.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/unicode-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/unicode.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/unicode.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/url-data-uri.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/url-data-uri.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/url-data-uri.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/url-data-uri-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/url-data-uri.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/url-data-uri.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/userdata.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/userdata.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/userdata.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/userdata-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/userdata.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/userdata.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/vibration.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/vibration.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/vibration.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/vibration-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/vibration.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/vibration.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/web-intents.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/web-intents.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/web-intents.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/web-intents-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/web-intents.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/web-intents.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/webgl-extensions.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/webgl-extensions.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/webgl-extensions.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/webgl-extensions-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/webgl-extensions.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/webgl-extensions.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/websockets-binary.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/websockets-binary.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/websockets-binary.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/websockets-binary-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/websockets-binary.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/websockets-binary.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/window-framed.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/window-framed.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/window-framed.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/window-framed-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/window-framed.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/window-framed.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/workers-blobworkers.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/workers-blobworkers.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/workers-blobworkers.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/workers-blobworkers-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/workers-blobworkers.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/workers-blobworkers.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/workers-dataworkers.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/workers-dataworkers.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/workers-dataworkers.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/workers-dataworkers-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/workers-dataworkers.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/workers-dataworkers.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/sprockets-modernizr\/workers-sharedworkers.js": {
+	"\/src\/bower_components\/modernizr\/feature-detects\/workers-sharedworkers.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/workers-sharedworkers.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/sprockets-modernizr\/min\/workers-sharedworkers-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/workers-sharedworkers.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/feature-detects\/workers-sharedworkers.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/bower_components\/modernizr\/grunt.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/grunt.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/grunt.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/bower_components\/modernizr\/media\/Modernizr 2 Logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14823,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/media\/Modernizr 2 Logo.png",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/media\/Modernizr 2 Logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/bower_components\/modernizr\/modernizr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/modernizr.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/modernizr.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/bower_components\/modernizr\/readme.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/readme.md",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/readme.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/basic.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/basic.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/alpha.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 163,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/alpha.png",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/alpha.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/apng_test.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 195,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/apng_test.png",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/apng_test.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/before-after.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 452,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/before-after.png",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/before-after.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/form_validation.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/form_validation.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/ga.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/ga.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/ga.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/green5x5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/green5x5.png",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/green5x5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/hashchange.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/hashchange.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/jquery.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/jquery.min.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/jquery.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/mathml.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/mathml.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/mathml_ref.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3140,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/mathml_ref.png",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/mathml_ref.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/modernizr-1.7.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/modernizr-1.7.min.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/modernizr-1.7.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/png_alpha_result.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 214,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/png_alpha_result.png",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/png_alpha_result.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/pushstate.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/pushstate.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/red30x30.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/red30x30.png",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/red30x30.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/ruby.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1339,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/ruby.png",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/ruby.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/stroked-text.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/stroked-text.png",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/stroked-text.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/svg-html-blur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1232,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/svg-html-blur.png",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/svg-html-blur.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/svg_blur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3742,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/svg_blur.png",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/svg_blur.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/table.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2519,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/table.png",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/table.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/text-shadow1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 796,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/text-shadow1.png",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/text-shadow1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/text-shadow2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1680,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/text-shadow2.png",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/text-shadow2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/windsong_font.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1339,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/windsong_font.png",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/windsong_font.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/caniuse_files\/xhtml.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/caniuse_files\/xhtml.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/js\/basic.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/basic.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/js\/dumpdata.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/dumpdata.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/dumpdata.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/bower_components\/modernizr\/test\/js\/lib\/detect-global.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/lib\/detect-global.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/lib\/detect-global.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/bower_components\/modernizr\/test\/js\/lib\/jquery-1.7b2.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/lib\/jquery-1.7b2.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/lib\/jquery-1.7b2.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/bower_components\/modernizr\/test\/js\/lib\/jsonselect.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/lib\/jsonselect.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/lib\/jsonselect.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/bower_components\/modernizr\/test\/js\/lib\/polyfills.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/lib\/polyfills.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/lib\/polyfills.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/bower_components\/modernizr\/test\/js\/lib\/uaparser.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/lib\/uaparser.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/lib\/uaparser.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/bower_components\/modernizr\/test\/js\/setup.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/setup.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/setup.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/bower_components\/modernizr\/test\/js\/unit-caniuse.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/unit-caniuse.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/unit-caniuse.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/bower_components\/modernizr\/test\/js\/unit.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/unit.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/js\/unit.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/bower_components\/modernizr\/test\/qunit\/qunit.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/qunit\/qunit.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/bower_components\/modernizr\/test\/qunit\/qunit.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/qunit\/qunit.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/qunit\/qunit.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/bower_components\/modernizr\/test\/qunit\/run-qunit.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/qunit\/run-qunit.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/modernizr\/test\/qunit\/run-qunit.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2703,7 +3166,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/sass\/main.scss",
-		"outputAbbreviatedPath": "\/css\/style.css",
+		"outputAbbreviatedPath": "\/src\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,

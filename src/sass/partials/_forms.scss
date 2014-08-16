@@ -44,11 +44,6 @@ select {
     label > & {
         margin-top: $label-input-spacing;
     }
-
-    // Invalid inputs, change outline to red
-    &:invalid:focus {
-        outline-color: $red;
-    }
 }
 
 // Full width range inputs
@@ -69,6 +64,11 @@ input[type="color"] {
 // Search inputs
 input[type="search"] {
     box-sizing: border-box; // overwrites normalize.css
+}
+
+// Invalid inputs, change outline to red
+input:invalid:focus {
+    outline-color: $error-border-color;
 }
 
 // Labels

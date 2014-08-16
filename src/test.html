@@ -107,7 +107,7 @@
 
                         <div class="col-6">
                              <h3>The HTML</h3>
-<pre class="prettyprint">
+<pre>
 &lt;div class="row"&gt;
     &lt;div class="col-4"&gt;...&lt;/div&gt;
     &lt;div class="col-4"&gt;...&lt;/div&gt;
@@ -691,6 +691,7 @@
     <script>
         // Call the Google Code Prettify
         if (typeof prettyPrint === 'function') {
+            $('pre').addClass('prettyprint').filter(':even').addClass('linenums');
             prettyPrint();
         }
     </script>

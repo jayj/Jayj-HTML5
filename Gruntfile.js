@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
 
-    // Load all grunt tasks matching the `grunt-*` pattern
+    // Load all grunt tasks
     require( 'load-grunt-tasks' )(grunt);
 
     // Configurable paths
@@ -11,7 +11,7 @@ module.exports = function(grunt) {
 
     // Project configuration.
     grunt.initConfig({
-        pkg: grunt.file.readJSON('package.json'),
+        pkg: grunt.file.readJSON( 'package.json' ),
         config: config,
 
         // Watch for file changes
@@ -22,11 +22,11 @@ module.exports = function(grunt) {
             },
             js: {
                 files: [ '<%= config.src %>/js/{,*/}*.js' ],
-                tasks: [ 'newer:jshint:js' ]
+                tasks: [ 'newer:jshint:js' ] // Runs jshint on changed files
             },
             images: {
                 files: [ '<%= config.src %>/images/{,*/}*' ],
-                tasks: [ 'newer:imagemin' ]
+                tasks: [ 'newer:imagemin' ] // Runs imagemin on changed images
             },
             grunt: {
                 files: [ 'Gruntfile.js' ],
@@ -52,12 +52,11 @@ module.exports = function(grunt) {
                 options: {
                     browsers: [ 'last 2 version', 'ie 9' ]
                 },
-                src: '<%= config.src %>/css/style.css',
-                dest: '<%= config.src %>/css/style.css'
+                src: '<%= config.src %>/css/style.css'
             }
         },
 
-        // Make sure code styles are up to par and there are no obvious mistakes
+        // Make sure there are no obvious mistakes in the JS files
         jshint: {
             grunt: {
                 src: [ 'Gruntfile.js' ]
@@ -108,7 +107,7 @@ module.exports = function(grunt) {
         clean: {
             build: {
                 src: [ '<%= config.build %>/' ]
-            }
+            },
         },
 
         // Copy to build folder
@@ -118,8 +117,8 @@ module.exports = function(grunt) {
                 cwd: '<%= config.src %>/',
                 src: [
                     '**',
-                    '!bower_components/**',
-                    '!.css.map',
+                    '!bower_components/**', // Skip Bower components
+                    '!.css.map', // Skip Sass source maps
                 ],
                 dest: '<%= config.build %>/',
             },
@@ -131,7 +130,16 @@ module.exports = function(grunt) {
                 js_dest: '<%= config.build %>/js',
                 css_dest: '<%= config.build %>/css',
                 options: {
-                    ignorePackages: [ 'google-code-prettify' ]
+                    ignorePackages: [
+                        'google-code-prettify',
+                        'modernizr' // Will be done by the task
+                    ],
+                    packageSpecific: {
+                        // Move the minified version of jQuery
+                        'jquery' : {
+                            files: [ 'dist/jquery.min.js' ]
+                        }
+                    }
                 }
             }
         },
@@ -141,11 +149,11 @@ module.exports = function(grunt) {
             build: {
                 'devFile': '<%= config.src %>/bower_components/modernizr/modernizr.js',
                 'outputFile': '<%= config.build %>/js/modernizr-custom.js',
-                'uglify': false, // will be done by the uglify task
+                'uglify': false, // Will be done by the uglify task
+                'extra': { 'load': false }, // Skip Modernizr.load (yepnope.js)
+
+                // The tests we need - add more if you need them
                 'tests': [ 'csscolumns', 'flexbox', 'css-calc' ],
-                'extra': {
-                    'load': false
-                },
             }
         },
 
@@ -159,7 +167,7 @@ module.exports = function(grunt) {
                     expand: true,
                     cwd: '<%= config.build %>/js',
                     dest: '<%= config.build %>/js',
-                    src: '**/*.js',
+                    src: [ '**/*.js', '!**/*.min.js' ], // Uglify all .js files, but skip .min.js files
                     ext: '.min.js'
               }],
             }
@@ -169,11 +177,11 @@ module.exports = function(grunt) {
         compress: {
             build: {
                 options: {
-                    archive: '<%= config.build %>/jayj-html5-theme-<%= pkg.version %>.zip'
+                    archive: '<%= config.build %>/<%= pkg.name %>-<%= pkg.version %>.zip'
                 },
                 cwd: '<%= config.build %>/',
                 src: ['**/*'],
-                dest: 'jayj-html5-theme/'
+                dest: '<%= pkg.name %>/'
             }
         }
     });

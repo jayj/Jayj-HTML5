@@ -132,7 +132,7 @@ module.exports = function(grunt) {
                 options: {
                     ignorePackages: [
                         'google-code-prettify',
-                        'modernizr' // Will be done by the task
+                        'modernizr' // Will be done by the modernizr task
                     ],
                     packageSpecific: {
                         // Move the minified version of jQuery

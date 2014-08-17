@@ -87,7 +87,7 @@ ul.row {
 // Generate column classes
 @for $i from 1 through $grid-columns {
     // Add each column class to the $classes list
-    $classes: join($classes, unquote(".col-#{$i} "), comma);
+    $classes: join($classes, unquote(".col-#{$i} "), comma) !global;
 
     .col-#{$i} {
         flex: $i;

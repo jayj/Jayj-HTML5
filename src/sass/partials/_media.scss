@@ -23,7 +23,6 @@ figure {
 	border-radius: 5px;
 	background: $figure-background;
 	color: $figure-text-color;
-	text-align: center;
 
 	// Figure content
 	img {
@@ -32,8 +31,6 @@ figure {
 	}
 
 	pre {
-		text-align: left;
-
 		&:last-child {
 			margin-bottom: 0;
 		}
@@ -45,6 +42,7 @@ figure {
 			family: $figure-font-family;
 			size: $figure-font-size;
 		}
+		text-align: center;
 
 		code {
 			color: $figure-code-color;

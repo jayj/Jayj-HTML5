@@ -11,10 +11,10 @@ ol {
 	list-style-type: decimal;
 }
 
-ol ol { list-style: upper-roman }
-ol ol ol { list-style: lower-roman }
-ol ol ol ol { list-style: upper-alpha }
-ol ol ol ol ol { list-style: lower-alpha }
+ol ol { list-style: upper-roman; }
+ol ol ol { list-style: lower-roman; }
+ol ol ol ol { list-style: upper-alpha; }
+ol ol ol ol ol { list-style: lower-alpha; }
 
 // Unstyled lists
 .list-unstyled {
@@ -23,10 +23,10 @@ ol ol ol ol ol { list-style: lower-alpha }
 
 // Description lists
 dt {
-	@include rem(margin-top, 10px);
+	margin-top: 1rem;
 	font-weight: $bold;
 }
 
 dd {
-	margin-left: $list-description-indent
+	margin-left: $small-gutter-width;
 }

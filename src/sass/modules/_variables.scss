@@ -152,6 +152,7 @@ $hr-border-color:             darken($gray-lighter, 5%) !default;
 
 // Blockquotes
 $quote-border-color:          $blue !default;
+$quote-font-size:             $base-font-size * 1.25 !default;
 
 // Tables
 $table-background:            #fff !default;

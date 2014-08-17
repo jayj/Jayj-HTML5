@@ -4,8 +4,8 @@
 .entry {
     position: relative;
     border-bottom: 4px double $gray-lighter;
-    padding-bottom: $gutter-width-rem;
-    margin-bottom: $gutter-width-rem;
+    padding-bottom: $gutter-width;
+    margin-bottom: $gutter-width;
 
     &:last-of-type {
         border-bottom: none;
@@ -25,7 +25,7 @@
 
 
 .entry-meta {
-    margin-top: $small-gutter-width-rem;
+    margin-top: $small-gutter-width;
     color: $gray-light;
 
     // Entry meta in <header>
@@ -60,7 +60,7 @@
 // Entry thumbnails
 .thumbnail {
     display: block;
-    margin: 0 auto $small-gutter-width-rem;
+    margin: 0 auto $small-gutter-width;
 
     // Rotate thumbnails on hover
     .entry &:hover {
@@ -74,7 +74,7 @@
     @include breakpoint(screen-sm) {
         display: inline;
         float: left;
-        margin: 0 $small-gutter-width-rem 1rem 0;
+        margin: 0 $small-gutter-width 1rem 0;
         border-radius: 3px 0 0 3px;
         border: 0.4rem solid #fff;
         box-shadow: 0 0 6px rgba(#000, 0.1);
@@ -82,6 +82,6 @@
 
     @include breakpoint(screen-lg) {
         box-shadow: 1px 1px 6px rgba(#000, 0.1);
-        margin-left: ($gutter-width-rem - $gutter-width-rem * 3);
+        margin-left: ($gutter-width - $gutter-width * 3);
     }
 }

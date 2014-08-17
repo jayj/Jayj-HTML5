@@ -7,8 +7,8 @@
     $shadow: nth($menu-bg-color, 2);
 
     clear: both;
-    margin-top: (-$gutter-width-rem - 1rem);
-    margin-bottom: ($gutter-width-rem - $menu-items-space);
+    margin-top: (-$gutter-width - 1rem);
+    margin-bottom: ($gutter-width - $menu-items-space);
 
     ul {
         display: flex;

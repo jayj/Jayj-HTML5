@@ -8,7 +8,6 @@ pre,
 samp {
     font: {
         family: $monospace-font-family;
-        size: $monospace-font-size;
     }
     line-height: $monospace-line-height;
 }
@@ -34,6 +33,7 @@ pre {
     padding: $line-spacing 2.5rem;
     display: block;
     margin: 0 0 4.0rem;
+    font-size: $monospace-font-size;
     border: 1px solid $pre-border-color;
     border-radius: 4px;
     background-color: $pre-bg;

@@ -9,11 +9,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: $heading-line-height;
 }
 
-.entry-title {
-    font-size: 3.6rem; // @todo add as variable
-    letter-spacing: -1px;
-}
-
 // Style h3 and h5 headings differently
 h3 {
     padding-bottom: 0.6rem;

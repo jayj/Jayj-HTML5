@@ -1,2 +1,87 @@
 /* Layout: Posts
    ========================================================================== */
+
+.entry {
+    position: relative;
+    border-bottom: 4px double $gray-lighter;
+    padding-bottom: $gutter-width-rem;
+    margin-bottom: $gutter-width-rem;
+
+    &:last-of-type {
+        border-bottom: none;
+    }
+}
+
+
+.entry-title {
+    font-size: $post-title-size;
+    letter-spacing: -0.1rem;
+    text-align: center;
+
+    @include breakpoint(screen-sm) {
+        text-align: left;
+    }
+}
+
+
+.entry-meta {
+    margin-top: $small-gutter-width-rem;
+    color: $gray-light;
+
+    // Entry meta in <header>
+    header & {
+        padding-bottom: 1.5rem;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid $gray-lighter;
+        text-align: center;
+
+        @include breakpoint(screen-sm) {
+            text-align: left;
+        }
+    }
+
+    // Entry meta as <footer>
+    @at-root footer.entry-meta {
+        padding-top: 1.5rem;
+        border-top: 1px solid $gray-lighter;
+    }
+}
+
+
+.entry-content {
+
+    // Read more link
+    .more-link {
+        font-size: $base-font-size * 1.2;
+    }
+}
+
+
+// Entry thumbnails
+.thumbnail {
+    display: block;
+    margin: 0 auto $small-gutter-width-rem;
+
+    // Rotate thumbnails on hover
+    .entry &:hover {
+        transform: rotate(-2deg);
+    }
+
+    .entry:nth-of-type(even) &:hover {
+        transform: rotate(2deg);
+    }
+
+    @include breakpoint(screen-sm) {
+        display: inline;
+        float: left;
+        margin: 0 $small-gutter-width-rem 1rem 0;
+        border-radius: 3px 0 0 3px;
+        border: 0.4rem solid #fff;
+        box-shadow: 0 0 6px rgba(#000, 0.1);
+    }
+
+    @include breakpoint(screen-lg) {
+        box-shadow: 1px 1px 6px rgba(#000, 0.1);
+        margin-left: ($gutter-width-rem - $gutter-width-rem * 3);
+    }
+}

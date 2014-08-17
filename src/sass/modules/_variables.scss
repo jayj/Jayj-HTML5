@@ -184,6 +184,7 @@ $figure-background:           $gray-dark !default;
 $figure-text-color:           #fff !default;
 $figure-code-color:           lighten($code-text-color, 7%) !default;
 $figure-font-family:          $heading-font-family !default;
+$figure-font-size:            $base-font-size * 0.95 !default;
 $figure-spacing:              $small-gutter-width !default;
 
 // ===========================

@@ -2,12 +2,14 @@
    ========================================================================== */
 
 // Responsive media (ensure media don't scale beyond their parents)
-@if $media-responsive {
-	img, iframe,
-	embed, object,
-	audio, video {
-		max-width: 100%;
-	}
+img,
+iframe,
+embed,
+object,
+audio,
+video {
+	max-width: 100%;
+}
 
 	img {
 		height: auto;

@@ -80,6 +80,11 @@ $classes: ();
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-direction: column;
+
+    @include breakpoint(screen-sm) {
+        flex-direction: row;
+    }
 }
 
 ul.row {
@@ -97,10 +102,12 @@ ul.row {
 }
 
 // Add column gutters
-#{$classes} {
-    margin-left: $grid-gutter;
+@include breakpoint(screen-sm) {
+    #{$classes} {
+        margin-left: $grid-gutter;
 
-    &:first-child {
-        margin-left: 0;
+        &:first-child {
+            margin-left: 0;
+        }
     }
 }

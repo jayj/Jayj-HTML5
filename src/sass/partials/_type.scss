@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 
 // Style h3 and h5 headings differently
 h3 {
-    padding-bottom: 6px;
+    padding-bottom: 0.6rem;
     border-bottom: 1px solid $gray-lighter;
     color: $primary-color;
 }
@@ -31,7 +31,7 @@ h5 {
    ========================================================================== */
 
 hr {
-    @include rem(margin, $gutter-width 0);
+    margin: $gutter-width 0;
     border: 0;
     border-top: 4px double $hr-border-color;
 }

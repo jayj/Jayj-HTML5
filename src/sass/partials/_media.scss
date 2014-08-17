@@ -18,8 +18,8 @@ img {
 
 // Figures
 figure {
-	@include rem(padding, $figure-spacing);
-	@include rem(margin, $figure-spacing 0);
+	padding: $figure-spacing;
+	margin: $figure-spacing 0;
 	border-radius: 5px;
 	background: $figure-background;
 	color: $figure-text-color;
@@ -52,12 +52,12 @@ figure {
 
 		// Caption is first in the figure
 		&:first-child {
-			@include rem(margin-bottom, $figure-spacing);
+			margin-bottom: $figure-spacing;
 		}
 
 		// Caption is last in the figure
 		&:last-child {
-			@include rem(margin-top, $figure-spacing);
+			margin-top: $figure-spacing;
 		}
 	}
 }

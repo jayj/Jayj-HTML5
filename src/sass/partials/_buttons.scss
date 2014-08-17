@@ -3,14 +3,27 @@
 
 .btn {
     @include button;
-    @include button-variant($btn-default-text-color, $btn-default-bg, $btn-default-border-color, $btn-default-shadow-color);
+
+    @include button-variant(
+        $btn-default-text-color,
+        $btn-default-bg,
+        $btn-default-border-color,
+        $btn-default-shadow-color
+    );
 }
 
 .btn-primary {
     @include button;
-    @include button-variant($btn-primary-text-color, $btn-primary-bg, $btn-primary-border-color, $btn-primary-shadow-color);
+
+    @include button-variant(
+        $btn-primary-text-color,
+        $btn-primary-bg,
+        $btn-primary-border-color,
+        $btn-primary-shadow-color
+    );
 }
 
+// Add the button styles to all buttons
 button,
 input[type="submit"],
 input[type="reset"],

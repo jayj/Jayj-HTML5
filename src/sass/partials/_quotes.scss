@@ -41,7 +41,9 @@ blockquote.alignright {
     // Citations
     footer,
     > cite {
-        &:before { content: ''; }
+        &:before {
+            content: '';
+        }
 
         &:after {
             content: '\00A0 \2014'; // space, em dash

@@ -5,5 +5,11 @@ footer[role="contentinfo"] {
 	font-size: $footer-font-size;
 	padding: $small-gutter-width-rem $gutter-width-rem;
 	text-align: center;
-	background-image: radial-gradient( circle, rgba(#000, $footer-background-opacity / 100), rgba(#000, 0) );
+
+	// Radial gradient to make the text a bit easier to read
+	background-image: radial-gradient(
+		circle,
+		rgba(#000, $footer-background-opacity / 100),
+		rgba(#000, 0)
+	);
 }

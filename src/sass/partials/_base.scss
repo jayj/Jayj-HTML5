@@ -15,11 +15,10 @@ html {
     font-size: 62.5%; // Makes 1 rem = 10 px
 }
 
+/* Body
+   ========================================================================== */
 
 body {
-    //
-    // Set base font and color
-    //
     color: $text-color;
     font: {
         family: $base-font-family;
@@ -54,8 +53,7 @@ body {
         background-attachment: $body-bg-image-attachment;
     }
 
-
-   // No support for CSS3 gradients
+    // No support for CSS3 gradients
     .no-cssgradients & {
         background-image: url($body-bg-fallback);
         background-repeat: $body-bg-image-repeat;

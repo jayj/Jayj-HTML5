@@ -8,7 +8,7 @@
     @include breakpoint(screen-md) {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: center; // Vertically center the header elements
         text-align: left;
     }
 }
@@ -31,6 +31,8 @@
         &:active {
             color: darken($site-title-color, 10%);
             text-decoration: none;
+
+            // Increase size when hovered
             transform: scale(1.06);
 
             // 3d shadow effect

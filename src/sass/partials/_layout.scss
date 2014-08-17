@@ -15,10 +15,12 @@ body {
  * Content wrapper
  */
 .site-content {
+    // Fade-out gradient at the top of the content
     background-image: linear-gradient(
         to bottom,
         rgba($content-background, 0.25),
-        $content-background 12rem);
+        $content-background 12rem
+    );
 
     border-radius: 10px;
     box-shadow: 0 2px 3px 0 rgba($gray-light, 0.4);

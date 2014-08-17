@@ -46,7 +46,7 @@ pre {
         // Set spacing to the same as the line-height
         background-size: 100% $line-spacing;
 
-        // Create the line gradient
+        // Create the lines gradient
         background-image: linear-gradient(
             to bottom,
             darken($pre-bg, 5%) 1px,
@@ -67,9 +67,7 @@ pre {
     }
 }
 
-/**
- * Google Prettify script
- */
+/* Google Prettify script */
 
 pre[class*="linenums"] {
     position: relative;

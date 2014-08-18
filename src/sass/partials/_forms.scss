@@ -42,6 +42,11 @@ select {
     color: $input-text-color;
     font-weight: $regular;
 
+    // Visual indication for disabled and readonly inputs
+    &[disabled],
+    &[readonly] {
+        background-color: $gray-lighter;
+        color: $gray-dark;
     }
 }
 

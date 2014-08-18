@@ -113,3 +113,11 @@
         color: darken($color, $btn-hover-darken);
     }
 }
+
+// Alerts
+// From Twitter Bootstrap
+@mixin alert-variant($background, $border, $text-color) {
+    background-color: $background;
+    border-color: $border;
+    color: $text-color;
+}

@@ -241,19 +241,19 @@ $alert-text-color:            $gray-darker !default;
 $alert-background:            $gray-lighter !default;
 $alert-border-color:          darken($gray-lighter, 8%) !default;
 
-$warning-text-color:          #3b3601 !default;
-$warning-background:          #fef9c7 !default;
-$warning-border-color:        darken($warning-background, 25%) !default;
+$alert-warning-text:          #3b3601 !default;
+$alert-warning-bg:            #fef9c7 !default;
+$alert-warning-border:        adjust-hue( darken($alert-warning-bg, 25%), -10 ) !default;
 
-$error-text-color:            #7a0b0a !default;
-$error-background:            #f2dede !default;
-$error-border-color:          $red !default;
+$alert-error-text:            #7a0b0a !default;
+$alert-error-bg:              #f2dede !default;
+$alert-error-border:          adjust-hue( darken($alert-error-bg, 30%), -5 ) !default;
 
-$success-text-color:          #0d370d !default;
-$success-background:          #dff0d8 !default;
-$success-border-color:        darken($success-background, 40%) !default;
+$alert-success-text:          #0d370d !default;
+$alert-success-bg:            #dff0d8 !default;
+$alert-success-border:        darken($alert-success-bg, 40%) !default;
 
-$info-text-color:             #0c3346 !default;
-$info-background:             #d9edf7 !default;
-$info-border-color:           $blue !default;
+$alert-info-text:             #0c3346 !default;
+$alert-info-bg:               #d9edf7 !default;
+$alert-info-border:           $blue !default;
 

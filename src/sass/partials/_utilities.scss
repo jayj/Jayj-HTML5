@@ -43,6 +43,12 @@
 //  width: auto;
 //  z-index: 100000;
 // }
+/**
+ * Clearfix: contain floats
+ */
+.clearfix {
+	@include clearfix;
+}
 
 // Hide spam check field
 .s_check {

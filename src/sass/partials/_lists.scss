@@ -6,6 +6,7 @@ ul {
 	list-style: square;
 }
 
+
 // Ordered lists
 ol {
 	list-style-type: decimal;
@@ -16,10 +17,6 @@ ol ol ol { list-style: lower-roman; }
 ol ol ol ol { list-style: upper-alpha; }
 ol ol ol ol ol { list-style: lower-alpha; }
 
-// Unstyled lists
-.list-unstyled {
-	@include no-list-style;
-}
 
 // Description lists
 dt {

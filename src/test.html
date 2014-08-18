@@ -464,6 +464,10 @@
                                 </datalist>
                             </div>
 
+                            <p><label>Text input (disabled) <input type="text" disabled value="value"></label></p>
+
+                            <p><label>Text input (readonly) <input type="text" readonly value="value"></label></p>
+
                             <p><label>Email input <input type="email"></label></p>
 
                             <p><label>Search input <input type="search"></label></p>
@@ -516,6 +520,8 @@
                             <p class="radio"><label><input type="radio" name="rad"> Radio input</label></p>
 
                             <p><label class="checkbox"><input type="checkbox"> Checkbox input</label></p>
+
+                            <p><label class="checkbox"><input type="checkbox" disabled> Checkbox input (disabled)</label></p>
 
                             <p>
                                 <label>Select field<br>
@@ -677,14 +683,6 @@
                             <tr>
                                 <td><code>.screen-reader-text</code></td>
                                 <td>Hides text visually, but it will be available for screenreaders</td>
-                            </tr>
-                            <tr>
-                                <td><code>.hidden</code></td>
-                                <td>Hides from both screenreaders and browsers</td>
-                            </tr>
-                            <tr>
-                                <td><code>.invisible</code></td>
-                                <td>Hides visually and from screenreaders, but maintains layout</td>
                             </tr>
                         </tbody>
                     </table>

@@ -1,4 +1,5 @@
-/* Forms
+/* =============================================================================
+   Forms
    ========================================================================== */
 
 fieldset {
@@ -14,7 +15,9 @@ legend {
     color: $legend-text-color;
 }
 
-// Inputs
+/**
+ * Inputs
+ */
 input[type="text"],
 input[type="password"],
 input[type="datetime"],
@@ -50,22 +53,19 @@ select {
     }
 }
 
-// Full width range inputs
 input[type="range"] {
     display: block;
-    width: 100%;
-
+    width: 100%; // full width range inputs
 }
 
-// Color inputs
 input[type="color"] {
     padding: 0; // reset padding, otherwise the color is barely visible
 }
 
-// Search inputs
 input[type="search"] {
     box-sizing: border-box; // overwrites normalize.css
 }
+
 
 // File upload button
 input[type="file"]::-webkit-file-upload-button {

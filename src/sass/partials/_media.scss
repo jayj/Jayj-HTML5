@@ -12,11 +12,13 @@ video {
 }
 
 img {
-	height: auto;
+	height: auto; // Make sure images are scaled correctly
 }
 
 
-// Figures
+/**
+ * Figures
+ */
 figure {
 	padding: $figure-spacing;
 	margin: $figure-spacing 0;

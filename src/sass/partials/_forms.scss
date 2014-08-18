@@ -42,8 +42,6 @@ select {
     color: $input-text-color;
     font-weight: $regular;
 
-    label > & {
-        margin-top: $label-input-spacing;
     }
 }
 
@@ -52,9 +50,6 @@ input[type="range"] {
     display: block;
     width: 100%;
 
-    label > & {
-        margin-top: $label-input-spacing;
-    }
 }
 
 // Color inputs
@@ -77,13 +72,21 @@ input:invalid:focus {
     outline-color: $red;
 }
 
-// Labels
+
+/**
+ * Labels
+ */
 label {
     display: block;
     font: {
         family: $label-font-family;
         weight: $label-font-weight;
         size: $label-font-size;
+    }
+
+    // Inputs inside labels
+    > input {
+        margin-top: $label-input-spacing;
     }
 
     .help,
@@ -94,6 +97,7 @@ label {
         font-size: 90%;
     }
 }
+
 
 // Checkboxes and radios
 .checkbox,

@@ -25,6 +25,7 @@ kbd {
     color: $kbd-color;
 }
 
+
 // Code blocks
 pre {
     $line-spacing: ($monospace-font-size * $monospace-line-height);
@@ -66,26 +67,29 @@ pre {
     }
 }
 
+
 /* Google Prettify script */
-
-pre[class*="linenums"] {
-    position: relative;
-
-    // Add red stribes to separate the line numbers and content
-    &:before {
-        position: absolute;
-        top: 0;
-        left: 50px;
-        z-index: 1;
-        @include size(4px, 100%);
-        border: 1px solid $pre-prettify-sep-color;
-        border-width: 0 1px;
-        content: "";
-    }
-}
-
 .prettyprint {
+
+    //
     // Line numbers
+    //
+    &[class*="linenums"] {
+        position: relative;
+
+        // Add red stribes to separate the line numbers and content
+        &:before {
+            position: absolute;
+            top: 0;
+            left: 50px;
+            z-index: 1;
+            @include size(4px, 100%);
+            border: 1px solid $pre-prettify-sep-color;
+            border-width: 0 1px;
+            content: "";
+        }
+    }
+
     .linenums {
         color: $pre-prettify-line-text-color;
         margin: 0;
@@ -97,7 +101,9 @@ pre[class*="linenums"] {
         }
     }
 
+    //
     // Syntax highlighting
+    //
     .pln { color: #000 }  // plain text
     .str { color: #080 }  // string content
     .kwd { color: #008 }  // a keyword

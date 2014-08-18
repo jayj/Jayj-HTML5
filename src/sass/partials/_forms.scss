@@ -105,3 +105,32 @@ label {
     }
 }
 
+
+/* Forms: Search form
+   ========================================================================== */
+
+.search-form {
+    display: flex;
+
+    input[type="search"] {
+        flex: 3;
+
+        // Remove right border-radius
+        border-radius: 3px 0 0 3px;
+        border-right-width: 0;
+
+        // Move the input over the button when focused
+        // so the outline is not under the button
+        &:focus {
+            z-index: 5;
+        }
+    }
+
+    input[type="submit"] {
+        flex: 1;
+
+        // Remove left border-radius
+        border-radius: 0 3px 3px 0;
+    }
+}
+

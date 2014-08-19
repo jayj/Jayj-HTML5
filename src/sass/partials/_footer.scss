@@ -2,14 +2,14 @@
    ========================================================================== */
 
 footer[role="contentinfo"] {
-	font-size: $footer-font-size;
-	padding: $small-gutter-width $gutter-width;
+	font-size: $footer__text-size;
+	padding: $size__gutter--small $size__gutter;
 	text-align: center;
 
 	// Radial gradient to make the text a bit easier to read
 	background-image: radial-gradient(
 		circle,
-		rgba(#000, $footer-background-opacity / 100),
+		rgba(#000, $footer__bg-opacity / 100),
 		rgba(#000, 0)
 	);
 }

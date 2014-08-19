@@ -3,16 +3,16 @@
    ========================================================================== */
 
 fieldset {
-    margin-bottom: $gutter-width;
+    margin-bottom: $size__gutter;
 }
 
 legend {
     padding: 0.6rem 0.8rem;
-    border: solid $content-background;
+    border: solid $content__bg-color;
     border-width: 0 2px;
     border-radius: 5px;
-    background-color: $legend-background;
-    color: $legend-text-color;
+    background: $legend__bg;
+    color: $legend__text-color;
 }
 
 /**
@@ -38,18 +38,18 @@ select {
     display: block;
     padding: 0.6rem;
     width: 100%;
-    border: 1px solid $input-border-color;
-    border-radius: $input-border-radius;
-    background-color: $input-background;
+    border: 1px solid $input__border-color;
+    border-radius: $input__border-radius;
+    background: $input__bg;
     box-shadow: inset 0 1px 1px rgba(#000, 0.075);
-    color: $input-text-color;
-    font-weight: $regular;
+    color: $input__text-color;
+    font-weight: $font__weight-regular;
 
     // Visual indication for disabled and readonly inputs
     &[disabled],
     &[readonly] {
-        background-color: $gray-lighter;
-        color: $gray-dark;
+        background-color: $color__gray-lighter;
+        color: $color__gray-dark;
     }
 }
 
@@ -72,9 +72,10 @@ input[type="file"]::-webkit-file-upload-button {
     @extend .btn; // style it as a normal button
 }
 
-// Invalid inputs, change outline to red
+
+// Invalid inputs
 input:invalid:focus {
-    outline-color: $red;
+    outline-color: $input__invalid-color;
 }
 
 
@@ -84,20 +85,20 @@ input:invalid:focus {
 label {
     display: block;
     font: {
-        family: $label-font-family;
-        weight: $label-font-weight;
-        size: $label-font-size;
+        family: $label__font-family;
+        weight: $label__font-weight;
+        size: $label__font-size;
     }
 
     // Inputs inside labels
     > input {
-        margin-top: $label-input-spacing;
+        margin-top: $label__input-spacing;
     }
 
     .help,
     .required {
         padding-left: 0.2rem;
-        color: $label-required-color;
+        color: $label__required-color;
         font-weight: normal;
         font-size: 90%;
     }

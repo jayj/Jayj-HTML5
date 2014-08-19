@@ -20,11 +20,11 @@ img {
  * Figures
  */
 figure {
-	padding: $figure-spacing;
-	margin: $figure-spacing 0;
+	padding: $figure__spacing;
+	margin: $figure__spacing 0;
 	border-radius: 5px;
-	background: $figure-background;
-	color: $figure-text-color;
+	background: $figure__bg;
+	color: $figure__text-color;
 
 	// Figure content
 	img {
@@ -41,23 +41,23 @@ figure {
 	// Figure caption
 	figcaption {
 		font: {
-			family: $figure-font-family;
-			size: $figure-font-size;
+			family: $figure__font-family;
+			size: $figure__font-size;
 		}
 		text-align: center;
 
 		code {
-			color: $figure-code-color;
+			color: $figure__code-color;
 		}
 
 		// Caption is first in the figure
 		&:first-child {
-			margin-bottom: $figure-spacing;
+			margin-bottom: $figure__spacing;
 		}
 
 		// Caption is last in the figure
 		&:last-child {
-			margin-top: $figure-spacing;
+			margin-top: $figure__spacing;
 		}
 	}
 }

@@ -66,7 +66,7 @@
     border: 1px solid transparent;
     border-radius: 3px;
     white-space: nowrap;
-    font-weight: $btn-font-weight;
+    font-weight: $btn__font-weight;
     padding: 0.9rem 1.4rem;
 
     &:hover {
@@ -102,22 +102,22 @@
 
             // Darken each color in the list
             @each $bg in $background {
-                $hover-bg: append( $hover-bg, darken($bg, $btn-hover-darken), 'comma' );
+                $hover-bg: append( $hover-bg, darken($bg, $btn__bg-hover-darken), 'comma' );
             }
 
             background-image: linear-gradient(to bottom, $hover-bg);
         } @else {
-            background: darken($background, $btn-hover-darken);
+            background: darken($background, $btn__bg-hover-darken);
         }
 
-        color: darken($color, $btn-hover-darken);
+        color: darken($color, $btn__bg-hover-darken);
     }
 }
 
 // Alerts
 // From Twitter Bootstrap
 @mixin alert-variant($background, $border, $text-color) {
-    background-color: $background;
+    background: $background;
     border-color: $border;
     color: $text-color;
 }

@@ -48,12 +48,12 @@
 		z-index: 100000; // Above other elements
 		@include square(auto);
 		padding: 1.5rem 2.3rem 1.4rem;
-		background-color: $gray-lighter;
+		background-color: $color__gray-lighter;
 		border-radius: 3px;
 		box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-		color: $gray-dark;
-		font-size: $base-font-size;
-		font-weight: $bold;
+		color: $color__gray-dark;
+		font-size: $font__main-size;
+		font-weight: $font__weight-bold;
 		line-height: normal;
 		text-decoration: none;
 	}

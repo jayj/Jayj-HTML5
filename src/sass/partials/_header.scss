@@ -2,7 +2,7 @@
    ========================================================================== */
 
 .site-header {
-    padding: $gutter-width;
+    padding: $size__gutter;
     text-align: center;
 
     @include breakpoint(screen-md) {
@@ -17,26 +17,26 @@
     flex: 3;
 
     a {
-        color: $site-title-color;
+        color: $title__color;
         display: inline-block;
         font: {
-            size: $site-title-size;
-            weight: $site-title-weight;
+            size: $title__size;
+            weight: $title__weight;
         }
-        text-shadow: 0 1px 0 $site-title-shadow-color;
+        text-shadow: 0 1px 0 $title__shadow;
         transition: all 200ms ease-in-out;
 
         &:hover,
         &:focus,
         &:active {
-            color: darken($site-title-color, 10%);
+            color: darken($title__color, 10%);
             text-decoration: none;
 
             // Increase size when hovered
             transform: scale(1.06);
 
             // 3d shadow effect
-            @include shadow(#fff, 5);
+            @include shadow($title__shadow, 5);
         }
     }
 }
@@ -45,8 +45,8 @@
     flex: 2;
 
     font: {
-        size: $site-description-size;
-        weight: $site-description-weight;
+        size: $description__size;
+        weight: $description__weight;
     }
 
     @include breakpoint(screen-md) {

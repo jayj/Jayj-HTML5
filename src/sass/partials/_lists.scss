@@ -21,9 +21,9 @@ ol ol ol ol ol { list-style: lower-alpha; }
 // Description lists
 dt {
 	margin-top: 1rem;
-	font-weight: $bold;
+	font-weight: $font__weight-bold;
 }
 
 dd {
-	margin-left: $small-gutter-width;
+	margin-left: $size__gutter--small;
 }

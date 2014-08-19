@@ -3,9 +3,9 @@
 
 .entry {
     position: relative;
-    border-bottom: 4px double $gray-lighter;
-    padding-bottom: $gutter-width;
-    margin-bottom: $gutter-width;
+    border-bottom: 4px double $color__seperator;
+    padding-bottom: $size__gutter;
+    margin-bottom: $size__gutter;
 
     &:last-of-type {
         border-bottom: none;
@@ -14,7 +14,7 @@
 
 
 .entry-title {
-    font-size: $post-title-size;
+    font-size: $post__title-size;
     letter-spacing: -0.1rem;
     text-align: center;
 
@@ -25,14 +25,14 @@
 
 
 .entry-meta {
-    margin-top: $small-gutter-width;
-    color: $gray-light;
+    margin-top: $size__gutter--small;
+    color: $color__gray;
 
     // Entry meta in <header>
     header & {
         padding-bottom: 1.5rem;
         margin-bottom: 2rem;
-        border-bottom: 1px solid $gray-lighter;
+        border-bottom: 1px solid $color__seperator;
         text-align: center;
 
         @include breakpoint(screen-sm) {
@@ -43,7 +43,7 @@
     // Entry meta as <footer>
     @at-root footer.entry-meta {
         padding-top: 1.5rem;
-        border-top: 1px solid $gray-lighter;
+        border-top: 1px solid $color__seperator;
     }
 }
 
@@ -52,7 +52,7 @@
 
     // Read more link
     .more-link {
-        font-size: $base-font-size * 1.2;
+        font-size: $font__main-size * 1.2;
     }
 }
 
@@ -60,11 +60,11 @@
 // Entry thumbnails
 .thumbnail {
     display: block;
-    margin: 0 auto $small-gutter-width;
+    margin: 0 auto $size__gutter--small;
 
     // Outline the image when focused
     a:focus & {
-        outline: 5px auto $blue;
+        outline: 5px auto;
     }
 
     // Rotate thumbnails on hover
@@ -79,7 +79,7 @@
     @include breakpoint(screen-sm) {
         display: inline;
         float: left;
-        margin: 0 $small-gutter-width 1rem 0;
+        margin: 0 $size__gutter--small 1rem 0;
         border-radius: 3px 0 0 3px;
         border: 0.4rem solid #fff;
         box-shadow: 0 0 6px rgba(#000, 0.1);
@@ -87,6 +87,6 @@
 
     @include breakpoint(screen-lg) {
         box-shadow: 1px 1px 6px rgba(#000, 0.1);
-        margin-left: ($gutter-width - $gutter-width * 3);
+        margin-left: ($size__gutter - $size__gutter * 3);
     }
 }

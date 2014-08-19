@@ -19,45 +19,45 @@ html {
    ========================================================================== */
 
 body {
-    color: $text-color;
+    color: $color__text;
     font: {
-        family: $base-font-family;
-        size:   $base-font-size;
-        weight: $base-font-weight;
+        family: $font__main-family;
+        size:   $font__main-size;
+        weight: $font__main-weight;
     }
-    line-height: $base-line-height;
+    line-height: $font__main-line-height;
 
     //
     // Set body background
     //
-    background-color: $body-bg-color;
+    background-color: $body__bg-color;
 
     // Use a gradient background
-    @if gradient == $body-bg-image {
+    @if gradient == $body__bg-type {
         background-image: linear-gradient(
-            $body-bg-gradient-angle,
-            $body-bg-gradient-color 25%,
+            $body__gradient-angle,
+            $body__gradient-color 25%,
             transparent 25%,
             transparent 50%,
-            $body-bg-gradient-color 50%,
-            $body-bg-gradient-color 75%,
+            $body__gradient-color 50%,
+            $body__gradient-color 75%,
             transparent 75%,
             transparent);
-        background-size: $body-bg-gradient-size;
+        background-size: $body__gradient-size;
     }
 
     // or use an image background
     @else {
-        background-image: url($body-bg-image);
-        background-repeat: $body-bg-image-repeat;
-        background-attachment: $body-bg-image-attachment;
+        background-image: url($body__image);
+        background-repeat: $body__image-repeat;
+        background-attachment: $body__image-attachment;
     }
 
     // No support for CSS3 gradients
     .no-cssgradients & {
-        background-image: url($body-bg-fallback);
-        background-repeat: $body-bg-image-repeat;
-        background-attachment: $body-bg-image-attachment;
+        background-image: url($body__gradient-fallback);
+        background-repeat: $body__image-repeat;
+        background-attachment: $body__image-attachment;
     }
 }
 
@@ -66,16 +66,16 @@ body {
    ========================================================================== */
 
 a {
-    color: $link-color;
+    color: $link__color;
     text-decoration: none;
 
     &:hover {
-        color: $link-color-hover;
+        color: $link__color-hover;
         text-decoration: underline;
     }
 
     &:visited {
-        color: $link-color-visited;
+        color: $link__color-visited;
     }
 }
 
@@ -84,7 +84,7 @@ a {
    ========================================================================== */
 
 ::selection {
-    background: $selection-color;
-    color: $selection-text-color;
+    background: $selection__bg;
+    color: $selection__text-color;
     text-shadow: none;
 }

@@ -2,216 +2,226 @@
 // Color definitions
 // ===========================
 
-// Greys
-$black:             #000;
-$gray-darker:       #222 !default;
-$gray-dark:         #333 !default;
-$gray:              #555 !default;
-$gray-light:        #999 !default;
-$gray-lighter:      #eee !default;
-$white:             #fff;
+// Grays
+$color__gray-darker:       #222  !default;
+$color__gray-dark:         #333  !default;
+$color__gray:              #999  !default;
+$color__gray-light:        #ccc  !default;
+$color__gray-lighter:      #eee  !default;
 
 
-// Accent colors
-$blue:              #049cdb !default;
-$blue-dark:         #0064cd !default;
-$green:             #093    !default;
-$red:               #e9322d !default;
-$yellow:            #ff0    !default;
-$orange:            #f89406 !default;
-$pink:              #f71570 !default;
-$purple:            #ca349b !default;
+// Main colors
+$color__primary:    #f71570               !default; // pink
 
-// ===========================
-// Scaffolding
+$color__text:       $color__gray-darker   !default;
+
+$color__seperator:  $color__gray-lighter  !default;
+
+
+// Links
 // ===========================
 
-$primary-color:               $pink !default;
-$text-color:                  $gray-darker !default;
+$link__color:                 $color__primary            !default;
+$link__color-hover:           darken($link__color, 18%)  !default;
+$link__color-visited:         $link__color               !default;
 
-$baseline-px:                 10px;
 
 // ===========================
 // Fonts
 // ===========================
 
 // Font weights
-$light:                       300 !default;
-$regular:                     400 !default;
-$bold:                        700 !default;
+$font__weight-light:          300 !default;
+$font__weight-regular:        400 !default;
+$font__weight-bold:           700 !default;
 
-// Base Font
-$base-font-family:            "Open Sans", sans-serif !default;
-$base-font-weight:            $regular !default;
-$base-font-size:              1.6rem !default;
-$base-line-height:            1.6 !default;
+
+// Main Font
+$font__main-family:           "Open Sans", sans-serif  !default;
+$font__main-weight:           $font__weight-regular    !default;
+$font__main-size:             1.6rem                   !default;
+$font__main-line-height:      1.6                      !default;
+
 
 // Heading Font
-$heading-font-family:         "Merriweather", sans-serif !default;
-$heading-font-weight:         $bold !default;
-$heading-font-size:           3.0rem !default;
-$heading-line-height:         $base-line-height !default;
+$font__heading-family:        "Merriweather", sans-serif  !default;
+$font__heading-weight:        $font__weight-bold          !default;
+$font__heading-size:          3.0rem                      !default;
+$font__heading-line-height:   $font__main-line-height     !default;
 
-// Monospace Font
-$monospace-font-family:       Menlo, Monaco, Consolas, "Courier New", monospace !default;
-$monospace-font-size:         1.5rem !default;
-$monospace-line-height:       $base-line-height !default;
+
+// Code Font
+$font__code-family:           Menlo, Consolas, "Courier New", monospace  !default;
+$font__code-size:             1.5rem                                     !default;
+$font__code-line-height:      $font__main-line-height                    !default;
+
 
 // ===========================
 // Body
 // ===========================
 
-$body-bg-color:       #ededed !default;
+$body__bg-color:              #ededed             !default;
+$body__bg-type:               'gradient'          !default; // gradient or image
 
-$body-bg-image:       'gradient' !default; // gradient or image reference
-$body-bg-fallback:    '../images/bg.png' !default; // if browser doesn't support gradients
 
 // Body gradient options
-$body-bg-gradient-size: 16px 16px !default;
-$body-bg-gradient-angle: 45deg !default;
-$body-bg-gradient-color: rgba(#fff, 0.2) !default;
+$body__gradient-size:         16px 16px           !default;
+$body__gradient-angle:        45deg               !default;
+$body__gradient-color:        rgba(#fff, 0.2)     !default;
+$body__gradient-fallback:     '../images/bg.png'  !default; // if browser doesn't support gradients
+
 
 // Body image options
-$body-bg-image-repeat:     repeat !default;
-$body-bg-image-attachment: fixed !default;
+$body__image:                 '../images/bg.png'  !default;
+$body__image-repeat:          repeat              !default;
+$body__image-attachment:      fixed               !default;
 
-
-
-
-$content-background:          #fff !default;
 
 // ===========================
 // Layout
 // ===========================
 
+$size__gutter:                4.0rem  !default;
+$size__gutter--small:         2.5rem  !default;
 
-$gutter-width:                4.0rem !default;
-$small-gutter-width:          2.5rem !default;
 
-$site-width: 1140px !default; // 114rem
+$size__site:                  114rem  !default; // 1140px
 
-$grid-columns: 12 !default;
-$grid-gutter:  2.0rem !default;
 
-// ===========================
-// Links
-// ===========================
+$grid__columns:               12      !default;
+$grid__gutter:                2.0rem  !default;
 
-$link-color:                  $primary-color !default;
-$link-color-hover:            darken($link-color, 18%) !default;
-
-$link-color-visited:          $link-color !default;
 
 // ===========================
 // Header
 // ===========================
 
 // Site title
-$site-title-size:             4.8rem !default;
-$site-title-color:            $link-color !default;
-$site-title-shadow-color:     #fff !default;
-$site-title-weight:           $regular !default;
+$title__size:                 4.8rem                 !default;
+$title__color:                $link__color           !default;
+$title__shadow:               #fff                   !default;
+$title__weight:               $font__weight-regular  !default;
+
 
 // Site description
-$site-description-size:       1.8rem !default;
-$site-description-weight:     $light !default;
+$description__size:           1.8rem                 !default;
+$description__weight:         $font__weight-light    !default;
+
 
 // ===========================
 // Footer
 // ===========================
 
-$footer-font-size: $base-font-size * 1.2 !default;
-$footer-background-opacity:   8% !default; // Opacity on the black radial gradient in the footer
+$footer__text-size:           $font__main-size * 1.2  !default;
+$footer__bg-opacity:          8%                      !default; // Opacity on the black radial gradient in the footer
+
 
 // ===========================
 // Navigation
 // ===========================
 
-$menu-bg-color:               #f2f2f2, #e6e6e6 !default;
-$menu-current-bg-color:       lighten($primary-color, 10%), $primary-color !default;
+$menu__bg-color:              #f2f2f2, #e6e6e6                                !default;
+$menu__bg-color--current:     lighten($color__primary, 10%), $color__primary  !default;
 
-$menu-text-color: $link-color !default;
-$menu-text-shadow: #fff !default;
+$menu__text-color:            $link__color             !default;
+$menu__text-color--current:   #fff                     !default;
+$menu__text-size:             $font__main-size * 1.15  !default;
+$menu__text-shadow:           #fff                     !default;
 
-$menu-font-size: $base-font-size * 1.15 !default;
+$menu__items-space:           1.5rem                   !default;
 
-$menu-items-space: 1.5rem !default;
-
-$menu-sub-width: 20rem !default;
 
 // ===========================
+// Content
+// ===========================
+
+$content__bg-color:           #fff  !default;
+
+
 // Posts
 // ===========================
 
-$post-title-size: 3.6rem !default;
+$post__title-size:            $font__heading-size * 1.2  !default;
+
 
 // ===========================
 // HTML elements
 // ===========================
 
-// Color on selected text
-$selection-color:             #bada55 !default; // Green
-$selection-text-color:        #000 !default;
+// Selections
+$selection__bg:               #bada55  !default; // Green
+$selection__text-color:       #000     !default;
+
 
 // Horizontal rule <hr />
-$hr-border-color:             darken($gray-lighter, 5%) !default;
+$hr__border-color:            darken($color__gray-lighter, 5%)  !default;
+
 
 // Blockquotes
-$quote-border-color:          $blue !default;
-$quote-font-size:             $base-font-size * 1.25 !default;
+$quote__border-color:         #049cdb                  !default;
+$quote__text-size:            $font__main-size * 1.25  !default;
+
 
 // Tables
-$table-background:            #fff !default;
-$table-border-color:          #ddd !default;
-$table-foot-background:       #f5f5f5 !default;
+$table__bg:                   #fff                !default;
+$table__border-color:         $color__gray-light  !default;
+$tfoot__bg-color:             #f5f5f5             !default;
 
 
 // Code blocks <pre>
-$pre-bg:                      #f5f5f5    !default;
-$pre-text-color:              $gray-dark !default;
-$pre-border-color:            #ccc       !default;
+$pre__bg-color:               #f5f5f5             !default;
+$pre__text-color:             $color__gray-dark   !default;
+$pre__border-color:           $color__gray-light  !default;
 
-$pre-show-lines:              true       !default;
-$pre-prettify-sep-color:      #ebe0e1    !default;
-$pre-prettify-line-text-color: #aeaeae !default;
+$pre__sep-color:              #ebe0e1             !default; // Seperator between line numbers and content
+$pre__line-number-color:      $color__gray        !default;
+
+$pre__show-lines:             true                !default;
+
 
 // Code <code>
-$code-text-color:             $green !default;
+$code__text-color:            #093                !default;
+
 
 // Keyboard text <kbd>
-$kbd-color:                   #fff !default;
-$kbd-bg:                      $gray-dark !default;
+$kbd__bg:                     $color__gray-dark   !default;
+$kbd__text-color:             #fff                !default;
+
+
 
 // ===========================
 // Media
 // ===========================
 
 // Figures <figure>
-$figure-background:           $gray-dark !default;
-$figure-text-color:           #fff !default;
-$figure-code-color:           lighten($code-text-color, 7%) !default;
-$figure-font-family:          $heading-font-family !default;
-$figure-font-size:            $base-font-size * 0.95 !default;
-$figure-spacing:              $small-gutter-width !default;
+$figure__bg:                  $color__gray-dark               !default;
+$figure__text-color:          #fff                            !default;
+$figure__code-color:          lighten($code__text-color, 7%)  !default;
+$figure__font-family:         $font__heading-family           !default;
+$figure__font-size:           $font__main-size * 0.95         !default;
+$figure__spacing:             $size__gutter--small            !default;
+
 
 // ===========================
 // Buttons
 // ===========================
 
-$btn-font-weight: $regular;
-$btn-hover-darken: 7%;
+$btn__font-weight:            $font__weight-regular  !default;
+$btn__bg-hover-darken:        7%                     !default;
+
 
 // Default button
-$btn-default-bg:              #f2f2f2, #e8e8e8 !default;
-$btn-default-border-color:    #ccc, #ccc, #bbb !default;
-$btn-default-text-color:      $gray-dark !default;
-$btn-default-shadow-color:    rgba(#fff, 0.5)!default;
+$btn__default-bg:             #f2f2f2, #e6e6e6             !default;
+$btn__default-border-color:   $color__gray-light, $color__gray-light, #bbb  !default;
+$btn__default-text-color:     $color__gray-dark            !default;
+$btn__default-shadow-color:   rgba(#fff, 0.5)              !default;
+
 
 // Primary button
-$btn-primary-bg:              $primary-color !default;
-$btn-primary-border-color:    darken($primary-color, 5%);
-$btn-primary-text-color:      #fff !default;
-$btn-primary-shadow-color:    rgba(#000, 0.3) !default;
+$btn__primary-bg:             $color__primary              !default;
+$btn__primary-border-color:   darken($color__primary, 5%)  !default;
+$btn__primary-text-color:     #fff                         !default;
+$btn__primary-shadow-color:   rgba(#000, 0.3)              !default;
 
 
 // ===========================
@@ -219,43 +229,48 @@ $btn-primary-shadow-color:    rgba(#000, 0.3) !default;
 // ===========================
 
 // Legends <legend>
-$legend-background:           #ffeef7 !default;
-$legend-text-color:           darken($purple, 10%) !default;
+$legend__bg:                  #ffeef7  !default;
+$legend__text-color:          #a12a7c  !default;
+
 
 // Inputs
-$input-background:            #fff !default;
-$input-border-color:          #ccc !default;
-$input-border-radius:         3px !default;
-$input-text-color:            $text-color !default;
+$input__bg:                   #fff                !default;
+$input__border-color:         $color__gray-light  !default;
+$input__border-radius:        3px                 !default;
+$input__text-color:           $color__text        !default;
+
+$input__invalid-color:        #e9322d             !default;
+
 
 // Labels
-$label-font-weight: $bold !default;
-$label-font-family: $base-font-family !default;
-$label-font-size: $base-font-size !default;
-$label-required-color: #777 !default;
-$label-input-spacing: 0.5rem !default;
+$label__font-weight:          $font__weight-bold  !default;
+$label__font-family:          $font__main-family  !default;
+$label__font-size:            $font__main-size    !default;
+$label__required-color:       #777                !default;
+$label__input-spacing:        0.5rem              !default;
+
 
 // ===========================
 // Alert messages
 // ===========================
 
-$alert-text-color:            $gray-darker !default;
-$alert-background:            $gray-lighter !default;
-$alert-border-color:          darken($gray-lighter, 8%) !default;
+$alert__bg:                   $color__gray-lighter  !default;
+$alert__text-color:           $color__text          !default;
+$alert__border-color:         $color__gray-light    !default;
 
-$alert-warning-text:          #3b3601 !default;
-$alert-warning-bg:            #fef9c7 !default;
-$alert-warning-border:        adjust-hue( darken($alert-warning-bg, 25%), -10 ) !default;
+$alert__warning-bg:           #fef9c7  !default;
+$alert__warning-text:         #3b3601  !default;
+$alert__warning-border:       adjust-hue( darken($alert__warning-bg, 25%), -10 )  !default;
 
-$alert-error-text:            #7a0b0a !default;
-$alert-error-bg:              #f2dede !default;
-$alert-error-border:          adjust-hue( darken($alert-error-bg, 30%), -5 ) !default;
+$alert__error-bg:             #f2dede  !default;
+$alert__error-text:           #7a0b0a  !default;
+$alert__error-border:         adjust-hue( darken($alert__error-bg, 30%), -5 )  !default;
 
-$alert-success-text:          #0d370d !default;
-$alert-success-bg:            #dff0d8 !default;
-$alert-success-border:        darken($alert-success-bg, 40%) !default;
+$alert__success-bg:           #dff0d8  !default;
+$alert__success-text:         #0d370d  !default;
+$alert__success-border:       darken($alert__success-bg, 40%)  !default;
 
-$alert-info-text:             #0c3346 !default;
-$alert-info-bg:               #d9edf7 !default;
-$alert-info-border:           $blue !default;
+$alert__info-bg:              #d9edf7  !default;
+$alert__info-text:            #0c3346  !default;
+$alert__info-border:          #049cdb  !default;
 

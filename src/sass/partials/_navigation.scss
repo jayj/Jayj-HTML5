@@ -3,12 +3,12 @@
 
 .main-navigation {
     // Set up variables
-    $highlight: nth($menu-bg-color, 1);
-    $shadow: nth($menu-bg-color, 2);
+    $highlight: nth($menu__bg-color, 1);
+    $shadow: nth($menu__bg-color, 2);
 
     clear: both;
-    margin-top: (-$gutter-width - 1rem);
-    margin-bottom: ($gutter-width - $menu-items-space);
+    margin-top: (-$size__gutter - 1rem);
+    margin-bottom: ($size__gutter - $menu__items-space);
 
     ul {
         display: flex;
@@ -23,17 +23,16 @@
 
         @include breakpoint(screen-md) {
             justify-content: flex-start;
-            // justify-content: space-between;
         }
     }
 
     // Menu items
     li {
         position: relative;
-        margin-bottom: $menu-items-space; // For long two-line menus
+        margin-bottom: $menu__items-space; // For long two-line menus
 
         @include breakpoint(screen-xs) {
-            margin-right: $menu-items-space;
+            margin-right: $menu__items-space;
 
             &:last-of-type {
                 margin-right: 0;
@@ -44,7 +43,7 @@
     li > a {
         // Style the menu item as a button
         $border-color: lighten($highlight, 5%), darken($shadow, 11.5%), darken($shadow, 11.5%), lighten($highlight, 5%);
-        @include button-variant($menu-text-color, $menu-bg-color, $border-color, $menu-text-shadow);
+        @include button-variant($menu__text-color, $menu__bg-color, $border-color, $menu__text-shadow);
 
         border-width: 1px;
         border-style: solid;
@@ -52,7 +51,7 @@
 
         display: block;
         padding: 1.4rem 2.1rem;
-        font-size: $menu-font-size;
+        font-size: $menu__text-size;
         transition: all 180ms ease;
 
         &:hover {
@@ -67,8 +66,8 @@
     .current > a:hover {
         background-image: linear-gradient(
             to bottom,
-            nth($menu-current-bg-color, 1),
-            nth($menu-current-bg-color, 2)
+            nth($menu__bg-color--current, 1),
+            nth($menu__bg-color--current, 2)
         );
         border-color: transparent;
         border-radius: 10px 0 10px 0;
@@ -98,7 +97,7 @@
     box-shadow: 0 1px 6px rgba(#000, 0.2);
 
     @include breakpoint(screen-xs) {
-        min-width: $menu-sub-width;
+        min-width: 20rem;
     }
 
     li {
@@ -106,7 +105,7 @@
     }
 
     li > a {
-        font-size: $menu-font-size * 0.9;
+        font-size: $menu__text-size * 0.9;
     }
 
     li > a,

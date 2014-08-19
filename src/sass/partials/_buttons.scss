@@ -5,10 +5,10 @@
     @include button;
 
     @include button-variant(
-        $btn-default-text-color,
-        $btn-default-bg,
-        $btn-default-border-color,
-        $btn-default-shadow-color
+        $btn__default-text-color,
+        $btn__default-bg,
+        $btn__default-border-color,
+        $btn__default-shadow-color
     );
 }
 
@@ -16,10 +16,10 @@
     @include button;
 
     @include button-variant(
-        $btn-primary-text-color,
-        $btn-primary-bg,
-        $btn-primary-border-color,
-        $btn-primary-shadow-color
+        $btn__primary-text-color,
+        $btn__primary-bg,
+        $btn__primary-border-color,
+        $btn__primary-shadow-color
     );
 }
 

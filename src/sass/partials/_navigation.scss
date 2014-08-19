@@ -72,8 +72,11 @@
         );
         border-color: transparent;
         border-radius: 10px 0 10px 0;
-        color: #fff;
         text-shadow: 0 1px 0 rgba(#000, 0.25);
+
+        &, &:visited {
+            color: $menu__text-color--current;
+        }
     }
 
     .current > a:hover {

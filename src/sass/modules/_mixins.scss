@@ -91,7 +91,9 @@
         text-shadow: 1px 1px 0 $shadow;
     }
 
-    color: $color;
+    &, &:visited {
+        color: $color;
+    }
 
     &:hover {
         // Use a gradient if $background is a list

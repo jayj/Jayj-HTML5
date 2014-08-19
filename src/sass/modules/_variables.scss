@@ -92,6 +92,13 @@ $grid__columns:               12      !default;
 $grid__gutter:                2.0rem  !default;
 
 
+// Media query breakpoints
+$breakpoint__screen-lg:       1260px  !default;
+$breakpoint__screen-md:       840px   !default;
+$breakpoint__screen-sm:       620px   !default;
+$breakpoint__screen-xs:       480px   !default;
+
+
 // ===========================
 // Header
 // ===========================

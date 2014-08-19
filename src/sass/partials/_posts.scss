@@ -2,14 +2,8 @@
    ========================================================================== */
 
 .entry {
+    @include separator();
     position: relative;
-    border-bottom: 4px double $color__seperator;
-    padding-bottom: $size__gutter;
-    margin-bottom: $size__gutter;
-
-    &:last-of-type {
-        border-bottom: none;
-    }
 }
 
 

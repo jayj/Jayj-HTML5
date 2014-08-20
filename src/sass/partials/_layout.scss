@@ -77,17 +77,19 @@ main {
 /* Grid
    ========================================================================== */
 
-$classes: ();
-
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     flex-direction: column;
+
+    // The negative margin is even out by the padding on .col-
+    margin-right: -($grid__gutter / 2);
+    margin-left: -($grid__gutter / 2);
 
     @include breakpoint(screen-sm) {
         flex-direction: row;
     }
+
 }
 
 ul.row {
@@ -96,21 +98,11 @@ ul.row {
 
 // Generate column classes
 @for $i from 1 through $grid__columns {
-    // Add each column class to the $classes list
-    $classes: join($classes, unquote(".col-#{$i} "), comma) !global;
-
     .col-#{$i} {
-        flex: $i;
-    }
-}
+        $flex-basis: percentage($i / $grid__columns );
 
-// Add column gutters
-@include breakpoint(screen-sm) {
-    #{$classes} {
-        margin-left: $grid__gutter;
-
-        &:first-child {
-            margin-left: 0;
-        }
+        flex: $i 1 $flex-basis;
+        padding-right: ($grid__gutter / 2);
+        padding-left: ($grid__gutter / 2);
     }
 }

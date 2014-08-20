@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     // Configurable paths
     var config = {
         src: 'src',
-        build: 'build'
+        build: 'dist'
     };
 
     // Project configuration.

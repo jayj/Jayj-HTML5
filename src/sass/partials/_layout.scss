@@ -78,18 +78,14 @@ main {
    ========================================================================== */
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
     // The negative margin is even out by the padding on .col-
     margin-right: -($grid__gutter / 2);
     margin-left: -($grid__gutter / 2);
 
     @include breakpoint(screen-sm) {
-        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
     }
-
 }
 
 ul.row {

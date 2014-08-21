@@ -3,8 +3,9 @@
  * PHP contact form
  */
 
+
 // If the form have been submitted and the spam check field is empty
-if ( isset( $_POST['email'] ) && empty( $_POST['fax1234'] ) ) :
+if ( isset( $_POST['email'] ) && empty( $_POST['s_check'] ) ) :
 
     /*
      * YOUR EMAIL HERE
